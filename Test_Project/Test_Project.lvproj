@@ -14,6 +14,7 @@
 			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		</Item>
 		<Item Name="First_VI.vi" Type="VI" URL="../First_VI.vi"/>
+		<Item Name="Second_VI.vi" Type="VI" URL="../Second_VI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
