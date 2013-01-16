@@ -133,6 +133,7 @@ KeepAliveTimeout 60
 			<Item Name="FireMotor.vi" Type="VI" URL="../FireMotor.vi"/>
 			<Item Name="Collector.vi" Type="VI" URL="../Collector.vi"/>
 			<Item Name="Arm_Control.vi" Type="VI" URL="../Arm_Control.vi"/>
+			<Item Name="SensorRead.vi" Type="VI" URL="../SensorRead.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="StateMachineEnum.ctl" Type="VI" URL="../StateMachineEnum.ctl"/>
