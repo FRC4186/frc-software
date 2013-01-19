@@ -44,6 +44,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -133,6 +134,8 @@ KeepAliveTimeout 60
 			<Item Name="FireMotor.vi" Type="VI" URL="../FireMotor.vi"/>
 			<Item Name="Collector.vi" Type="VI" URL="../Collector.vi"/>
 			<Item Name="Arm_Control.vi" Type="VI" URL="../Arm_Control.vi"/>
+			<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
+			<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 			<Item Name="Drive_Encoder.vi" Type="VI" URL="../Drive_Encoder.vi"/>
 			<Item Name="SensorRead.vi" Type="VI" URL="../SensorRead.vi"/>
 		</Item>
@@ -141,6 +144,7 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="AdjustLauncherRPM.vi" Type="VI" URL="../AdjustLauncherRPM.vi"/>
+			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
 			<Item Name="Period to RPM.vi" Type="VI" URL="../Period to RPM.vi"/>
 			<Item Name="Handle Encoder Failure.vi" Type="VI" URL="../Handle Encoder Failure.vi"/>
 			<Item Name="Stop Control.vi" Type="VI" URL="../Stop Control.vi"/>
