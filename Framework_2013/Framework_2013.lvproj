@@ -134,6 +134,8 @@ KeepAliveTimeout 60
 			<Item Name="FireMotor.vi" Type="VI" URL="../FireMotor.vi"/>
 			<Item Name="Collector.vi" Type="VI" URL="../Collector.vi"/>
 			<Item Name="Arm_Control.vi" Type="VI" URL="../Arm_Control.vi"/>
+			<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
+			<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 			<Item Name="Drive_Encoder.vi" Type="VI" URL="../Drive_Encoder.vi"/>
 			<Item Name="SensorRead.vi" Type="VI" URL="../SensorRead.vi"/>
 		</Item>
@@ -142,15 +144,13 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="AdjustLauncherRPM.vi" Type="VI" URL="../AdjustLauncherRPM.vi"/>
+			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
 			<Item Name="Period to RPM.vi" Type="VI" URL="../Period to RPM.vi"/>
 			<Item Name="Handle Encoder Failure.vi" Type="VI" URL="../Handle Encoder Failure.vi"/>
 			<Item Name="Stop Control.vi" Type="VI" URL="../Stop Control.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Nathan and Yasha Fail.vi" Type="VI" URL="../Nathan and Yasha Fail.vi"/>
-		<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
-		<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
-		<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -755,10 +755,10 @@ KeepAliveTimeout 60
 				<Item Name="WPI_EncoderReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderReset.vi"/>
 				<Item Name="WPI_GyroSetGain.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroSetGain.vi"/>
 				<Item Name="WPI_GyroReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroReset.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 			</Item>
