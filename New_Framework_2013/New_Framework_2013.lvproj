@@ -128,6 +128,10 @@ KeepAliveTimeout 60
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
+		</Item>
+		<Item Name="SubVIs" Type="Folder"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
