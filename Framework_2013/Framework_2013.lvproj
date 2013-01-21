@@ -133,6 +133,9 @@ KeepAliveTimeout 60
 			<Item Name="StateMachineEnum.ctl" Type="VI" URL="../StateMachineEnum.ctl"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Calculate Angle.vi" Type="VI" URL="../Calculate Angle.vi"/>
+		<Item Name="Calculate Scale.vi" Type="VI" URL="../Calculate Scale.vi"/>
+		<Item Name="SinAtan2.vi" Type="VI" URL="../SinAtan2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -690,6 +693,7 @@ KeepAliveTimeout 60
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Aspect Ratio Score.vi"/>
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Sorted Particle Report.vi"/>
 			<Item Name="Score Particles.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Score Particles.vi"/>
+			<Item Name="Compute Distance.vi" Type="VI" URL="../Compute Distance.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
