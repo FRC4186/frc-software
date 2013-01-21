@@ -672,6 +672,8 @@ KeepAliveTimeout 60
 				<Item Name="WPI_RobotDriveOpen2MotorWithTalon.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithTalon.vi"/>
 				<Item Name="NT Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write String Array.vi"/>
 				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -679,6 +681,15 @@ KeepAliveTimeout 60
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Compute HSL Color Ranges.vi"/>
+			<Item Name="Normalized Range Compare.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Normalized Range Compare.vi"/>
+			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Rectangularity Score.vi"/>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Aspect Ratio Score.vi"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Sorted Particle Report.vi"/>
+			<Item Name="Score Particles.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Score Particles.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
