@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -139,6 +138,7 @@ KeepAliveTimeout 60
 		<Item Name="SinAtan2.vi" Type="VI" URL="../SinAtan2.vi"/>
 		<Item Name="CameraResolutionInfo.ctl" Type="VI" URL="../CameraResolutionInfo.ctl"/>
 		<Item Name="Create Camera Info.vi" Type="VI" URL="../Create Camera Info.vi"/>
+		<Item Name="Score Particles.vi" Type="VI" URL="../Score Particles Folder/Score Particles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -679,12 +679,11 @@ KeepAliveTimeout 60
 				<Item Name="NT Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Write String Array.vi"/>
 				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
-				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
-				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
 				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
+				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -696,14 +695,13 @@ KeepAliveTimeout 60
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Compute HSL Color Ranges.vi"/>
-			<Item Name="Normalized Range Compare.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Normalized Range Compare.vi"/>
-			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Rectangularity Score.vi"/>
-			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Aspect Ratio Score.vi"/>
-			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Sorted Particle Report.vi"/>
-			<Item Name="Score Particles.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/Score Particles.vi"/>
 			<Item Name="Compute Distance.vi" Type="VI" URL="../Compute Distance.vi"/>
 			<Item Name="Bounding-box angles.vi" Type="VI" URL="../Bounding-box angles.vi"/>
 			<Item Name="RT Overlay Helper.vi" Type="VI" URL="../../Season 2012/TangFrameworkMod/RT Overlay Helper.vi"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Score Particles Folder/Sorted Particle Report.vi"/>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Score Particles Folder/Aspect Ratio Score.vi"/>
+			<Item Name="Rectangularity Score.vi" Type="VI" URL="../Score Particles Folder/Rectangularity Score.vi"/>
+			<Item Name="Normalized Range Compare.vi" Type="VI" URL="../Score Particles Folder/Normalized Range Compare.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
