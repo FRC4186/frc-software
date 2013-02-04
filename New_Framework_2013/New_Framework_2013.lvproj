@@ -148,6 +148,16 @@ KeepAliveTimeout 60
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
 			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
 		</Item>
+		<Item Name="Climbing SubVIs" Type="Folder">
+			<Item Name="ArmBackward.vi" Type="VI" URL="../ArmBackward.vi"/>
+			<Item Name="HooksExtendFull.vi" Type="VI" URL="../HooksExtendFull.vi"/>
+			<Item Name="HooksRetractFull.vi" Type="VI" URL="../HooksRetractFull.vi"/>
+			<Item Name="RatchetDisengage.vi" Type="VI" URL="../RatchetDisengage.vi"/>
+			<Item Name="RatchetReengage.vi" Type="VI" URL="../RatchetReengage.vi"/>
+			<Item Name="SetDown.vi" Type="VI" URL="../SetDown.vi"/>
+			<Item Name="HooksExtendPartial.vi" Type="VI" URL="../HooksExtendPartial.vi"/>
+			<Item Name="ArmForward.vi" Type="VI" URL="../ArmForward.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
