@@ -137,6 +137,7 @@ KeepAliveTimeout 60
 			<Item Name="LauncherAngle.vi" Type="VI" URL="../LauncherAngle.vi"/>
 			<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 			<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
+			<Item Name="ArmControl.vi" Type="VI" URL="../ArmControl.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="Climb States.ctl" Type="VI" URL="../Climb States.ctl"/>
