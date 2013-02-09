@@ -143,6 +143,7 @@ KeepAliveTimeout 60
 			<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
 			<Item Name="Auto_Instruction_Cluster.ctl" Type="VI" URL="../Auto_Instruction_Cluster.ctl"/>
 			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
+			<Item Name="AutoEnum.ctl" Type="VI" URL="../AutoEnum.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
@@ -159,9 +160,12 @@ KeepAliveTimeout 60
 			<Item Name="HooksExtendPartial.vi" Type="VI" URL="../HooksExtendPartial.vi"/>
 			<Item Name="ArmForward.vi" Type="VI" URL="../ArmForward.vi"/>
 		</Item>
+		<Item Name="Experimental Drives" Type="Folder">
+			<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
+			<Item Name="AlwaysPID.vi" Type="VI" URL="../AlwaysPID.vi"/>
+			<Item Name="Simulated_Tank_Drive.vi" Type="VI" URL="../Simulated_Tank_Drive.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
-		<Item Name="AlwaysPID.vi" Type="VI" URL="../AlwaysPID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -783,7 +787,6 @@ KeepAliveTimeout 60
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="AutoEnum.ctl" Type="VI" URL="../AutoEnum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
