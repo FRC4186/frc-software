@@ -126,8 +126,8 @@ KeepAliveTimeout 60
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
-			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
 			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 			<Item Name="FirePneumatic.vi" Type="VI" URL="../FirePneumatic.vi"/>
@@ -138,10 +138,8 @@ KeepAliveTimeout 60
 			<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 			<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
 			<Item Name="ArmControl.vi" Type="VI" URL="../ArmControl.vi"/>
-			<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="Climb States.ctl" Type="VI" URL="../Climb States.ctl"/>
 			<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
 			<Item Name="Auto_Instruction_Cluster.ctl" Type="VI" URL="../Auto_Instruction_Cluster.ctl"/>
 			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
@@ -162,6 +160,8 @@ KeepAliveTimeout 60
 			<Item Name="ArmForward.vi" Type="VI" URL="../ArmForward.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
+		<Item Name="AlwaysPID.vi" Type="VI" URL="../AlwaysPID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
