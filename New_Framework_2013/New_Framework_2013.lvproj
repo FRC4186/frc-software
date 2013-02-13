@@ -151,6 +151,7 @@ KeepAliveTimeout 60
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
 			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
+			<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
 		</Item>
 		<Item Name="Climbing SubVIs" Type="Folder">
 			<Item Name="ArmBackward.vi" Type="VI" URL="../ArmBackward.vi"/>
@@ -167,7 +168,7 @@ KeepAliveTimeout 60
 			<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
 			<Item Name="AlwaysPID.vi" Type="VI" URL="../AlwaysPID.vi"/>
 			<Item Name="Simulated_Tank_Drive.vi" Type="VI" URL="../Simulated_Tank_Drive.vi"/>
-			<Item Name="drivePID.vi" Type="VI" URL="../../../../../Desktop/drivePID.vi"/>
+			<Item Name="drivePID.vi" Type="VI" URL="../drivePID.vi"/>
 		</Item>
 		<Item Name="Vision SubVIs" Type="Folder">
 			<Item Name="Score Particles.vi" Type="VI" URL="../Score Particles Folder/Score Particles.vi"/>
