@@ -126,6 +126,7 @@ KeepAliveTimeout 60
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
+			<Item Name="WinchMotor.vi" Type="VI" URL="../WinchMotor.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
@@ -138,6 +139,7 @@ KeepAliveTimeout 60
 			<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 			<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
 			<Item Name="ArmControl.vi" Type="VI" URL="../ArmControl.vi"/>
+			<Item Name="Solenoid.vi" Type="VI" URL="../Solenoid.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
@@ -808,6 +810,10 @@ KeepAliveTimeout 60
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
