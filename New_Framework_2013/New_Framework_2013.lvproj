@@ -120,13 +120,14 @@ KeepAliveTimeout 60
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
+			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
+			<Item Name="WinchMotor.vi" Type="VI" URL="../WinchMotor.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
@@ -139,16 +140,20 @@ KeepAliveTimeout 60
 			<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 			<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
 			<Item Name="ArmControl.vi" Type="VI" URL="../ArmControl.vi"/>
+			<Item Name="Solenoid.vi" Type="VI" URL="../Solenoid.vi"/>
+			<Item Name="AutoLauncher.vi" Type="VI" URL="../AutoLauncher.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
 			<Item Name="Auto_Instruction_Cluster.ctl" Type="VI" URL="../Auto_Instruction_Cluster.ctl"/>
 			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
 			<Item Name="AutoEnum.ctl" Type="VI" URL="../AutoEnum.ctl"/>
+			<Item Name="CameraResolutionInfo.ctl" Type="VI" URL="../CameraResolutionInfo.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
 			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
+			<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
 		</Item>
 		<Item Name="Climbing SubVIs" Type="Folder">
 			<Item Name="ArmBackward.vi" Type="VI" URL="../ArmBackward.vi"/>
@@ -165,6 +170,32 @@ KeepAliveTimeout 60
 			<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
 			<Item Name="AlwaysPID.vi" Type="VI" URL="../AlwaysPID.vi"/>
 			<Item Name="Simulated_Tank_Drive.vi" Type="VI" URL="../Simulated_Tank_Drive.vi"/>
+			<Item Name="drivePID.vi" Type="VI" URL="../drivePID.vi"/>
+		</Item>
+		<Item Name="Vision SubVIs" Type="Folder">
+			<Item Name="Score Particles.vi" Type="VI" URL="../Score Particles Folder/Score Particles.vi"/>
+			<Item Name="Optimized Particle Score.vi" Type="VI" URL="../Optimized Particle Score.vi"/>
+			<Item Name="Optimized Particle Score v2.vi" Type="VI" URL="../Optimized Particle Score v2.vi"/>
+			<Item Name="Create Camera Info.vi" Type="VI" URL="../Create Camera Info.vi"/>
+			<Item Name="Calculate Scale.vi" Type="VI" URL="../Calculate Scale.vi"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Score Particles Folder/Sorted Particle Report.vi"/>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Score Particles Folder/Aspect Ratio Score.vi"/>
+			<Item Name="Rectangularity Score.vi" Type="VI" URL="../Score Particles Folder/Rectangularity Score.vi"/>
+			<Item Name="Normalized Range Compare.vi" Type="VI" URL="../Score Particles Folder/Normalized Range Compare.vi"/>
+			<Item Name="Calculate Angle.vi" Type="VI" URL="../Calculate Angle.vi"/>
+			<Item Name="Bounding-box angles.vi" Type="VI" URL="../Bounding-box angles.vi"/>
+			<Item Name="Compute Distance.vi" Type="VI" URL="../Compute Distance.vi"/>
+			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../Compute HSL Color Ranges.vi"/>
+		</Item>
+		<Item Name="Insight Display" Type="Folder">
+			<Item Name="Battery Level Test.vi" Type="VI" URL="../../../../../Desktop/Insight-LT-Labview/Battery Level Test.vi"/>
+			<Item Name="Insight Float Package.vi" Type="VI" URL="../Insight Float Package.vi"/>
+			<Item Name="Insight Initialize.vi" Type="VI" URL="../Insight Initialize.vi"/>
+			<Item Name="Insight Int Package.vi" Type="VI" URL="../Insight Int Package.vi"/>
+			<Item Name="Insight LT.vi" Type="VI" URL="../Insight LT.vi"/>
+			<Item Name="Insight String Package.vi" Type="VI" URL="../Insight String Package.vi"/>
+			<Item Name="Insight Write Message.vi" Type="VI" URL="../Insight Write Message.vi"/>
+			<Item Name="Loop Count Global.vi" Type="VI" URL="../Loop Count Global.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -782,11 +813,38 @@ KeepAliveTimeout 60
 				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 				<Item Name="SD Write String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String.vi"/>
 				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
+				<Item Name="FPGA_DIOWriteI2CStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteI2CStart.vi"/>
+				<Item Name="FPGA_DIOReadI2CStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadI2CStatus.vi"/>
+				<Item Name="FPGA_DIOWriteI2CDataToSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteI2CDataToSend.vi"/>
+				<Item Name="FPGA_DIOWriteI2CConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteI2CConfig.vi"/>
+				<Item Name="WPI_I2CDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CDevRef.ctl"/>
+				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
+				<Item Name="WPI_I2CERRSensorMismatch.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CERRSensorMismatch.vi"/>
+				<Item Name="FPGA_DIOReadI2CDataReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadI2CDataReceived.vi"/>
+				<Item Name="WPI_I2CRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRead.vi"/>
+				<Item Name="WPI_I2COpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2COpen.vi"/>
+				<Item Name="WPI_JoystickAxis.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickAxis.ctl"/>
+				<Item Name="WPI_EncoderStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderStop.vi"/>
+				<Item Name="WPI_EncoderClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderClose.vi"/>
+				<Item Name="WPI_EncoderDevRefToCounterDevRef.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderDevRefToCounterDevRef.vi"/>
+				<Item Name="WPI_CounterClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterClose.vi"/>
+				<Item Name="WPI_CounterStop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterStop.vi"/>
+				<Item Name="WPI_CounterCloseDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterCloseDigitalSource.vi"/>
+				<Item Name="WPI_AnalogTriggerClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogTrigger/WPI_AnalogTriggerClose.vi"/>
+				<Item Name="FPGA_AnalogTriggerReadConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerReadConfiguration.vi"/>
+				<Item Name="FPGA_AnalogTriggerConvertFPGAToSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerConvertFPGAToSource.vi"/>
+				<Item Name="WPI_DriverStationStop Communication.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStop Communication.vi"/>
+				<Item Name="WPI_JoystickGetAxis.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetAxis.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
