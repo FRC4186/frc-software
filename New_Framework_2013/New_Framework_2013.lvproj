@@ -187,7 +187,7 @@ KeepAliveTimeout 60
 			<Item Name="Compute HSL Color Ranges.vi" Type="VI" URL="../Compute HSL Color Ranges.vi"/>
 		</Item>
 		<Item Name="Insight Display" Type="Folder">
-			<Item Name="Battery Level Test.vi" Type="VI" URL="../../../../../Desktop/Insight-LT-Labview/Battery Level Test.vi"/>
+			<Item Name="Battery Level Test.vi" Type="VI" URL="../Battery Level Test.vi"/>
 			<Item Name="Insight Float Package.vi" Type="VI" URL="../Insight Float Package.vi"/>
 			<Item Name="Insight Initialize.vi" Type="VI" URL="../Insight Initialize.vi"/>
 			<Item Name="Insight Int Package.vi" Type="VI" URL="../Insight Int Package.vi"/>
@@ -846,6 +846,10 @@ KeepAliveTimeout 60
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
