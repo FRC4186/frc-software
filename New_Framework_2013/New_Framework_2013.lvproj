@@ -150,7 +150,6 @@ KeepAliveTimeout 60
 				<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 			</Item>
 			<Item Name="Climbing SubVIs" Type="Folder">
-				<Item Name="ActivatePassiveHooks.vi" Type="VI" URL="../ActivatePassiveHooks.vi"/>
 				<Item Name="ArmBackward.vi" Type="VI" URL="../ArmBackward.vi"/>
 				<Item Name="ArmForward.vi" Type="VI" URL="../ArmForward.vi"/>
 				<Item Name="HooksExtendFull.vi" Type="VI" URL="../HooksExtendFull.vi"/>
@@ -184,6 +183,7 @@ KeepAliveTimeout 60
 				<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Score Particles Folder/Sorted Particle Report.vi"/>
 			</Item>
 			<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
+			<Item Name="ConsolidatedLimitSwitch.vi" Type="VI" URL="../ConsolidatedLimitSwitch.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
@@ -853,9 +853,14 @@ KeepAliveTimeout 60
 				<Item Name="WPI_UtilitiesFRC LEDs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC LEDs.vi"/>
 				<Item Name="WPI_UtilitiesFRCAutomaticValuePublisher.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRCAutomaticValuePublisher.vi"/>
 				<Item Name="Write Value Core.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Write Value Core.vi"/>
-				<Item Name="WPI_RelayRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Set.vi"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="WPI_RelayRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Set.vi"/>
+<<<<<<< HEAD
+				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+=======
+>>>>>>> 42e4fe0f3a4aefc21398ceb75230f9cb55374071
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
@@ -873,6 +878,7 @@ KeepAliveTimeout 60
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="ActivatePassiveHooks.vi" Type="VI" URL="../ActivatePassiveHooks.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
