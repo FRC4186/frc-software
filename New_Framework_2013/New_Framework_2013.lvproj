@@ -136,9 +136,9 @@ KeepAliveTimeout 60
 			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 			<Item Name="LauncherAngle.vi" Type="VI" URL="../LauncherAngle.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
+			<Item Name="Ratchet.vi" Type="VI" URL="../Ratchet.vi"/>
 			<Item Name="ReadDriveEncoder.vi" Type="VI" URL="../ReadDriveEncoder.vi"/>
 			<Item Name="ReadGyro.vi" Type="VI" URL="../ReadGyro.vi"/>
-			<Item Name="Solenoid.vi" Type="VI" URL="../Solenoid.vi"/>
 			<Item Name="WinchMotor.vi" Type="VI" URL="../WinchMotor.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
