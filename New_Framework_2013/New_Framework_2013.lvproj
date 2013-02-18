@@ -131,6 +131,7 @@ KeepAliveTimeout 60
 			<Item Name="ArmControl.vi" Type="VI" URL="../ArmControl.vi"/>
 			<Item Name="Battery Level Test.vi" Type="VI" URL="../Battery Level Test.vi"/>
 			<Item Name="Climb.vi" Type="VI" URL="../Climb.vi"/>
+			<Item Name="ClimbSimple.vi" Type="VI" URL="../ClimbSimple.vi"/>
 			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
 			<Item Name="FirePneumatic.vi" Type="VI" URL="../FirePneumatic.vi"/>
 			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
@@ -199,6 +200,7 @@ KeepAliveTimeout 60
 			<Item Name="AutoInstruction.ctl" Type="VI" URL="../AutoInstruction.ctl"/>
 			<Item Name="CameraResolutionInfo.ctl" Type="VI" URL="../CameraResolutionInfo.ctl"/>
 			<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
+			<Item Name="ClimbStatesSimple.ctl" Type="VI" URL="../ClimbStatesSimple.ctl"/>
 			<Item Name="LoopDisable.ctl" Type="VI" URL="../LoopDisable.ctl"/>
 			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
 		</Item>
@@ -852,8 +854,6 @@ KeepAliveTimeout 60
 				<Item Name="NT Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean.vi"/>
 				<Item Name="NT Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read String Array.vi"/>
 				<Item Name="SD Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String Array.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
