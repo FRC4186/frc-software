@@ -204,6 +204,7 @@ KeepAliveTimeout 60
 			<Item Name="CameraResolutionInfo.ctl" Type="VI" URL="../CameraResolutionInfo.ctl"/>
 			<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
 			<Item Name="ClimbStatesSimple.ctl" Type="VI" URL="../ClimbStatesSimple.ctl"/>
+			<Item Name="LauncherPresets.ctl" Type="VI" URL="../LauncherPresets.ctl"/>
 			<Item Name="LimitSwitchState.ctl" Type="VI" URL="../LimitSwitchState.ctl"/>
 			<Item Name="LoopDisable.ctl" Type="VI" URL="../LoopDisable.ctl"/>
 			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
