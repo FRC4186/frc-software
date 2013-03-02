@@ -141,6 +141,7 @@ KeepAliveTimeout 60
 			<Item Name="Ratchet.vi" Type="VI" URL="../Ratchet.vi"/>
 			<Item Name="ReadDriveEncoder.vi" Type="VI" URL="../ReadDriveEncoder.vi"/>
 			<Item Name="ReadGyro.vi" Type="VI" URL="../ReadGyro.vi"/>
+			<Item Name="Shield.vi" Type="VI" URL="../Shield.vi"/>
 			<Item Name="WinchMotor.vi" Type="VI" URL="../WinchMotor.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -193,6 +194,7 @@ KeepAliveTimeout 60
 			<Item Name="DriveEncoderRate.vi" Type="VI" URL="../DriveEncoderRate.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
+			<Item Name="OneWayArm.vi" Type="VI" URL="../OneWayArm.vi"/>
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
 			<Item Name="Talon_Limit_Switch.vi" Type="VI" URL="../Talon_Limit_Switch.vi"/>
 			<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
@@ -865,6 +867,10 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
