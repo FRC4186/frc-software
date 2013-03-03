@@ -198,6 +198,7 @@ KeepAliveTimeout 60
 			<Item Name="ConsolidatedLimitSwitchMotors.vi" Type="VI" URL="../ConsolidatedLimitSwitchMotors.vi"/>
 			<Item Name="DriveEncoderRate.vi" Type="VI" URL="../DriveEncoderRate.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
 			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
 			<Item Name="StraightDriveSub.vi" Type="VI" URL="../StraightDriveSub.vi"/>
