@@ -136,11 +136,13 @@ KeepAliveTimeout 60
 			<Item Name="Climb.vi" Type="VI" URL="../Climb.vi"/>
 			<Item Name="ClimbSimple.vi" Type="VI" URL="../ClimbSimple.vi"/>
 			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
+			<Item Name="drivePID.vi" Type="VI" URL="../drivePID.vi"/>
 			<Item Name="FirePneumatic.vi" Type="VI" URL="../FirePneumatic.vi"/>
 			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 			<Item Name="LauncherAngle.vi" Type="VI" URL="../LauncherAngle.vi"/>
 			<Item Name="LauncherAngleTalon.vi" Type="VI" URL="../LauncherAngleTalon.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
+			<Item Name="OneWayArm.vi" Type="VI" URL="../OneWayArm.vi"/>
 			<Item Name="Ratchet.vi" Type="VI" URL="../Ratchet.vi"/>
 			<Item Name="ReadDriveEncoder.vi" Type="VI" URL="../ReadDriveEncoder.vi"/>
 			<Item Name="ReadGyro.vi" Type="VI" URL="../ReadGyro.vi"/>
@@ -197,9 +199,8 @@ KeepAliveTimeout 60
 			<Item Name="DriveEncoderRate.vi" Type="VI" URL="../DriveEncoderRate.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
-			<Item Name="OneWayArm.vi" Type="VI" URL="../OneWayArm.vi"/>
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
-			<Item Name="StraightDrivePID.vi" Type="VI" URL="../StraightDrivePID.vi"/>
+			<Item Name="StraightDriveSub.vi" Type="VI" URL="../StraightDriveSub.vi"/>
 			<Item Name="Talon_Limit_Switch.vi" Type="VI" URL="../Talon_Limit_Switch.vi"/>
 			<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
 		</Item>
@@ -214,7 +215,7 @@ KeepAliveTimeout 60
 			<Item Name="LimitSwitchState.ctl" Type="VI" URL="../LimitSwitchState.ctl"/>
 			<Item Name="LoopDisable.ctl" Type="VI" URL="../LoopDisable.ctl"/>
 			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
-			<Item Name="StraightDrivePIDEnum.ctl" Type="VI" URL="../StraightDrivePIDEnum.ctl"/>
+			<Item Name="StraightDriveSubEnum.ctl" Type="VI" URL="../StraightDriveSubEnum.ctl"/>
 		</Item>
 		<Item Name="Insight Display" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -230,7 +231,6 @@ KeepAliveTimeout 60
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AlwaysPID.vi" Type="VI" URL="../AlwaysPID.vi"/>
 			<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
-			<Item Name="drivePID.vi" Type="VI" URL="../drivePID.vi"/>
 			<Item Name="Simulated_Tank_Drive.vi" Type="VI" URL="../Simulated_Tank_Drive.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -861,8 +861,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_CounterConfigureTimer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterConfigureTimer.vi"/>
 				<Item Name="WPI_CounterRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterRefNum Registry Set.vi"/>
 				<Item Name="WPI_CounterStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterStart.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -873,10 +871,6 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
