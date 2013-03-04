@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
+	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -32,7 +35,7 @@
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
 		<Property Name="alias.value" Type="Str">10.30.61.2</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">75C7</Property>
+		<Property Name="crio.ControllerPID" Type="Str">729D</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -133,14 +136,17 @@ KeepAliveTimeout 60
 			<Item Name="Climb.vi" Type="VI" URL="../Climb.vi"/>
 			<Item Name="ClimbSimple.vi" Type="VI" URL="../ClimbSimple.vi"/>
 			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
+			<Item Name="drivePID.vi" Type="VI" URL="../drivePID.vi"/>
 			<Item Name="FirePneumatic.vi" Type="VI" URL="../FirePneumatic.vi"/>
 			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 			<Item Name="LauncherAngle.vi" Type="VI" URL="../LauncherAngle.vi"/>
 			<Item Name="LauncherAngleTalon.vi" Type="VI" URL="../LauncherAngleTalon.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
+			<Item Name="OneWayArm.vi" Type="VI" URL="../OneWayArm.vi"/>
 			<Item Name="Ratchet.vi" Type="VI" URL="../Ratchet.vi"/>
 			<Item Name="ReadDriveEncoder.vi" Type="VI" URL="../ReadDriveEncoder.vi"/>
 			<Item Name="ReadGyro.vi" Type="VI" URL="../ReadGyro.vi"/>
+			<Item Name="Shield.vi" Type="VI" URL="../Shield.vi"/>
 			<Item Name="WinchMotor.vi" Type="VI" URL="../WinchMotor.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -192,9 +198,10 @@ KeepAliveTimeout 60
 			<Item Name="ConsolidatedLimitSwitchMotors.vi" Type="VI" URL="../ConsolidatedLimitSwitchMotors.vi"/>
 			<Item Name="DriveEncoderRate.vi" Type="VI" URL="../DriveEncoderRate.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
 			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
-			<Item Name="Talon_Limit_Switch.vi" Type="VI" URL="../Talon_Limit_Switch.vi"/>
+			<Item Name="StraightDriveSub.vi" Type="VI" URL="../StraightDriveSub.vi"/>
 			<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
@@ -204,9 +211,11 @@ KeepAliveTimeout 60
 			<Item Name="CameraResolutionInfo.ctl" Type="VI" URL="../CameraResolutionInfo.ctl"/>
 			<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
 			<Item Name="ClimbStatesSimple.ctl" Type="VI" URL="../ClimbStatesSimple.ctl"/>
+			<Item Name="LauncherPresets.ctl" Type="VI" URL="../LauncherPresets.ctl"/>
 			<Item Name="LimitSwitchState.ctl" Type="VI" URL="../LimitSwitchState.ctl"/>
 			<Item Name="LoopDisable.ctl" Type="VI" URL="../LoopDisable.ctl"/>
 			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
+			<Item Name="StraightDriveSubEnum.ctl" Type="VI" URL="../StraightDriveSubEnum.ctl"/>
 		</Item>
 		<Item Name="Insight Display" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -222,7 +231,6 @@ KeepAliveTimeout 60
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AlwaysPID.vi" Type="VI" URL="../AlwaysPID.vi"/>
 			<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
-			<Item Name="drivePID.vi" Type="VI" URL="../drivePID.vi"/>
 			<Item Name="Simulated_Tank_Drive.vi" Type="VI" URL="../Simulated_Tank_Drive.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -425,7 +433,6 @@ KeepAliveTimeout 60
 				<Item Name="Report Read Error.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Report Read Error.vi"/>
 				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
 				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
-				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Sequence.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Sequence.ctl"/>
 				<Item Name="String Matches Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/String Matches Pattern.vi"/>
@@ -679,7 +686,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_I2COpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2COpen.vi"/>
 				<Item Name="WPI_I2CRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRead.vi"/>
 				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
-				<Item Name="WPI_JoystickAxis.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickAxis.ctl"/>
 				<Item Name="WPI_JoystickButtonState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonState.ctl"/>
 				<Item Name="WPI_JoystickCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickCache.vi"/>
 				<Item Name="WPI_JoystickCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickCacheOp.ctl"/>
@@ -688,7 +694,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
 				<Item Name="WPI_JoystickGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGet.vi"/>
-				<Item Name="WPI_JoystickGetAxis.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetAxis.vi"/>
 				<Item Name="WPI_JoystickGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetSetRefNum.vi"/>
 				<Item Name="WPI_JoystickOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickOpen.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
@@ -761,7 +766,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_RobotDriveArcadeDrive_RatioCurve.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_RatioCurve.vi"/>
 				<Item Name="WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi"/>
 				<Item Name="WPI_RobotDriveClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveClose.vi"/>
-				<Item Name="WPI_RobotDriveDelayAndUpdateSafety.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDelayAndUpdateSafety.vi"/>
 				<Item Name="WPI_RobotDriveDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDevRef.ctl"/>
 				<Item Name="WPI_RobotDriveDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDoesDevRefExist.vi"/>
 				<Item Name="WPI_RobotDriveGetMotorControlReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveGetMotorControlReference.vi"/>
@@ -840,7 +844,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_UtilitiesFRC LEDs.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Utilities/WPI_UtilitiesFRC LEDs.vi"/>
 				<Item Name="WPI_CompressorControlLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorControlLoop.vi"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
-				<Item Name="SD Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean Array.vi"/>
 				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
 				<Item Name="NT Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean.vi"/>
 				<Item Name="NT Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read String Array.vi"/>
