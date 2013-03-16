@@ -142,6 +142,7 @@ KeepAliveTimeout 60
 			<Item Name="LauncherAngle.vi" Type="VI" URL="../LauncherAngle.vi"/>
 			<Item Name="LauncherAngleTalon.vi" Type="VI" URL="../LauncherAngleTalon.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
+			<Item Name="NewClimb.vi" Type="VI" URL="../NewClimb.vi"/>
 			<Item Name="OneWayArm.vi" Type="VI" URL="../OneWayArm.vi"/>
 			<Item Name="QuickShoot.vi" Type="VI" URL="../QuickShoot.vi"/>
 			<Item Name="Ratchet.vi" Type="VI" URL="../Ratchet.vi"/>
