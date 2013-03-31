@@ -158,7 +158,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="DBToString.vi" Type="VI" URL="../../Sally_Framework_2013/DBToString.vi"/>
-			<Item Name="AutoEnumToString.vi" Type="VI" URL="../../Sally_Framework_2013/AutoEnumToString.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
