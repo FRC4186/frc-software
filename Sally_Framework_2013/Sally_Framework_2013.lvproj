@@ -156,7 +156,6 @@ KeepAliveTimeout 60
 			<Item Name="Auto SubVIs" Type="Folder">
 				<Item Name="AutoDrive PID.vi" Type="VI" URL="../AutoDrive PID.vi"/>
 				<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
-				<Item Name="AutoEnumToString.vi" Type="VI" URL="../AutoEnumToString.vi"/>
 				<Item Name="AutoLauncher.vi" Type="VI" URL="../AutoLauncher.vi"/>
 				<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 				<Item Name="ParseDashboardInstruction.vi" Type="VI" URL="../ParseDashboardInstruction.vi"/>
