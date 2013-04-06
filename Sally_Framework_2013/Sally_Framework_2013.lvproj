@@ -47,7 +47,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -212,6 +211,7 @@ KeepAliveTimeout 60
 		<Item Name="Typedefs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="AutoEnum.ctl" Type="VI" URL="../AutoEnum.ctl"/>
+			<Item Name="AutoInstructArray.ctl" Type="VI" URL="../AutoInstructArray.ctl"/>
 			<Item Name="AutoInstruction.ctl" Type="VI" URL="../AutoInstruction.ctl"/>
 			<Item Name="CameraResolutionInfo.ctl" Type="VI" URL="../CameraResolutionInfo.ctl"/>
 			<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
@@ -240,7 +240,6 @@ KeepAliveTimeout 60
 			<Item Name="Simulated_Tank_Drive.vi" Type="VI" URL="../Simulated_Tank_Drive.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="AutoInstructArray.ctl" Type="VI" URL="../AutoInstructArray.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -878,8 +877,6 @@ KeepAliveTimeout 60
 				<Item Name="FPGA_AnalogTriggerWriteUpperLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerWriteUpperLimit.vi"/>
 				<Item Name="SD Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Numeric Array.vi"/>
 				<Item Name="NT Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Numeric Array.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -891,10 +888,6 @@ KeepAliveTimeout 60
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="DBNameEnum.ctl" Type="VI" URL="../../Sally_Dashboard_2013/DBNameEnum.ctl"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
