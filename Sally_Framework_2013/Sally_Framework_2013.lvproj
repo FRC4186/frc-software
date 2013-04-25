@@ -47,6 +47,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -207,6 +208,7 @@ KeepAliveTimeout 60
 			<Item Name="ReverseDrive.vi" Type="VI" URL="../ReverseDrive.vi"/>
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
 			<Item Name="StraightDriveSub.vi" Type="VI" URL="../StraightDriveSub.vi"/>
+			<Item Name="TimeBasedDrive.vi" Type="VI" URL="../TimeBasedDrive.vi"/>
 			<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
