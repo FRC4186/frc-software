@@ -47,7 +47,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -131,55 +130,26 @@ KeepAliveTimeout 60
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Periodic Tasks Loops" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="ArmControl.vi" Type="VI" URL="../ArmControl.vi"/>
 			<Item Name="Battery Level Test.vi" Type="VI" URL="../Battery Level Test.vi"/>
-			<Item Name="Climb.vi" Type="VI" URL="../Climb.vi"/>
-			<Item Name="ClimbSimple.vi" Type="VI" URL="../ClimbSimple.vi"/>
 			<Item Name="ClimbWeight.vi" Type="VI" URL="../ClimbWeight.vi"/>
-			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
 			<Item Name="drivePID.vi" Type="VI" URL="../drivePID.vi"/>
 			<Item Name="FirePneumatic.vi" Type="VI" URL="../FirePneumatic.vi"/>
-			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
-			<Item Name="LauncherAngle.vi" Type="VI" URL="../LauncherAngle.vi"/>
 			<Item Name="LauncherAngleTalon.vi" Type="VI" URL="../LauncherAngleTalon.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
 			<Item Name="NewClimb.vi" Type="VI" URL="../NewClimb.vi"/>
 			<Item Name="OneWayArm.vi" Type="VI" URL="../OneWayArm.vi"/>
 			<Item Name="QuickShoot.vi" Type="VI" URL="../QuickShoot.vi"/>
-			<Item Name="Ratchet.vi" Type="VI" URL="../Ratchet.vi"/>
 			<Item Name="ReadDriveEncoder.vi" Type="VI" URL="../ReadDriveEncoder.vi"/>
-			<Item Name="ReadGyro.vi" Type="VI" URL="../ReadGyro.vi"/>
-			<Item Name="Shield.vi" Type="VI" URL="../Shield.vi"/>
-			<Item Name="WinchMotor.vi" Type="VI" URL="../WinchMotor.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Auto SubVIs" Type="Folder">
 				<Item Name="AutoDrive PID.vi" Type="VI" URL="../AutoDrive PID.vi"/>
-				<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
 				<Item Name="AutoLauncher.vi" Type="VI" URL="../AutoLauncher.vi"/>
 				<Item Name="AutoTurn.vi" Type="VI" URL="../AutoTurn.vi"/>
 				<Item Name="ParseDashboardInstruction.vi" Type="VI" URL="../ParseDashboardInstruction.vi"/>
-			</Item>
-			<Item Name="Climbing SubVIs" Type="Folder">
-				<Item Name="ActivatePassiveHooks.vi" Type="VI" URL="../ActivatePassiveHooks.vi"/>
-				<Item Name="ArmBackward.vi" Type="VI" URL="../ArmBackward.vi"/>
-				<Item Name="ArmForward.vi" Type="VI" URL="../ArmForward.vi"/>
-				<Item Name="HooksExtendFull.vi" Type="VI" URL="../HooksExtendFull.vi"/>
-				<Item Name="HooksExtendPartial.vi" Type="VI" URL="../HooksExtendPartial.vi"/>
-				<Item Name="HooksRetractFull.vi" Type="VI" URL="../HooksRetractFull.vi"/>
-				<Item Name="HooksRetractPartial.vi" Type="VI" URL="../HooksRetractPartial.vi"/>
-				<Item Name="RatchetDisengage.vi" Type="VI" URL="../RatchetDisengage.vi"/>
-				<Item Name="RatchetReengage.vi" Type="VI" URL="../RatchetReengage.vi"/>
-				<Item Name="SetDown.vi" Type="VI" URL="../SetDown.vi"/>
-			</Item>
-			<Item Name="Glenn Auto SubVIs" Type="Folder">
-				<Item Name="Create Setpoint Profile.vi" Type="VI" URL="../Create Setpoint Profile.vi"/>
-				<Item Name="PID No Jump.vi" Type="VI" URL="../PID No Jump.vi"/>
-				<Item Name="Straight Movement Simple.vi" Type="VI" URL="../Straight Movement Simple.vi"/>
-				<Item Name="Straight Movement.vi" Type="VI" URL="../Straight Movement.vi"/>
-				<Item Name="Turning Movment.vi" Type="VI" URL="../Turning Movment.vi"/>
 			</Item>
 			<Item Name="Vision SubVIs" Type="Folder">
 				<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Score Particles Folder/Aspect Ratio Score.vi"/>
@@ -217,7 +187,6 @@ KeepAliveTimeout 60
 			<Item Name="AutoInstructArray.ctl" Type="VI" URL="../AutoInstructArray.ctl"/>
 			<Item Name="AutoInstruction.ctl" Type="VI" URL="../AutoInstruction.ctl"/>
 			<Item Name="CameraResolutionInfo.ctl" Type="VI" URL="../CameraResolutionInfo.ctl"/>
-			<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
 			<Item Name="ClimbStatesSimple.ctl" Type="VI" URL="../ClimbStatesSimple.ctl"/>
 			<Item Name="LauncherPresets.ctl" Type="VI" URL="../LauncherPresets.ctl"/>
 			<Item Name="LimitSwitchState.ctl" Type="VI" URL="../LimitSwitchState.ctl"/>
@@ -236,11 +205,45 @@ KeepAliveTimeout 60
 			<Item Name="Insight Write Message.vi" Type="VI" URL="../Insight Write Message.vi"/>
 			<Item Name="Loop Count Global.vi" Type="VI" URL="../Loop Count Global.vi"/>
 		</Item>
-		<Item Name="Experimental Drives" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="AlwaysPID.vi" Type="VI" URL="../AlwaysPID.vi"/>
-			<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
-			<Item Name="Simulated_Tank_Drive.vi" Type="VI" URL="../Simulated_Tank_Drive.vi"/>
+		<Item Name="Deprecated" Type="Folder">
+			<Item Name="Climbing SubVIs" Type="Folder">
+				<Item Name="ActivatePassiveHooks.vi" Type="VI" URL="../ActivatePassiveHooks.vi"/>
+				<Item Name="ArmBackward.vi" Type="VI" URL="../ArmBackward.vi"/>
+				<Item Name="ArmForward.vi" Type="VI" URL="../ArmForward.vi"/>
+				<Item Name="HooksExtendFull.vi" Type="VI" URL="../HooksExtendFull.vi"/>
+				<Item Name="HooksExtendPartial.vi" Type="VI" URL="../HooksExtendPartial.vi"/>
+				<Item Name="HooksRetractFull.vi" Type="VI" URL="../HooksRetractFull.vi"/>
+				<Item Name="HooksRetractPartial.vi" Type="VI" URL="../HooksRetractPartial.vi"/>
+				<Item Name="RatchetDisengage.vi" Type="VI" URL="../RatchetDisengage.vi"/>
+				<Item Name="RatchetReengage.vi" Type="VI" URL="../RatchetReengage.vi"/>
+				<Item Name="SetDown.vi" Type="VI" URL="../SetDown.vi"/>
+				<Item Name="ClimbStates.ctl" Type="VI" URL="../ClimbStates.ctl"/>
+			</Item>
+			<Item Name="Glenn Auto SubVIs" Type="Folder">
+				<Item Name="Create Setpoint Profile.vi" Type="VI" URL="../Create Setpoint Profile.vi"/>
+				<Item Name="PID No Jump.vi" Type="VI" URL="../PID No Jump.vi"/>
+				<Item Name="Straight Movement Simple.vi" Type="VI" URL="../Straight Movement Simple.vi"/>
+				<Item Name="Straight Movement.vi" Type="VI" URL="../Straight Movement.vi"/>
+				<Item Name="Turning Movment.vi" Type="VI" URL="../Turning Movment.vi"/>
+			</Item>
+			<Item Name="Experimental Drives" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">0</Property>
+				<Item Name="AlwaysPID.vi" Type="VI" URL="../AlwaysPID.vi"/>
+				<Item Name="CubeDrive.vi" Type="VI" URL="../CubeDrive.vi"/>
+				<Item Name="Simulated_Tank_Drive.vi" Type="VI" URL="../Simulated_Tank_Drive.vi"/>
+			</Item>
+			<Item Name="Auto SubVIs" Type="Folder">
+				<Item Name="AutoDrive.vi" Type="VI" URL="../AutoDrive.vi"/>
+			</Item>
+			<Item Name="WinchMotor.vi" Type="VI" URL="../WinchMotor.vi"/>
+			<Item Name="Climb.vi" Type="VI" URL="../Climb.vi"/>
+			<Item Name="ClimbSimple.vi" Type="VI" URL="../ClimbSimple.vi"/>
+			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
+			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+			<Item Name="LauncherAngle.vi" Type="VI" URL="../LauncherAngle.vi"/>
+			<Item Name="Ratchet.vi" Type="VI" URL="../Ratchet.vi"/>
+			<Item Name="Shield.vi" Type="VI" URL="../Shield.vi"/>
+			<Item Name="ReadGyro.vi" Type="VI" URL="../ReadGyro.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -877,8 +880,9 @@ KeepAliveTimeout 60
 				<Item Name="FPGA_AnalogTriggerWriteLowerLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerWriteLowerLimit.vi"/>
 				<Item Name="FPGA_AnalogTriggerWriteUpperLimit.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerWriteUpperLimit.vi"/>
 				<Item Name="SD Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Numeric Array.vi"/>
-				<Item Name="SD Read Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Name Cache.vi"/>
-				<Item Name="SD Write Name Cache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Name Cache.vi"/>
+				<Item Name="NT Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean.vi"/>
+				<Item Name="NT Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Numeric Array.vi"/>
+				<Item Name="NT Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read String Array.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -890,10 +894,6 @@ KeepAliveTimeout 60
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="DBNameEnum.ctl" Type="VI" URL="../../Sally_Dashboard_2013/DBNameEnum.ctl"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
