@@ -21,6 +21,7 @@
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
 			<Item Name="FPS Calculator.vi" Type="VI" URL="../FPS Calculator.vi"/>
 			<Item Name="Get All Users Directory.vi" Type="VI" URL="../Get All Users Directory.vi"/>
+			<Item Name="DBToString.vi" Type="VI" URL="../../Sally_Framework_2014/DBToString.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="DBNameEnum.ctl" Type="VI" URL="../DBNameEnum.ctl"/>
@@ -28,6 +29,7 @@
 			<Item Name="AutoEnum.ctl" Type="VI" URL="../../Sally_Framework_2014/AutoEnum.ctl"/>
 			<Item Name="LauncherPresets.ctl" Type="VI" URL="../../Sally_Framework_2014/LauncherPresets.ctl"/>
 			<Item Name="AutoInstruction.ctl" Type="VI" URL="../../Sally_Framework_2014/AutoInstruction.ctl"/>
+			<Item Name="AutoInstructArray.ctl" Type="VI" URL="../../Sally_Framework_2014/AutoInstructArray.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -159,8 +161,6 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DBToString.vi" Type="VI" URL="../../Sally_Framework_2013/DBToString.vi"/>
-			<Item Name="AutoInstructArray.ctl" Type="VI" URL="../../Sally_Framework_2013/AutoInstructArray.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">

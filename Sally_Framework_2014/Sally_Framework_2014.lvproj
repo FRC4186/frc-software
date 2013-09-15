@@ -131,11 +131,11 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="Periodic Tasks Loops" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="ArmControl.vi" Type="VI" URL="../ArmControl.vi"/>
 			<Item Name="Battery Level Test.vi" Type="VI" URL="../Battery Level Test.vi"/>
 			<Item Name="ClimbWeight.vi" Type="VI" URL="../ClimbWeight.vi"/>
 			<Item Name="drivePID.vi" Type="VI" URL="../drivePID.vi"/>
 			<Item Name="FirePneumatic.vi" Type="VI" URL="../FirePneumatic.vi"/>
+			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 			<Item Name="LauncherAngleTalon.vi" Type="VI" URL="../LauncherAngleTalon.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
 			<Item Name="NewClimb.vi" Type="VI" URL="../NewClimb.vi"/>
@@ -210,6 +210,7 @@ KeepAliveTimeout 60
 			<Item Name="Climbing SubVIs" Type="Folder">
 				<Item Name="ActivatePassiveHooks.vi" Type="VI" URL="../ActivatePassiveHooks.vi"/>
 				<Item Name="ArmBackward.vi" Type="VI" URL="../ArmBackward.vi"/>
+				<Item Name="ArmControl.vi" Type="VI" URL="../ArmControl.vi"/>
 				<Item Name="ArmForward.vi" Type="VI" URL="../ArmForward.vi"/>
 				<Item Name="HooksExtendFull.vi" Type="VI" URL="../HooksExtendFull.vi"/>
 				<Item Name="HooksExtendPartial.vi" Type="VI" URL="../HooksExtendPartial.vi"/>
@@ -240,7 +241,6 @@ KeepAliveTimeout 60
 			<Item Name="Climb.vi" Type="VI" URL="../Climb.vi"/>
 			<Item Name="ClimbSimple.vi" Type="VI" URL="../ClimbSimple.vi"/>
 			<Item Name="Drive.vi" Type="VI" URL="../Drive.vi"/>
-			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 			<Item Name="LauncherAngle.vi" Type="VI" URL="../LauncherAngle.vi"/>
 			<Item Name="Ratchet.vi" Type="VI" URL="../Ratchet.vi"/>
 			<Item Name="Shield.vi" Type="VI" URL="../Shield.vi"/>
