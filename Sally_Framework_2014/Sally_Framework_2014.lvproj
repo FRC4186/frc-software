@@ -135,7 +135,6 @@ KeepAliveTimeout 60
 			<Item Name="ClimbWeight.vi" Type="VI" URL="../ClimbWeight.vi"/>
 			<Item Name="drivePID.vi" Type="VI" URL="../drivePID.vi"/>
 			<Item Name="FirePneumatic.vi" Type="VI" URL="../FirePneumatic.vi"/>
-			<Item Name="FirePneumaticQueue.vi" Type="VI" URL="../FirePneumaticQueue.vi"/>
 			<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 			<Item Name="LauncherAngleTalon.vi" Type="VI" URL="../LauncherAngleTalon.vi"/>
 			<Item Name="ManualLauncher.vi" Type="VI" URL="../ManualLauncher.vi"/>
@@ -183,7 +182,7 @@ KeepAliveTimeout 60
 			<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="AutoEnum.ctl" Type="VI" URL="../AutoEnum.ctl"/>
 			<Item Name="AutoInstructArray.ctl" Type="VI" URL="../AutoInstructArray.ctl"/>
 			<Item Name="AutoInstruction.ctl" Type="VI" URL="../AutoInstruction.ctl"/>
@@ -193,7 +192,6 @@ KeepAliveTimeout 60
 			<Item Name="LauncherPresets.ctl" Type="VI" URL="../LauncherPresets.ctl"/>
 			<Item Name="LimitSwitchState.ctl" Type="VI" URL="../LimitSwitchState.ctl"/>
 			<Item Name="LoopDisable.ctl" Type="VI" URL="../LoopDisable.ctl"/>
-			<Item Name="QueueEnum.ctl" Type="VI" URL="../QueueEnum.ctl"/>
 			<Item Name="RefnameEnum.ctl" Type="VI" URL="../RefnameEnum.ctl"/>
 			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
 			<Item Name="StraightDriveSubEnum.ctl" Type="VI" URL="../StraightDriveSubEnum.ctl"/>
@@ -248,8 +246,22 @@ KeepAliveTimeout 60
 			<Item Name="Shield.vi" Type="VI" URL="../Shield.vi"/>
 			<Item Name="ReadGyro.vi" Type="VI" URL="../ReadGyro.vi"/>
 		</Item>
+		<Item Name="Producer-Consumer Queue" Type="Folder">
+			<Item Name="Handlers" Type="Folder">
+				<Item Name="TeleopEnqueueInput.vi" Type="VI" URL="../TeleopEnqueueInput.vi"/>
+				<Item Name="TankDriveHandler.vi" Type="VI" URL="../TankDriveHandler.vi"/>
+			</Item>
+			<Item Name="Responders" Type="Folder">
+				<Item Name="TankDrive.vi" Type="VI" URL="../TankDrive.vi"/>
+				<Item Name="FirePneumaticQueue.vi" Type="VI" URL="../FirePneumaticQueue.vi"/>
+			</Item>
+			<Item Name="Typedefs" Type="Folder">
+				<Item Name="QueueEnum.ctl" Type="VI" URL="../QueueEnum.ctl"/>
+				<Item Name="TankDriveInstruction.ctl" Type="VI" URL="../TankDriveInstruction.ctl"/>
+				<Item Name="QueueInstruction.ctl" Type="VI" URL="../QueueInstruction.ctl"/>
+			</Item>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="TeleopEnqueueInput.vi" Type="VI" URL="../TeleopEnqueueInput.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -883,12 +895,6 @@ KeepAliveTimeout 60
 				<Item Name="NT Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Boolean.vi"/>
 				<Item Name="NT Read Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read Numeric Array.vi"/>
 				<Item Name="NT Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/NT Read String Array.vi"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="Command Line String To Path.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Command Line String To Path.vi"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -899,10 +905,6 @@ KeepAliveTimeout 60
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
