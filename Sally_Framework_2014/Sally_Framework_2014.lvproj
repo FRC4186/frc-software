@@ -144,7 +144,7 @@ KeepAliveTimeout 60
 			<Item Name="ReadDriveEncoder.vi" Type="VI" URL="../ReadDriveEncoder.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Auto SubVIs" Type="Folder">
 				<Item Name="AutoDrive PID.vi" Type="VI" URL="../AutoDrive PID.vi"/>
 				<Item Name="AutoLauncher.vi" Type="VI" URL="../AutoLauncher.vi"/>
@@ -169,17 +169,18 @@ KeepAliveTimeout 60
 			<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
 			<Item Name="ConsolidatedLimitSwitch.vi" Type="VI" URL="../ConsolidatedLimitSwitch.vi"/>
 			<Item Name="ConsolidatedLimitSwitchMotors.vi" Type="VI" URL="../ConsolidatedLimitSwitchMotors.vi"/>
-			<Item Name="DBToString.vi" Type="VI" URL="../DBToString.vi"/>
 			<Item Name="DriveEncoderRate.vi" Type="VI" URL="../DriveEncoderRate.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
 			<Item Name="LinearControl.vi" Type="VI" URL="../LinearControl.vi"/>
-			<Item Name="RefnameToString.vi" Type="VI" URL="../RefnameToString.vi"/>
 			<Item Name="ReverseDrive.vi" Type="VI" URL="../ReverseDrive.vi"/>
 			<Item Name="StopControl.vi" Type="VI" URL="../StopControl.vi"/>
 			<Item Name="StraightDriveSub.vi" Type="VI" URL="../StraightDriveSub.vi"/>
 			<Item Name="TimeBasedDrive.vi" Type="VI" URL="../TimeBasedDrive.vi"/>
 			<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
+			<Item Name="DBToString.vi" Type="VI" URL="../DBToString.vi"/>
+			<Item Name="RefnameToString.vi" Type="VI" URL="../RefnameToString.vi"/>
+			<Item Name="QueueToString.vi" Type="VI" URL="../QueueToString.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -256,9 +257,9 @@ KeepAliveTimeout 60
 				<Item Name="FirePneumaticQueue.vi" Type="VI" URL="../FirePneumaticQueue.vi"/>
 			</Item>
 			<Item Name="Typedefs" Type="Folder">
-				<Item Name="QueueEnum.ctl" Type="VI" URL="../QueueEnum.ctl"/>
 				<Item Name="TankDriveInstruction.ctl" Type="VI" URL="../TankDriveInstruction.ctl"/>
 				<Item Name="QueueInstruction.ctl" Type="VI" URL="../QueueInstruction.ctl"/>
+				<Item Name="QueueEnum.ctl" Type="VI" URL="../QueueEnum.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
