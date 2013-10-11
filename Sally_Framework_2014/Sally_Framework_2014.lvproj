@@ -180,7 +180,6 @@ KeepAliveTimeout 60
 			<Item Name="Timing.vi" Type="VI" URL="../Timing.vi"/>
 			<Item Name="DBToString.vi" Type="VI" URL="../DBToString.vi"/>
 			<Item Name="RefnameToString.vi" Type="VI" URL="../RefnameToString.vi"/>
-			<Item Name="QueueToString.vi" Type="VI" URL="../QueueToString.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -249,7 +248,6 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="Producer-Consumer Queue" Type="Folder">
 			<Item Name="Handlers" Type="Folder">
-				<Item Name="TeleopEnqueueInput.vi" Type="VI" URL="../TeleopEnqueueInput.vi"/>
 				<Item Name="TankDriveHandler.vi" Type="VI" URL="../TankDriveHandler.vi"/>
 			</Item>
 			<Item Name="Responders" Type="Folder">
@@ -261,6 +259,8 @@ KeepAliveTimeout 60
 				<Item Name="QueueInstruction.ctl" Type="VI" URL="../QueueInstruction.ctl"/>
 				<Item Name="QueueEnum.ctl" Type="VI" URL="../QueueEnum.ctl"/>
 			</Item>
+			<Item Name="QueueToString.vi" Type="VI" URL="../QueueToString.vi"/>
+			<Item Name="TeleopEnqueueInput.vi" Type="VI" URL="../TeleopEnqueueInput.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
