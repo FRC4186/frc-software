@@ -248,6 +248,7 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="Producer-Consumer Queue" Type="Folder">
 			<Item Name="Handlers" Type="Folder">
+				<Item Name="FirePneumaticHandler.vi" Type="VI" URL="../FirePneumaticHandler.vi"/>
 				<Item Name="TankDriveHandler.vi" Type="VI" URL="../TankDriveHandler.vi"/>
 			</Item>
 			<Item Name="Responders" Type="Folder">
