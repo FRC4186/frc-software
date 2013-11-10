@@ -256,9 +256,12 @@ KeepAliveTimeout 60
 				<Item Name="FirePneumaticQueue.vi" Type="VI" URL="../FirePneumaticQueue.vi"/>
 			</Item>
 			<Item Name="Typedefs" Type="Folder">
+				<Item Name="SubsystemEnum.ctl" Type="VI" URL="../SubsystemEnum.ctl"/>
 				<Item Name="TankDriveInstruction.ctl" Type="VI" URL="../TankDriveInstruction.ctl"/>
 				<Item Name="QueueInstruction.ctl" Type="VI" URL="../QueueInstruction.ctl"/>
 				<Item Name="QueueEnum.ctl" Type="VI" URL="../QueueEnum.ctl"/>
+				<Item Name="ActionEnum.ctl" Type="VI" URL="../ActionEnum.ctl"/>
+				<Item Name="TeleopData.ctl" Type="VI" URL="../TeleopData.ctl"/>
 			</Item>
 			<Item Name="QueueToString.vi" Type="VI" URL="../QueueToString.vi"/>
 			<Item Name="TeleopEnqueueInput.vi" Type="VI" URL="../TeleopEnqueueInput.vi"/>
