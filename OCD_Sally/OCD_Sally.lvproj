@@ -697,10 +697,6 @@ KeepAliveTimeout 60
 			<Item Name="RefnameEnum.ctl" Type="VI" URL="../../Sally_Framework_2014/RefnameEnum.ctl"/>
 			<Item Name="TeleopData.ctl" Type="VI" URL="../../Sally_Framework_2014/TeleopData.ctl"/>
 			<Item Name="RefnameToString.vi" Type="VI" URL="../../Sally_Framework_2014/RefnameToString.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
