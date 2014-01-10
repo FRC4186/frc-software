@@ -129,6 +129,7 @@ DirectoryIndex index.htm
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Pneumatic Press and Hold.vi" Type="VI" URL="../Pneumatic Press and Hold.vi"/>
 		<Item Name="State Machine Enum.ctl" Type="VI" URL="../State Machine Enum.ctl"/>
+		<Item Name="Pneumatic Toggle Copied Code.vi" Type="VI" URL="../Pneumatic Toggle Copied Code.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -537,6 +538,10 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -573,7 +578,7 @@ DirectoryIndex index.htm
 				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2008 NI</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ? 2008 NI</Property>
 				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{FA9EE9FC-BB86-4427-9BD6-2778CDC5E638}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
