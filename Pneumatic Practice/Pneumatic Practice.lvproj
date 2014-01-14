@@ -130,6 +130,7 @@ DirectoryIndex index.htm
 		<Item Name="State Machine Enum.ctl" Type="VI" URL="../State Machine Enum.ctl"/>
 		<Item Name="ClimbWeight.vi" Type="VI" URL="../ClimbWeight.vi"/>
 		<Item Name="FireLauncher.vi" Type="VI" URL="../FireLauncher.vi"/>
+		<Item Name="NewFireLauncher.vi" Type="VI" URL="../NewFireLauncher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
