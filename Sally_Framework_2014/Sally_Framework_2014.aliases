@@ -1,5 +1,9 @@
 [My Computer]
+<<<<<<< HEAD
 My Computer = "10.3.120.76"
+=======
+My Computer = "10.4.6.95"
+>>>>>>> Pneumatic-Practic-
 
 [RT CompactRIO Target]
 RT CompactRIO Target = "10.30.61.2"
