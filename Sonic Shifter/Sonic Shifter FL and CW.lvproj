@@ -131,6 +131,8 @@ DirectoryIndex index.htm
 		<Item Name="ClimbWeight.vi" Type="VI" URL="../ClimbWeight.vi"/>
 		<Item Name="FireLauncher.vi" Type="VI" URL="../FireLauncher.vi"/>
 		<Item Name="Sonic Shifter with Single Toggle.vi" Type="VI" URL="../Sonic Shifter with Single Toggle.vi"/>
+		<Item Name="ToggleStates.ctl" Type="VI" URL="../ToggleStates.ctl"/>
+		<Item Name="ToggleIndicator.vi" Type="VI" URL="../ToggleIndicator.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
