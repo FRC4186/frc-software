@@ -25,7 +25,6 @@
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
-		<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../../Sally_Framework_2014/Counts Per Second to RPM.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -127,6 +126,7 @@ DirectoryIndex index.htm
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
+		<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../Counts Per Second to RPM.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Counts to Angle.vi" Type="VI" URL="../Counts to Angle.vi"/>
 		<Item Name="CheckArmAngle.vi" Type="VI" URL="../CheckArmAngle.vi"/>
@@ -574,8 +574,6 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../../Sally_Framework_2014/Counts Per Second to RPM.vi"/>
-			<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../../Sally_Framework_2014/Distance Per Counts Conversion.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
