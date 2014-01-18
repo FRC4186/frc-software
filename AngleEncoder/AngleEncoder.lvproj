@@ -130,9 +130,9 @@ DirectoryIndex index.htm
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Counts to Angle.vi" Type="VI" URL="../Counts to Angle.vi"/>
 		<Item Name="CheckArmAngle.vi" Type="VI" URL="../CheckArmAngle.vi"/>
-		<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../../Sally_Framework_2014/Distance Per Counts Conversion.vi"/>
+		<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../Distance Per Counts Conversion.vi"/>
 		<Item Name="MoveArm.vi" Type="VI" URL="../MoveArm.vi"/>
-		<Item Name="Check RPM.vi" Type="VI" URL="../../Sally_Framework_2014/Check RPM.vi"/>
+		<Item Name="Check RPM.vi" Type="VI" URL="../Check RPM.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -574,11 +574,8 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../../Sally_Framework_2014/Counts Per Second to RPM.vi"/>
+			<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../../Sally_Framework_2014/Distance Per Counts Conversion.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
