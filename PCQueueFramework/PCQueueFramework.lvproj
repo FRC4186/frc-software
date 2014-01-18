@@ -186,13 +186,13 @@ DirectoryIndex index.htm
 			<Item Name="AutoInstruction.ctl" Type="VI" URL="../AutoInstruction.ctl"/>
 			<Item Name="CameraResolutionInfo.ctl" Type="VI" URL="../CameraResolutionInfo.ctl"/>
 			<Item Name="ClimbStatesSimple.ctl" Type="VI" URL="../ClimbStatesSimple.ctl"/>
-			<Item Name="DBNameEnum.ctl" Type="VI" URL="../../Sally_Dashboard_2014/DBNameEnum.ctl"/>
 			<Item Name="LauncherPresets.ctl" Type="VI" URL="../LauncherPresets.ctl"/>
 			<Item Name="LimitSwitchState.ctl" Type="VI" URL="../LimitSwitchState.ctl"/>
 			<Item Name="LoopDisable.ctl" Type="VI" URL="../LoopDisable.ctl"/>
 			<Item Name="RefnameEnum.ctl" Type="VI" URL="../RefnameEnum.ctl"/>
 			<Item Name="State_Machine_Enum.ctl" Type="VI" URL="../State_Machine_Enum.ctl"/>
 			<Item Name="StraightDriveSubEnum.ctl" Type="VI" URL="../StraightDriveSubEnum.ctl"/>
+			<Item Name="DBNameEnum.ctl" Type="VI" URL="../../PCQueueDashboard/DBNameEnum.ctl"/>
 		</Item>
 		<Item Name="Insight Display" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
