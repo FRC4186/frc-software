@@ -133,6 +133,7 @@ DirectoryIndex index.htm
 			<Item Name="Toggle" Type="Folder">
 				<Item Name="ToggleIndicator.vi" Type="VI" URL="../ToggleIndicator.vi"/>
 				<Item Name="ToggleStates.ctl" Type="VI" URL="../ToggleStates.ctl"/>
+				<Item Name="ToggleSonicShifter.vi" Type="VI" URL="../ToggleSonicShifter.vi"/>
 			</Item>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
@@ -164,6 +165,7 @@ DirectoryIndex index.htm
 		<Item Name="Pneumatic" Type="Folder">
 			<Item Name="Pneumatic.vi" Type="VI" URL="../Pneumatic.vi"/>
 			<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
+			<Item Name="SonicShifter.vi" Type="VI" URL="../SonicShifter.vi"/>
 		</Item>
 		<Item Name="Vision" Type="Folder">
 			<Item Name="FRC Vision Library" Type="Folder">
@@ -607,6 +609,7 @@ DirectoryIndex index.htm
 				<Item Name="WPI_JoystickButtonState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonState.ctl"/>
 				<Item Name="WPI_JoystickGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGet.vi"/>
 				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
+				<Item Name="WPI_SolenoidRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Get.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
