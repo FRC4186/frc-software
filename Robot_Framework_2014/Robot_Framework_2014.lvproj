@@ -145,8 +145,8 @@ DirectoryIndex index.htm
 			<Item Name="ReportError.vi" Type="VI" URL="../ReportError.vi"/>
 		</Item>
 		<Item Name="Roller" Type="Folder">
-			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
-			<Item Name="Roller States.ctl" Type="VI" URL="../Roller States.ctl"/>
+			<Item Name="Roller.vi" Type="VI" URL="../Roller.vi"/>
+			<Item Name="RollerStates.ctl" Type="VI" URL="../RollerStates.ctl"/>
 		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="ShooterBones.vi" Type="VI" URL="../ShooterBones.vi"/>
@@ -610,6 +610,7 @@ DirectoryIndex index.htm
 				<Item Name="WPI_JoystickGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGet.vi"/>
 				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
 				<Item Name="WPI_SolenoidRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Get.vi"/>
+				<Item Name="WPI_RelayOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayOpen.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
