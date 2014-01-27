@@ -127,29 +127,32 @@ DirectoryIndex index.htm
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
+			<Item Name="DriveAction.ctl" Type="VI" URL="../DriveAction.ctl"/>
 			<Item Name="DriveInstruction.ctl" Type="VI" URL="../DriveInstruction.ctl"/>
+			<Item Name="DriveQueueInstruction.ctl" Type="VI" URL="../DriveQueueInstruction.ctl"/>
 			<Item Name="QueueAction.ctl" Type="VI" URL="../QueueAction.ctl"/>
 			<Item Name="QueueInstruction.ctl" Type="VI" URL="../QueueInstruction.ctl"/>
 			<Item Name="QueueSubsystem.ctl" Type="VI" URL="../QueueSubsystem.ctl"/>
-			<Item Name="DriveAction.ctl" Type="VI" URL="../DriveAction.ctl"/>
 			<Item Name="TeleopInstruction.ctl" Type="VI" URL="../TeleopInstruction.ctl"/>
 		</Item>
 		<Item Name="Queue" Type="Folder">
 			<Item Name="GetDriveQueue.vi" Type="VI" URL="../GetDriveQueue.vi"/>
 			<Item Name="GetMainQueue.vi" Type="VI" URL="../GetMainQueue.vi"/>
 			<Item Name="GetTeleopQueue.vi" Type="VI" URL="../GetTeleopQueue.vi"/>
+			<Item Name="HandleInput.vi" Type="VI" URL="../HandleInput.vi"/>
+			<Item Name="HandleDrive.vi" Type="VI" URL="../HandleDrive.vi"/>
+			<Item Name="Enqueue.vi" Type="VI" URL="../Enqueue.vi"/>
+			<Item Name="EnqueueDrive.vi" Type="VI" URL="../EnqueueDrive.vi"/>
 		</Item>
 		<Item Name="Drive" Type="Folder">
 			<Item Name="bypass control.vi" Type="VI" URL="../bypass control.vi"/>
 			<Item Name="Tank Drive.vi" Type="VI" URL="../Tank Drive.vi"/>
 			<Item Name="Trapezoidal Acceleration.vi" Type="VI" URL="../Trapezoidal Acceleration.vi"/>
+			<Item Name="HalfDrive.vi" Type="VI" URL="../../KariFramework/HalfDrive.vi"/>
+			<Item Name="StraightDrive.vi" Type="VI" URL="../../KariFramework/StraightDrive.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="OutputError.vi" Type="VI" URL="../OutputError.vi"/>
-		<Item Name="HandleInput.vi" Type="VI" URL="../HandleInput.vi"/>
-		<Item Name="HalfDrive.vi" Type="VI" URL="../../KariFramework/HalfDrive.vi"/>
-		<Item Name="StraightDrive.vi" Type="VI" URL="../../KariFramework/StraightDrive.vi"/>
-		<Item Name="DriveQueueInstruction.ctl" Type="VI" URL="../DriveQueueInstruction.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -587,6 +590,10 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
