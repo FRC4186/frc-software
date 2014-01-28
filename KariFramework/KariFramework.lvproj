@@ -163,9 +163,9 @@ DirectoryIndex index.htm
 				<Item Name="Label Targets.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Label Targets.vi"/>
 			</Item>
 			<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
+			<Item Name="CameraSendData.vi" Type="VI" URL="../CameraSendData.vi"/>
 			<Item Name="IsHotGoal.vi" Type="VI" URL="../IsHotGoal.vi"/>
-			<Item Name="CameraDataRequest.vi" Type="VI" URL="../CameraDataRequest.vi"/>
-			<Item Name="CameraDataSend.vi" Type="VI" URL="../CameraDataSend.vi"/>
+			<Item Name="CameraGetData.vi" Type="VI" URL="../CameraGetData.vi"/>
 		</Item>
 		<Item Name="Pneumatic" Type="Folder">
 			<Item Name="Pneumatic (2).vi" Type="VI" URL="../Pneumatic (2).vi"/>
@@ -181,6 +181,8 @@ DirectoryIndex index.htm
 		<Item Name="Queue" Type="Folder">
 			<Item Name="QueueAction.ctl" Type="VI" URL="../QueueAction.ctl"/>
 			<Item Name="NotifierWrapper.vi" Type="VI" URL="../NotifierWrapper.vi"/>
+			<Item Name="OccurrenceAction.ctl" Type="VI" URL="../OccurrenceAction.ctl"/>
+			<Item Name="OccurrenceWrapper.vi" Type="VI" URL="../OccurrenceWrapper.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -735,8 +737,6 @@ DirectoryIndex index.htm
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="CameraGetData.vi" Type="VI" URL="../CameraGetData.vi"/>
-			<Item Name="CameraSendData.vi" Type="VI" URL="../CameraSendData.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
