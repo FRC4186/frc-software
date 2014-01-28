@@ -179,7 +179,7 @@ DirectoryIndex index.htm
 			<Item Name="OutputErrors.vi" Type="VI" URL="../../ErrorTest/OutputErrors.vi"/>
 		</Item>
 		<Item Name="Queue" Type="Folder">
-			<Item Name="QueueAction.ctl" Type="VI" URL="../QueueAction.ctl"/>
+			<Item Name="NotifierAction.ctl" Type="VI" URL="../NotifierAction.ctl"/>
 			<Item Name="NotifierWrapper.vi" Type="VI" URL="../NotifierWrapper.vi"/>
 			<Item Name="OccurrenceAction.ctl" Type="VI" URL="../OccurrenceAction.ctl"/>
 			<Item Name="OccurrenceWrapper.vi" Type="VI" URL="../OccurrenceWrapper.vi"/>
@@ -733,10 +733,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
