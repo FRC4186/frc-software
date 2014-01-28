@@ -128,6 +128,8 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="OutputError.vi" Type="VI" URL="../OutputError.vi"/>
+		<Item Name="OutputErrorPoly.vi" Type="VI" URL="../OutputErrorPoly.vi"/>
+		<Item Name="OutputErrors.vi" Type="VI" URL="../OutputErrors.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
