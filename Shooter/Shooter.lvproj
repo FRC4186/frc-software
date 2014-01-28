@@ -90,8 +90,8 @@ InactivityTimeout 60
 		<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
 		<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
 		<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
-		<Item Name="AutoShooter.vi" Type="VI" URL="../AutoShooter.vi"/>
-		<Item Name="AutoShooterAction.ctl" Type="VI" URL="../AutoShooterAction.ctl"/>
+		<Item Name="OneBallShooter.vi" Type="VI" URL="../OneBallShooter.vi"/>
+		<Item Name="OneBallShooterAction.ctl" Type="VI" URL="../OneBallShooterAction.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_SolenoidDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl"/>
@@ -144,10 +144,6 @@ InactivityTimeout 60
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
