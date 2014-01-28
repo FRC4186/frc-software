@@ -148,9 +148,23 @@ DirectoryIndex index.htm
 			<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../Distance Per Counts Conversion.vi"/>
 		</Item>
 		<Item Name="Vision" Type="Folder">
-			<Item Name="FRC Library" Type="Folder"/>
+			<Item Name="FRC Library" Type="Folder">
+				<Item Name="Process Image for Target.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Process Image for Target.vi"/>
+				<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Sorted Particle Report.vi"/>
+				<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Aspect Ratio Score.vi"/>
+				<Item Name="Rectangularity Score.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Rectangularity Score.vi"/>
+				<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Score and Rank Target Objects.vi"/>
+				<Item Name="Compute Target Distances.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute Target Distances.vi"/>
+				<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute DistanceToTarget.vi"/>
+				<Item Name="Separate Particles.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Separate Particles.vi"/>
+				<Item Name="TargetType.ctl" Type="VI" URL="../../Example_Code/2014 Target Detection/TargetType.ctl"/>
+				<Item Name="Rank HV combos.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Rank HV combos.vi"/>
+				<Item Name="Label Targets.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Label Targets.vi"/>
+			</Item>
 			<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
 			<Item Name="IsHotGoal.vi" Type="VI" URL="../IsHotGoal.vi"/>
+			<Item Name="CameraDataRequest.vi" Type="VI" URL="../CameraDataRequest.vi"/>
+			<Item Name="CameraDataSend.vi" Type="VI" URL="../CameraDataSend.vi"/>
 		</Item>
 		<Item Name="Pneumatic" Type="Folder">
 			<Item Name="Pneumatic (2).vi" Type="VI" URL="../Pneumatic (2).vi"/>
@@ -162,6 +176,10 @@ DirectoryIndex index.htm
 			<Item Name="OutputError.vi" Type="VI" URL="../../ErrorTest/OutputError.vi"/>
 			<Item Name="OutputErrorPoly.vi" Type="VI" URL="../../ErrorTest/OutputErrorPoly.vi"/>
 			<Item Name="OutputErrors.vi" Type="VI" URL="../../ErrorTest/OutputErrors.vi"/>
+		</Item>
+		<Item Name="Queue" Type="Folder">
+			<Item Name="QueueAction.ctl" Type="VI" URL="../QueueAction.ctl"/>
+			<Item Name="NotifierWrapper.vi" Type="VI" URL="../NotifierWrapper.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -709,24 +727,9 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TargetType.ctl" Type="VI" URL="../../Example_Code/2014 Target Detection/TargetType.ctl"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Process Image for Target.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Process Image for Target.vi"/>
-			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Sorted Particle Report.vi"/>
-			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Aspect Ratio Score.vi"/>
-			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Rectangularity Score.vi"/>
-			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Score and Rank Target Objects.vi"/>
-			<Item Name="Separate Particles.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Separate Particles.vi"/>
-			<Item Name="Rank HV combos.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Rank HV combos.vi"/>
-			<Item Name="Label Targets.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Label Targets.vi"/>
-			<Item Name="Compute Target Distances.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute Target Distances.vi"/>
-			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute DistanceToTarget.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
