@@ -90,8 +90,8 @@ InactivityTimeout 60
 		<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
 		<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
 		<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
-		<Item Name="OneBallShooter.vi" Type="VI" URL="../OneBallShooter.vi"/>
-		<Item Name="OneBallShooterAction.ctl" Type="VI" URL="../OneBallShooterAction.ctl"/>
+		<Item Name="CheckedShooter.vi" Type="VI" URL="../CheckedShooter.vi"/>
+		<Item Name="CheckedShooterAction.ctl" Type="VI" URL="../CheckedShooterAction.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_SolenoidDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl"/>
