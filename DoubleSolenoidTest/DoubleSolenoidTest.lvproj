@@ -127,8 +127,9 @@ DirectoryIndex index.htm
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="DoubleSolenoid" Type="Folder">
-			<Item Name="DoubleSolenoid.vi" Type="VI" URL="../DoubleSolenoid.vi"/>
+			<Item Name="ClapperDoubleSolenoid.vi" Type="VI" URL="../ClapperDoubleSolenoid.vi"/>
 			<Item Name="DoubleSolenoidControl.ctl" Type="VI" URL="../DoubleSolenoidControl.ctl"/>
+			<Item Name="RollerDoubleSolenoid.vi" Type="VI" URL="../RollerDoubleSolenoid.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
