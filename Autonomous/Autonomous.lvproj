@@ -125,6 +125,7 @@ DirectoryIndex index.htm
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
 		</Item>
 		<Item Name="Roller" Type="Folder">
 			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
@@ -170,6 +171,8 @@ DirectoryIndex index.htm
 			<Item Name="CameraSendData.vi" Type="VI" URL="../CameraSendData.vi"/>
 			<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
 			<Item Name="IsHotGoal.vi" Type="VI" URL="../IsHotGoal.vi"/>
+			<Item Name="NotifierAction.ctl" Type="VI" URL="../NotifierAction.ctl"/>
+			<Item Name="OccurrenceAction.ctl" Type="VI" URL="../OccurrenceAction.ctl"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -621,9 +624,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OccurrenceAction.ctl" Type="VI" URL="../OccurrenceAction.ctl"/>
-			<Item Name="NotifierAction.ctl" Type="VI" URL="../NotifierAction.ctl"/>
-			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
