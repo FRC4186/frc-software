@@ -120,11 +120,11 @@ DirectoryIndex index.htm
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
-			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 		</Item>
 		<Item Name="Roller" Type="Folder">
 			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
@@ -141,6 +141,16 @@ DirectoryIndex index.htm
 			<Item Name="Roller States.ctl" Type="VI" URL="../Roller States.ctl"/>
 			<Item Name="CollectorEnum.ctl" Type="VI" URL="../CollectorEnum.ctl"/>
 			<Item Name="DoubleSolenoidControl.ctl" Type="VI" URL="../DoubleSolenoidControl.ctl"/>
+		</Item>
+		<Item Name="Shooter" Type="Folder">
+			<Item Name="CheckedShooter.vi" Type="VI" URL="../CheckedShooter.vi"/>
+			<Item Name="CheckedShooterAction.ctl" Type="VI" URL="../CheckedShooterAction.ctl"/>
+			<Item Name="FiringCylinder.vi" Type="VI" URL="../FiringCylinder.vi"/>
+			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
+			<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
+			<Item Name="Shooter.vi" Type="VI" URL="../Shooter.vi"/>
+			<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
+			<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
