@@ -183,6 +183,16 @@ DirectoryIndex index.htm
 			<Item Name="NotifierWrapper.vi" Type="VI" URL="../NotifierWrapper.vi"/>
 			<Item Name="OccurrenceAction.ctl" Type="VI" URL="../OccurrenceAction.ctl"/>
 			<Item Name="OccurrenceWrapper.vi" Type="VI" URL="../OccurrenceWrapper.vi"/>
+			<Item Name="GetMainQueue.vi" Type="VI" URL="../../KariQueue/GetMainQueue.vi"/>
+			<Item Name="GetDriveQueue.vi" Type="VI" URL="../../KariQueue/GetDriveQueue.vi"/>
+			<Item Name="GetTeleopQueue.vi" Type="VI" URL="../../KariQueue/GetTeleopQueue.vi"/>
+			<Item Name="QueueAction.ctl" Type="VI" URL="../../KariQueue/QueueAction.ctl"/>
+			<Item Name="QueueSubsystem.ctl" Type="VI" URL="../../KariQueue/QueueSubsystem.ctl"/>
+			<Item Name="QueueInstruction.ctl" Type="VI" URL="../../KariQueue/QueueInstruction.ctl"/>
+			<Item Name="DriveAction.ctl" Type="VI" URL="../../KariQueue/DriveAction.ctl"/>
+			<Item Name="DriveInstruction.ctl" Type="VI" URL="../../KariQueue/DriveInstruction.ctl"/>
+			<Item Name="DriveQueueInstruction.ctl" Type="VI" URL="../../KariQueue/DriveQueueInstruction.ctl"/>
+			<Item Name="TeleopInstruction.ctl" Type="VI" URL="../../KariQueue/TeleopInstruction.ctl"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
