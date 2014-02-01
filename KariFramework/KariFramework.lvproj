@@ -137,14 +137,15 @@ DirectoryIndex index.htm
 			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
 		</Item>
 		<Item Name="Drive" Type="Folder">
-			<Item Name="Trapezoidal Acceleration.vi" Type="VI" URL="../Trapezoidal Acceleration.vi"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="BypassControl.vi" Type="VI" URL="../BypassControl.vi"/>
+			<Item Name="EnqueueDrive.vi" Type="VI" URL="../../KariQueue/EnqueueDrive.vi"/>
+			<Item Name="HalfDrive.vi" Type="VI" URL="../HalfDrive.vi"/>
+			<Item Name="HandleDrive.vi" Type="VI" URL="../../KariQueue/HandleDrive.vi"/>
+			<Item Name="StraightDrive.vi" Type="VI" URL="../StraightDrive.vi"/>
 			<Item Name="TankDrive.vi" Type="VI" URL="../TankDrive.vi"/>
 			<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
-			<Item Name="BypassControl.vi" Type="VI" URL="../BypassControl.vi"/>
-			<Item Name="HalfDrive.vi" Type="VI" URL="../HalfDrive.vi"/>
-			<Item Name="StraightDrive.vi" Type="VI" URL="../StraightDrive.vi"/>
-			<Item Name="HandleDrive.vi" Type="VI" URL="../../KariQueue/HandleDrive.vi"/>
-			<Item Name="EnqueueDrive.vi" Type="VI" URL="../../KariQueue/EnqueueDrive.vi"/>
+			<Item Name="Trapezoidal Acceleration.vi" Type="VI" URL="../Trapezoidal Acceleration.vi"/>
 		</Item>
 		<Item Name="Encoder" Type="Folder">
 			<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../Counts Per Second to RPM.vi"/>
