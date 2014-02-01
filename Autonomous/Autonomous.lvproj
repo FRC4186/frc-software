@@ -139,13 +139,14 @@ DirectoryIndex index.htm
 			<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
-			<Item Name="Roller States.ctl" Type="VI" URL="../Roller States.ctl"/>
+			<Item Name="RollerStates.ctl" Type="VI" URL="../RollerStates.ctl"/>
 			<Item Name="CollectorEnum.ctl" Type="VI" URL="../CollectorEnum.ctl"/>
 			<Item Name="DoubleSolenoidControl.ctl" Type="VI" URL="../DoubleSolenoidControl.ctl"/>
 			<Item Name="CheckedShooterAction.ctl" Type="VI" URL="../CheckedShooterAction.ctl"/>
 			<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
 			<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
-			<Item Name="AutoState.ctl" Type="VI" URL="../AutoState.ctl"/>
+			<Item Name="OneBall.ctl" Type="VI" URL="../OneBall.ctl"/>
+			<Item Name="TwoBall.ctl" Type="VI" URL="../TwoBall.ctl"/>
 		</Item>
 		<Item Name="Shooter" Type="Folder">
 			<Item Name="CheckedShooter.vi" Type="VI" URL="../CheckedShooter.vi"/>
@@ -624,6 +625,10 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="RollerDoubleSolenoid.vi" Type="VI" URL="../RollerDoubleSolenoid.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
