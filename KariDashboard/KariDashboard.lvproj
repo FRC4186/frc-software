@@ -33,8 +33,10 @@
 			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Aspect Ratio Score.vi"/>
 			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Sorted Particle Report.vi"/>
 			<Item Name="Process Image for Target.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Process Image for Target.vi"/>
-			<Item Name="CheckImage.vi" Type="VI" URL="../../KariFramework/CheckImage.vi"/>
 			<Item Name="GetTime.vi" Type="VI" URL="../../KariFramework/GetTime.vi"/>
+			<Item Name="CheckImage.vi" Type="VI" URL="../../KariFramework/CheckImage.vi"/>
+			<Item Name="CheckImageDistance.vi" Type="VI" URL="../../KariFramework/CheckImageDistance.vi"/>
+			<Item Name="CheckImagePoly.vi" Type="VI" URL="../../KariFramework/CheckImagePoly.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

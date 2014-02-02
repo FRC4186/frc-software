@@ -165,11 +165,13 @@ DirectoryIndex index.htm
 				<Item Name="Label Targets.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Label Targets.vi"/>
 			</Item>
 			<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
+			<Item Name="CheckImageDistance.vi" Type="VI" URL="../CheckImageDistance.vi"/>
+			<Item Name="CheckImagePoly.vi" Type="VI" URL="../CheckImagePoly.vi"/>
 			<Item Name="CameraSendData.vi" Type="VI" URL="../CameraSendData.vi"/>
 			<Item Name="CameraGetData.vi" Type="VI" URL="../CameraGetData.vi"/>
 			<Item Name="IsHotGoalCRIO.vi" Type="VI" URL="../IsHotGoalCRIO.vi"/>
-			<Item Name="IsHotGoalPoly.vi" Type="VI" URL="../IsHotGoalPoly.vi"/>
 			<Item Name="IsHotGoalDB.vi" Type="VI" URL="../IsHotGoalDB.vi"/>
+			<Item Name="IsHotGoalPoly.vi" Type="VI" URL="../IsHotGoalPoly.vi"/>
 		</Item>
 		<Item Name="Pneumatic" Type="Folder">
 			<Item Name="Pneumatic (2).vi" Type="VI" URL="../Pneumatic (2).vi"/>
