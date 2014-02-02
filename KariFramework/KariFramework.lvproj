@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -167,8 +166,10 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
 			<Item Name="CameraSendData.vi" Type="VI" URL="../CameraSendData.vi"/>
-			<Item Name="IsHotGoal.vi" Type="VI" URL="../IsHotGoal.vi"/>
 			<Item Name="CameraGetData.vi" Type="VI" URL="../CameraGetData.vi"/>
+			<Item Name="IsHotGoalCRIO.vi" Type="VI" URL="../IsHotGoalCRIO.vi"/>
+			<Item Name="IsHotGoalPoly.vi" Type="VI" URL="../IsHotGoalPoly.vi"/>
+			<Item Name="IsHotGoalDB.vi" Type="VI" URL="../IsHotGoalDB.vi"/>
 		</Item>
 		<Item Name="Pneumatic" Type="Folder">
 			<Item Name="Pneumatic (2).vi" Type="VI" URL="../Pneumatic (2).vi"/>
@@ -744,6 +745,7 @@ DirectoryIndex index.htm
 				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="WPI_GyroClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroClose.vi"/>
+				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
