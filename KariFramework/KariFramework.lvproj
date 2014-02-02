@@ -203,7 +203,17 @@ DirectoryIndex index.htm
 		<Item Name="Ultrasonic" Type="Folder">
 			<Item Name="GetMotorInput.vi" Type="VI" URL="../GetMotorInput.vi"/>
 			<Item Name="AutoAlignMode.ctl" Type="VI" URL="../AutoAlignMode.ctl"/>
+			<Item Name="Sonar.vi" Type="VI" URL="../../Example_Code/Ultrasonic/Sonar.vi"/>
+			<Item Name="SonarAction.ctl" Type="VI" URL="../../Example_Code/Ultrasonic/SonarAction.ctl"/>
 			<Item Name="AutoDistance.vi" Type="VI" URL="../AutoDistance.vi"/>
+			<Item Name="AutoDistancePID.vi" Type="VI" URL="../AutoDistancePID.vi"/>
+		</Item>
+		<Item Name="Gyro" Type="Folder">
+			<Item Name="Read Angle Mode.ctl" Type="VI" URL="../../Example_Code/Gyro/Read Angle Mode.ctl"/>
+			<Item Name="Gyro.vi" Type="VI" URL="../../Example_Code/Gyro/Gyro.vi"/>
+			<Item Name="CalcAngleError.vi" Type="VI" URL="../CalcAngleError.vi"/>
+			<Item Name="AutoRotate.vi" Type="VI" URL="../AutoRotate.vi"/>
+			<Item Name="AutoRotatePID.vi" Type="VI" URL="../AutoRotatePID.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -748,6 +758,9 @@ DirectoryIndex index.htm
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="WPI_GyroClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroClose.vi"/>
 				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -758,9 +771,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read Angle Mode.ctl" Type="VI" URL="../../Example_Code/Gyro/Read Angle Mode.ctl"/>
-			<Item Name="Gyro.vi" Type="VI" URL="../../Example_Code/Gyro/Gyro.vi"/>
-			<Item Name="AutoRotate.vi" Type="VI" URL="../AutoRotate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
