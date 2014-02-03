@@ -21,6 +21,23 @@
 			<Item Name="Open Playback Panel.vi" Type="VI" URL="../Open Playback Panel.vi"/>
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
 		</Item>
+		<Item Name="Vision" Type="Folder">
+			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute DistanceToTarget.vi"/>
+			<Item Name="TargetType.ctl" Type="VI" URL="../../Example_Code/2014 Target Detection/TargetType.ctl"/>
+			<Item Name="Compute Target Distances.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute Target Distances.vi"/>
+			<Item Name="Label Targets.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Label Targets.vi"/>
+			<Item Name="Rank HV combos.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Rank HV combos.vi"/>
+			<Item Name="Separate Particles.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Separate Particles.vi"/>
+			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Score and Rank Target Objects.vi"/>
+			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Rectangularity Score.vi"/>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Aspect Ratio Score.vi"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Sorted Particle Report.vi"/>
+			<Item Name="Process Image for Target.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Process Image for Target.vi"/>
+			<Item Name="GetTime.vi" Type="VI" URL="../../KariFramework/GetTime.vi"/>
+			<Item Name="CheckImage.vi" Type="VI" URL="../../KariFramework/CheckImage.vi"/>
+			<Item Name="CheckImageDistance.vi" Type="VI" URL="../../KariFramework/CheckImageDistance.vi"/>
+			<Item Name="CheckImagePoly.vi" Type="VI" URL="../../KariFramework/CheckImagePoly.vi"/>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -195,8 +212,11 @@
 				<Item Name="SD Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String Array.vi"/>
 				<Item Name="SD Read Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean Array.vi"/>
 				<Item Name="SD Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String Array.vi"/>
-				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
-				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
+				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
