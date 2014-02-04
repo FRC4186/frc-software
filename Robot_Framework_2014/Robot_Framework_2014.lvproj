@@ -136,17 +136,18 @@ DirectoryIndex index.htm
 				<Item Name="ToggleSonicShifter.vi" Type="VI" URL="../ToggleSonicShifter.vi"/>
 			</Item>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
 			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
 		</Item>
 		<Item Name="Shooter" Type="Folder">
+			<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
+			<Item Name="CheckedShooterAction.ctl" Type="VI" URL="../CheckedShooterAction.ctl"/>
 			<Item Name="ShooterWrapper.vi" Type="VI" URL="../ShooterWrapper.vi"/>
-			<Item Name="FiringCylinder.vi" Type="VI" URL="../FiringCylinder.vi"/>
-			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
 			<Item Name="Shooter.vi" Type="VI" URL="../Shooter.vi"/>
-			<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
-			<Item Name="SonicShifter.vi" Type="VI" URL="../SonicShifter.vi"/>
 		</Item>
 		<Item Name="Roller" Type="Folder">
+			<Item Name="RollerStates.ctl" Type="VI" URL="../RollerStates.ctl"/>
+			<Item Name="RollerProcessInput.vi" Type="VI" URL="../RollerProcessInput.vi"/>
 			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
 		</Item>
 		<Item Name="Encoder" Type="Folder">
@@ -154,13 +155,13 @@ DirectoryIndex index.htm
 			<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../Distance Per Counts Conversion.vi"/>
 		</Item>
 		<Item Name="Drive" Type="Folder">
+			<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
 			<Item Name="BypassControl.vi" Type="VI" URL="../BypassControl.vi"/>
 			<Item Name="HandleDrive.vi" Type="VI" URL="../HandleDrive.vi"/>
 			<Item Name="Trapezoidal Acceleration.vi" Type="VI" URL="../Trapezoidal Acceleration.vi"/>
 			<Item Name="TankDrive.vi" Type="VI" URL="../TankDrive.vi"/>
 			<Item Name="HalfDrive.vi" Type="VI" URL="../HalfDrive.vi"/>
 			<Item Name="StraightDrive.vi" Type="VI" URL="../StraightDrive.vi"/>
-			<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
 			<Item Name="ReverseDrive.vi" Type="VI" URL="../ReverseDrive.vi"/>
 		</Item>
 		<Item Name="Vision" Type="Folder">
@@ -185,21 +186,8 @@ DirectoryIndex index.htm
 			<Item Name="NotifierAction.ctl" Type="VI" URL="../NotifierAction.ctl"/>
 			<Item Name="OccurrenceAction.ctl" Type="VI" URL="../OccurrenceAction.ctl"/>
 		</Item>
-		<Item Name="TypeDef" Type="Folder">
-			<Item Name="CheckedShooterAction.ctl" Type="VI" URL="../CheckedShooterAction.ctl"/>
-			<Item Name="CollectorEnum.ctl" Type="VI" URL="../CollectorEnum.ctl"/>
-			<Item Name="DoubleSolenoidControl.ctl" Type="VI" URL="../DoubleSolenoidControl.ctl"/>
-			<Item Name="OneBall.ctl" Type="VI" URL="../OneBall.ctl"/>
-			<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
-			<Item Name="RollerStates.ctl" Type="VI" URL="../RollerStates.ctl"/>
-			<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
-			<Item Name="TwoBall.ctl" Type="VI" URL="../TwoBall.ctl"/>
-			<Item Name="TankDriveEnum.ctl" Type="VI" URL="../TankDriveEnum.ctl"/>
-		</Item>
-		<Item Name="Clapper" Type="Folder">
-			<Item Name="ClapperDoubleSolenoid.vi" Type="VI" URL="../ClapperDoubleSolenoid.vi"/>
-		</Item>
 		<Item Name="Collector" Type="Folder">
+			<Item Name="CollectorEnum.ctl" Type="VI" URL="../CollectorEnum.ctl"/>
 			<Item Name="Collector.vi" Type="VI" URL="../Collector.vi"/>
 			<Item Name="HandleCollector.vi" Type="VI" URL="../HandleCollector.vi"/>
 			<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
@@ -209,9 +197,22 @@ DirectoryIndex index.htm
 			<Item Name="OutputErrorPoly.vi" Type="VI" URL="../OutputErrorPoly.vi"/>
 			<Item Name="OutputErrors.vi" Type="VI" URL="../OutputErrors.vi"/>
 		</Item>
+		<Item Name="Auto" Type="Folder">
+			<Item Name="OneBall.ctl" Type="VI" URL="../OneBall.ctl"/>
+			<Item Name="TwoBall.ctl" Type="VI" URL="../TwoBall.ctl"/>
+		</Item>
+		<Item Name="SingleSolenoid" Type="Folder">
+			<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
+			<Item Name="FiringCylinder.vi" Type="VI" URL="../FiringCylinder.vi"/>
+			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
+			<Item Name="SonicShifter.vi" Type="VI" URL="../SonicShifter.vi"/>
+		</Item>
+		<Item Name="DoubleSolenoid" Type="Folder">
+			<Item Name="DoubleSolenoidControl.ctl" Type="VI" URL="../DoubleSolenoidControl.ctl"/>
+			<Item Name="RollerDoubleSolenoid.vi" Type="VI" URL="../RollerDoubleSolenoid.vi"/>
+			<Item Name="ClapperDoubleSolenoid.vi" Type="VI" URL="../ClapperDoubleSolenoid.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="RollerProcessInput.vi" Type="VI" URL="../RollerProcessInput.vi"/>
-		<Item Name="RollerDoubleSolenoid.vi" Type="VI" URL="../RollerDoubleSolenoid.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -683,10 +684,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
