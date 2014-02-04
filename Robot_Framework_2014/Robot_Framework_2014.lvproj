@@ -161,6 +161,7 @@ DirectoryIndex index.htm
 			<Item Name="HalfDrive.vi" Type="VI" URL="../HalfDrive.vi"/>
 			<Item Name="StraightDrive.vi" Type="VI" URL="../StraightDrive.vi"/>
 			<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
+			<Item Name="ReverseDrive.vi" Type="VI" URL="../ReverseDrive.vi"/>
 		</Item>
 		<Item Name="Vision" Type="Folder">
 			<Item Name="FRC Vision Library" Type="Folder">
