@@ -121,10 +121,10 @@ DirectoryIndex index.htm
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
 		</Item>
 		<Item Name="Roller" Type="Folder">
@@ -139,16 +139,18 @@ DirectoryIndex index.htm
 			<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
 		</Item>
 		<Item Name="TypeDef" Type="Folder">
-			<Item Name="RollerStates.ctl" Type="VI" URL="../RollerStates.ctl"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="CheckedShooterAction.ctl" Type="VI" URL="../CheckedShooterAction.ctl"/>
 			<Item Name="CollectorEnum.ctl" Type="VI" URL="../CollectorEnum.ctl"/>
 			<Item Name="DoubleSolenoidControl.ctl" Type="VI" URL="../DoubleSolenoidControl.ctl"/>
-			<Item Name="CheckedShooterAction.ctl" Type="VI" URL="../CheckedShooterAction.ctl"/>
-			<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
-			<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
 			<Item Name="OneBall.ctl" Type="VI" URL="../OneBall.ctl"/>
+			<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
+			<Item Name="RollerStates.ctl" Type="VI" URL="../RollerStates.ctl"/>
+			<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
 			<Item Name="TwoBall.ctl" Type="VI" URL="../TwoBall.ctl"/>
 		</Item>
 		<Item Name="Shooter" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="CheckedShooter.vi" Type="VI" URL="../CheckedShooter.vi"/>
 			<Item Name="FiringCylinder.vi" Type="VI" URL="../FiringCylinder.vi"/>
 			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
@@ -640,10 +642,6 @@ DirectoryIndex index.htm
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="RollerDoubleSolenoid.vi" Type="VI" URL="../RollerDoubleSolenoid.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
