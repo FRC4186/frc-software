@@ -134,6 +134,7 @@ DirectoryIndex index.htm
 				<Item Name="ToggleAction.ctl" Type="VI" URL="../ToggleAction.ctl"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 				<Item Name="ToggleSonicShifter.vi" Type="VI" URL="../ToggleSonicShifter.vi"/>
+				<Item Name="FiringToggle.vi" Type="VI" URL="../FiringToggle.vi"/>
 			</Item>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
