@@ -212,6 +212,7 @@ DirectoryIndex index.htm
 			<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../DoubleSolenoidAction.ctl"/>
 			<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
 			<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
+			<Item Name="HandleDoubleSolenoid.vi" Type="VI" URL="../HandleDoubleSolenoid.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
