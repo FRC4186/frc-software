@@ -214,6 +214,8 @@ DirectoryIndex index.htm
 			<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
 			<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
 			<Item Name="HandleDoubleSolenoid.vi" Type="VI" URL="../HandleDoubleSolenoid.vi"/>
+			<Item Name="HandleClapper.vi" Type="VI" URL="../HandleClapper.vi"/>
+			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -680,6 +682,11 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="KickerToggle.vi" Type="VI" URL="../KickerToggle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
