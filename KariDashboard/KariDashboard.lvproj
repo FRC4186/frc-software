@@ -21,6 +21,23 @@
 			<Item Name="Open Playback Panel.vi" Type="VI" URL="../Open Playback Panel.vi"/>
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
 		</Item>
+		<Item Name="Vision" Type="Folder">
+			<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute DistanceToTarget.vi"/>
+			<Item Name="TargetType.ctl" Type="VI" URL="../../Example_Code/2014 Target Detection/TargetType.ctl"/>
+			<Item Name="Compute Target Distances.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute Target Distances.vi"/>
+			<Item Name="Label Targets.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Label Targets.vi"/>
+			<Item Name="Rank HV combos.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Rank HV combos.vi"/>
+			<Item Name="Separate Particles.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Separate Particles.vi"/>
+			<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Score and Rank Target Objects.vi"/>
+			<Item Name="Rectangularity Score.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Rectangularity Score.vi"/>
+			<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Aspect Ratio Score.vi"/>
+			<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Sorted Particle Report.vi"/>
+			<Item Name="Process Image for Target.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Process Image for Target.vi"/>
+			<Item Name="GetTime.vi" Type="VI" URL="../../KariFramework/GetTime.vi"/>
+			<Item Name="CheckImage.vi" Type="VI" URL="../../KariFramework/CheckImage.vi"/>
+			<Item Name="CheckImageDistance.vi" Type="VI" URL="../../KariFramework/CheckImageDistance.vi"/>
+			<Item Name="CheckImagePoly.vi" Type="VI" URL="../../KariFramework/CheckImagePoly.vi"/>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -195,6 +212,12 @@
 				<Item Name="SD Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String Array.vi"/>
 				<Item Name="SD Read Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean Array.vi"/>
 				<Item Name="SD Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String Array.vi"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
+				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
+				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -219,7 +242,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FRC Dashboard Project/FRC PC Dashboard/Dashboard.exe</Property>
@@ -228,7 +251,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/FRC Dashboard Project/FRC PC Dashboard/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/App EXE.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C520F993-B417-4FDF-8F4A-6AAE750543BD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{062CF934-72F9-4BAF-AB29-0D450AFF82DF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Dashboard Main.vi</Property>
