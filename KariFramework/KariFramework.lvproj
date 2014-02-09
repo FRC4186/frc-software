@@ -44,6 +44,7 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -115,10 +116,10 @@ DirectoryIndex index.htm
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
-			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
+			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
-			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
@@ -167,9 +168,13 @@ DirectoryIndex index.htm
 				<Item Name="TargetType.ctl" Type="VI" URL="../../Example_Code/2014 Target Detection/TargetType.ctl"/>
 			</Item>
 			<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
+			<Item Name="CheckImageDistance.vi" Type="VI" URL="../CheckImageDistance.vi"/>
+			<Item Name="CheckImagePoly.vi" Type="VI" URL="../CheckImagePoly.vi"/>
 			<Item Name="CameraSendData.vi" Type="VI" URL="../CameraSendData.vi"/>
-			<Item Name="IsHotGoal.vi" Type="VI" URL="../IsHotGoal.vi"/>
 			<Item Name="CameraGetData.vi" Type="VI" URL="../CameraGetData.vi"/>
+			<Item Name="IsHotGoalCRIO.vi" Type="VI" URL="../IsHotGoalCRIO.vi"/>
+			<Item Name="IsHotGoalDB.vi" Type="VI" URL="../IsHotGoalDB.vi"/>
+			<Item Name="IsHotGoalPoly.vi" Type="VI" URL="../IsHotGoalPoly.vi"/>
 		</Item>
 		<Item Name="Pneumatic" Type="Folder">
 			<Item Name="Pneumatic (2).vi" Type="VI" URL="../Pneumatic (2).vi"/>
@@ -197,6 +202,22 @@ DirectoryIndex index.htm
 			<Item Name="DriveInstruction.ctl" Type="VI" URL="../../KariQueue/DriveInstruction.ctl"/>
 			<Item Name="DriveQueueInstruction.ctl" Type="VI" URL="../../KariQueue/DriveQueueInstruction.ctl"/>
 			<Item Name="TeleopInstruction.ctl" Type="VI" URL="../../KariQueue/TeleopInstruction.ctl"/>
+		</Item>
+		<Item Name="Ultrasonic" Type="Folder">
+			<Item Name="GetMotorInput.vi" Type="VI" URL="../GetMotorInput.vi"/>
+			<Item Name="AutoAlignMode.ctl" Type="VI" URL="../AutoAlignMode.ctl"/>
+			<Item Name="Sonar.vi" Type="VI" URL="../../Example_Code/Ultrasonic/Sonar.vi"/>
+			<Item Name="SonarAction.ctl" Type="VI" URL="../../Example_Code/Ultrasonic/SonarAction.ctl"/>
+			<Item Name="AutoDistance.vi" Type="VI" URL="../AutoDistance.vi"/>
+			<Item Name="AutoDistancePID.vi" Type="VI" URL="../AutoDistancePID.vi"/>
+			<Item Name="AutoDistancePoly.vi" Type="VI" URL="../AutoDistancePoly.vi"/>
+		</Item>
+		<Item Name="Gyro" Type="Folder">
+			<Item Name="Read Angle Mode.ctl" Type="VI" URL="../../Example_Code/Gyro/Read Angle Mode.ctl"/>
+			<Item Name="Gyro.vi" Type="VI" URL="../../Example_Code/Gyro/Gyro.vi"/>
+			<Item Name="CalcAngleError.vi" Type="VI" URL="../CalcAngleError.vi"/>
+			<Item Name="AutoRotate.vi" Type="VI" URL="../AutoRotate.vi"/>
+			<Item Name="AutoRotatePID.vi" Type="VI" URL="../AutoRotatePID.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -738,6 +759,11 @@ DirectoryIndex index.htm
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
 				<Item Name="SD Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String Array.vi"/>
 				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
