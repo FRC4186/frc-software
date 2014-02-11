@@ -138,7 +138,13 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
+			<Item Name="KickerToggle.vi" Type="VI" URL="../KickerToggle.vi"/>
 			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
+			<Item Name="CheckValueChangeInt.vi" Type="VI" URL="../CheckValueChangeInt.vi"/>
+			<Item Name="KickerCheckValueChangeBool.vi" Type="VI" URL="../KickerCheckValueChangeBool.vi"/>
+			<Item Name="FiringCylinderCheckValueChangeBool.vi" Type="VI" URL="../FiringCylinderCheckValueChangeBool.vi"/>
+			<Item Name="SSCheckValueChangeBool.vi" Type="VI" URL="../SSCheckValueChangeBool.vi"/>
+			<Item Name="CheckValueChangeBool.vi" Type="VI" URL="../CheckValueChangeBool.vi"/>
 		</Item>
 		<Item Name="Shooter" Type="Folder">
 			<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
@@ -218,6 +224,10 @@ DirectoryIndex index.htm
 			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="ClapperCVCI.vi" Type="VI" URL="../ClapperCVCI.vi"/>
+		<Item Name="CollectorCVCI.vi" Type="VI" URL="../CollectorCVCI.vi"/>
+		<Item Name="RollerMotorCVCI.vi" Type="VI" URL="../RollerMotorCVCI.vi"/>
+		<Item Name="RollerPneumaticCVCI.vi" Type="VI" URL="../RollerPneumaticCVCI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -686,7 +696,6 @@ DirectoryIndex index.htm
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="KickerToggle.vi" Type="VI" URL="../KickerToggle.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
