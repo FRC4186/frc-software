@@ -215,6 +215,7 @@ DirectoryIndex index.htm
 		<Item Name="Auto" Type="Folder">
 			<Item Name="OneBall.ctl" Type="VI" URL="../OneBall.ctl"/>
 			<Item Name="TwoBall.ctl" Type="VI" URL="../TwoBall.ctl"/>
+			<Item Name="GetMotorInput.vi" Type="VI" URL="../GetMotorInput.vi"/>
 		</Item>
 		<Item Name="SingleSolenoid" Type="Folder">
 			<Item Name="SingleSolenoidAction.ctl" Type="VI" URL="../SingleSolenoidAction.ctl"/>
@@ -230,6 +231,14 @@ DirectoryIndex index.htm
 			<Item Name="HandleDoubleSolenoid.vi" Type="VI" URL="../HandleDoubleSolenoid.vi"/>
 			<Item Name="HandleClapper.vi" Type="VI" URL="../HandleClapper.vi"/>
 			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
+		</Item>
+		<Item Name="Sonar" Type="Folder">
+			<Item Name="AutoAlignMode.ctl" Type="VI" URL="../AutoAlignMode.ctl"/>
+			<Item Name="AutoDistance.vi" Type="VI" URL="../AutoDistance.vi"/>
+			<Item Name="AutoDistancePID.vi" Type="VI" URL="../AutoDistancePID.vi"/>
+			<Item Name="AutoDistancePoly.vi" Type="VI" URL="../AutoDistancePoly.vi"/>
+			<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
+			<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -624,7 +633,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_JoystickScaleTo100PlusMinRange.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickScaleTo100PlusMinRange.vi"/>
 				<Item Name="WPI_JoystickButtonState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonState.ctl"/>
 				<Item Name="WPI_JoystickGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGet.vi"/>
-				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
 				<Item Name="WPI_SolenoidRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidRefNum Registry Get.vi"/>
 				<Item Name="WPI_RelayOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayOpen.vi"/>
 				<Item Name="WPI_CompressorOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorOpen.vi"/>
@@ -685,6 +693,9 @@ DirectoryIndex index.htm
 				<Item Name="SD Read String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read String Array.vi"/>
 				<Item Name="SD Write Value.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Value.vi"/>
 				<Item Name="SD Write String Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write String Array.vi"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
