@@ -194,12 +194,12 @@ DirectoryIndex index.htm
 				<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Sorted Particle Report.vi"/>
 				<Item Name="TargetType.ctl" Type="VI" URL="../TargetType.ctl"/>
 			</Item>
-			<Item Name="CameraGetData.vi" Type="VI" URL="../CameraGetData.vi"/>
-			<Item Name="CameraSendData.vi" Type="VI" URL="../CameraSendData.vi"/>
 			<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
-			<Item Name="IsHotGoal.vi" Type="VI" URL="../IsHotGoal.vi"/>
-			<Item Name="NotifierAction.ctl" Type="VI" URL="../NotifierAction.ctl"/>
-			<Item Name="OccurrenceAction.ctl" Type="VI" URL="../OccurrenceAction.ctl"/>
+			<Item Name="CheckImageDistance.vi" Type="VI" URL="../CheckImageDistance.vi"/>
+			<Item Name="CheckImagePoly.vi" Type="VI" URL="../CheckImagePoly.vi"/>
+			<Item Name="IsHotGoalCRIO.vi" Type="VI" URL="../IsHotGoalCRIO.vi"/>
+			<Item Name="IsHotGoalDB.vi" Type="VI" URL="../IsHotGoalDB.vi"/>
+			<Item Name="IsHotGoalPoly.vi" Type="VI" URL="../IsHotGoalPoly.vi"/>
 		</Item>
 		<Item Name="Collector" Type="Folder">
 			<Item Name="CollectorAction.ctl" Type="VI" URL="../CollectorAction.ctl"/>
@@ -696,6 +696,8 @@ DirectoryIndex index.htm
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="SD Read Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Boolean.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -706,10 +708,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
