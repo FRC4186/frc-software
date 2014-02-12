@@ -135,16 +135,24 @@ DirectoryIndex index.htm
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 				<Item Name="ToggleSonicShifter.vi" Type="VI" URL="../ToggleSonicShifter.vi"/>
 				<Item Name="FiringToggle.vi" Type="VI" URL="../FiringToggle.vi"/>
+				<Item Name="KickerToggle.vi" Type="VI" URL="../KickerToggle.vi"/>
+			</Item>
+			<Item Name="ValueChange" Type="Folder">
+				<Item Name="Boolean" Type="Folder">
+					<Item Name="KickerCheckBool.vi" Type="VI" URL="../KickerCheckBool.vi"/>
+					<Item Name="FiringCylinderCheckBool.vi" Type="VI" URL="../FiringCylinderCheckBool.vi"/>
+					<Item Name="SonicShifterCheckBool.vi" Type="VI" URL="../SonicShifterCheckBool.vi"/>
+				</Item>
+				<Item Name="Int" Type="Folder">
+					<Item Name="ClapperCheckInt.vi" Type="VI" URL="../ClapperCheckInt.vi"/>
+					<Item Name="CollectorCheckInt.vi" Type="VI" URL="../CollectorCheckInt.vi"/>
+					<Item Name="RollerMotorCheckInt.vi" Type="VI" URL="../RollerMotorCheckInt.vi"/>
+					<Item Name="RollerPneumaticCheckInt.vi" Type="VI" URL="../RollerPneumaticCheckInt.vi"/>
+				</Item>
 			</Item>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
-			<Item Name="KickerToggle.vi" Type="VI" URL="../KickerToggle.vi"/>
 			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
-			<Item Name="CheckValueChangeInt.vi" Type="VI" URL="../CheckValueChangeInt.vi"/>
-			<Item Name="KickerCheckValueChangeBool.vi" Type="VI" URL="../KickerCheckValueChangeBool.vi"/>
-			<Item Name="FiringCylinderCheckValueChangeBool.vi" Type="VI" URL="../FiringCylinderCheckValueChangeBool.vi"/>
-			<Item Name="SSCheckValueChangeBool.vi" Type="VI" URL="../SSCheckValueChangeBool.vi"/>
-			<Item Name="CheckValueChangeBool.vi" Type="VI" URL="../CheckValueChangeBool.vi"/>
 		</Item>
 		<Item Name="Shooter" Type="Folder">
 			<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
@@ -224,10 +232,6 @@ DirectoryIndex index.htm
 			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="ClapperCVCI.vi" Type="VI" URL="../ClapperCVCI.vi"/>
-		<Item Name="CollectorCVCI.vi" Type="VI" URL="../CollectorCVCI.vi"/>
-		<Item Name="RollerMotorCVCI.vi" Type="VI" URL="../RollerMotorCVCI.vi"/>
-		<Item Name="RollerPneumaticCVCI.vi" Type="VI" URL="../RollerPneumaticCVCI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -673,7 +677,6 @@ DirectoryIndex index.htm
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
-				<Item Name="WPI_RelayRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Get.vi"/>
 				<Item Name="SD Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean Array.vi"/>
 				<Item Name="SD Write Numeric Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Numeric Array.vi"/>
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
