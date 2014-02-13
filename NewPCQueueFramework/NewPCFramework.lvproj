@@ -126,9 +126,10 @@ DirectoryIndex index.htm
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
+			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 		</Item>
 		<Item Name="Shooter" Type="Folder">
-			<Item Name="SingleSolenoidAction.ctl" Type="VI" URL="../SingleSolenoidAction.ctl"/>
+			<Item Name="SingleSolenoidAction.ctl" Type="VI" URL="../../Robot_Framework_2014/SingleSolenoidAction.ctl"/>
 			<Item Name="FiringCylinder1.vi" Type="VI" URL="../FiringCylinder1.vi"/>
 			<Item Name="FiringCylinder2.vi" Type="VI" URL="../FiringCylinder2.vi"/>
 			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
@@ -145,6 +146,7 @@ DirectoryIndex index.htm
 			<Item Name="ReverseDrive.vi" Type="VI" URL="../ReverseDrive.vi"/>
 			<Item Name="StraightDrive.vi" Type="VI" URL="../StraightDrive.vi"/>
 			<Item Name="HalfDrive.vi" Type="VI" URL="../HalfDrive.vi"/>
+			<Item Name="HandleSonicShifter.vi" Type="VI" URL="../HandleSonicShifter.vi"/>
 		</Item>
 		<Item Name="Vision" Type="Folder"/>
 		<Item Name="Collector" Type="Folder"/>
@@ -171,6 +173,7 @@ DirectoryIndex index.htm
 			<Item Name="GetMainQueue.vi" Type="VI" URL="../GetMainQueue.vi"/>
 			<Item Name="GetTeleopQueue.vi" Type="VI" URL="../GetTeleopQueue.vi"/>
 			<Item Name="GetDriveQueue.vi" Type="VI" URL="../GetDriveQueue.vi"/>
+			<Item Name="Enqueue.vi" Type="VI" URL="../Enqueue.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -635,6 +638,12 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="SingleSolenoidAction.ctl" Type="VI" URL="../SingleSolenoidAction.ctl"/>
+			<Item Name="SonicShifter.vi" Type="VI" URL="../SonicShifter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
