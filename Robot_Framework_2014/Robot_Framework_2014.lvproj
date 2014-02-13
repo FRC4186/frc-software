@@ -136,8 +136,16 @@ DirectoryIndex index.htm
 				<Item Name="ToggleSonicShifter.vi" Type="VI" URL="../ToggleSonicShifter.vi"/>
 				<Item Name="FiringToggle.vi" Type="VI" URL="../FiringToggle.vi"/>
 				<Item Name="KickerToggle.vi" Type="VI" URL="../KickerToggle.vi"/>
+				<Item Name="ToggleClapper.vi" Type="VI" URL="../ToggleClapper.vi"/>
+				<Item Name="ToggleCollectorWrap.vi" Type="VI" URL="../ToggleCollectorWrap.vi"/>
+				<Item Name="ToggleRollerPneumatic.vi" Type="VI" URL="../ToggleRollerPneumatic.vi"/>
 			</Item>
 			<Item Name="ValueChange" Type="Folder">
+				<Item Name="Error" Type="Folder">
+					<Item Name="OutputError.vi" Type="VI" URL="../OutputError.vi"/>
+					<Item Name="OutputErrorPoly.vi" Type="VI" URL="../OutputErrorPoly.vi"/>
+					<Item Name="OutputErrors.vi" Type="VI" URL="../OutputErrors.vi"/>
+				</Item>
 				<Item Name="Boolean" Type="Folder">
 					<Item Name="KickerCheckBool.vi" Type="VI" URL="../KickerCheckBool.vi"/>
 					<Item Name="FiringCylinderCheckBool.vi" Type="VI" URL="../FiringCylinderCheckBool.vi"/>
@@ -149,17 +157,25 @@ DirectoryIndex index.htm
 					<Item Name="CollectorCheckInt.vi" Type="VI" URL="../CollectorCheckInt.vi"/>
 					<Item Name="RollerMotorCheckInt.vi" Type="VI" URL="../RollerMotorCheckInt.vi"/>
 					<Item Name="RollerPneumaticCheckInt.vi" Type="VI" URL="../RollerPneumaticCheckInt.vi"/>
+					<Item Name="CollectorWrapCheckInt.vi" Type="VI" URL="../CollectorWrapCheckInt.vi"/>
 				</Item>
 			</Item>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
 			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
 		</Item>
-		<Item Name="Shooter" Type="Folder">
-			<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
-			<Item Name="ShooterWrapperAction.ctl" Type="VI" URL="../ShooterWrapperAction.ctl"/>
-			<Item Name="ShooterWrapper.vi" Type="VI" URL="../ShooterWrapper.vi"/>
-			<Item Name="Shooter.vi" Type="VI" URL="../Shooter.vi"/>
+		<Item Name="Wrappers" Type="Folder">
+			<Item Name="Shooter" Type="Folder">
+				<Item Name="ShooterAction.ctl" Type="VI" URL="../ShooterAction.ctl"/>
+				<Item Name="ShooterWrapperAction.ctl" Type="VI" URL="../ShooterWrapperAction.ctl"/>
+				<Item Name="ShooterWrapper.vi" Type="VI" URL="../ShooterWrapper.vi"/>
+				<Item Name="Shooter.vi" Type="VI" URL="../Shooter.vi"/>
+			</Item>
+			<Item Name="Collector" Type="Folder">
+				<Item Name="CollectorWrapAction.ctl" Type="VI" URL="../CollectorWrapAction.ctl"/>
+				<Item Name="HandleCollectorWrap.vi" Type="VI" URL="../HandleCollectorWrap.vi"/>
+				<Item Name="CollectorWrap.vi" Type="VI" URL="../CollectorWrap.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Roller" Type="Folder">
 			<Item Name="RollerAction.ctl" Type="VI" URL="../RollerAction.ctl"/>
@@ -208,15 +224,12 @@ DirectoryIndex index.htm
 			<Item Name="HandleCollector.vi" Type="VI" URL="../HandleCollector.vi"/>
 			<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
 		</Item>
-		<Item Name="Error" Type="Folder">
-			<Item Name="OutputError.vi" Type="VI" URL="../OutputError.vi"/>
-			<Item Name="OutputErrorPoly.vi" Type="VI" URL="../OutputErrorPoly.vi"/>
-			<Item Name="OutputErrors.vi" Type="VI" URL="../OutputErrors.vi"/>
-		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="OneBall.ctl" Type="VI" URL="../OneBall.ctl"/>
 			<Item Name="TwoBall.ctl" Type="VI" URL="../TwoBall.ctl"/>
 			<Item Name="GetMotorInput.vi" Type="VI" URL="../GetMotorInput.vi"/>
+			<Item Name="OneTwoBallSelect.ctl" Type="VI" URL="../OneTwoBallSelect.ctl"/>
+			<Item Name="12or3ft.ctl" Type="VI" URL="../12or3ft.ctl"/>
 		</Item>
 		<Item Name="SingleSolenoid" Type="Folder">
 			<Item Name="SingleSolenoidAction.ctl" Type="VI" URL="../SingleSolenoidAction.ctl"/>
@@ -242,8 +255,6 @@ DirectoryIndex index.htm
 			<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="OneTwoBallSelect.ctl" Type="VI" URL="../OneTwoBallSelect.ctl"/>
-		<Item Name="12or3ft.ctl" Type="VI" URL="../12or3ft.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
