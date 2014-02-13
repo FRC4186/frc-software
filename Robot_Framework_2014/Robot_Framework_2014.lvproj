@@ -142,6 +142,7 @@ DirectoryIndex index.htm
 					<Item Name="KickerCheckBool.vi" Type="VI" URL="../KickerCheckBool.vi"/>
 					<Item Name="FiringCylinderCheckBool.vi" Type="VI" URL="../FiringCylinderCheckBool.vi"/>
 					<Item Name="SonicShifterCheckBool.vi" Type="VI" URL="../SonicShifterCheckBool.vi"/>
+					<Item Name="ShooterWrapperCheckBool.vi" Type="VI" URL="../ShooterWrapperCheckBool.vi"/>
 				</Item>
 				<Item Name="Int" Type="Folder">
 					<Item Name="ClapperCheckInt.vi" Type="VI" URL="../ClapperCheckInt.vi"/>
