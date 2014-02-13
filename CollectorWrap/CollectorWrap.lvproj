@@ -86,6 +86,9 @@ InactivityTimeout 60
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="CollectorWrap.vi" Type="VI" URL="../CollectorWrap.vi"/>
 		<Item Name="CollectorWrapAction.ctl" Type="VI" URL="../CollectorWrapAction.ctl"/>
+		<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
+		<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../DoubleSolenoidAction.ctl"/>
+		<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="WPI_SolenoidChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidChannel.ctl"/>
@@ -181,16 +184,9 @@ InactivityTimeout 60
 				<Item Name="WPI_RelayValue.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayValue.ctl"/>
 				<Item Name="WPI_RelaySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelaySet.vi"/>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="DoubleSolenoidControl.ctl" Type="VI" URL="../../Autonomous/DoubleSolenoidControl.ctl"/>
-			<Item Name="ClapperDoubleSolenoid.vi" Type="VI" URL="../../Autonomous/ClapperDoubleSolenoid.vi"/>
-			<Item Name="RollerDoubleSolenoid.vi" Type="VI" URL="../../Autonomous/RollerDoubleSolenoid.vi"/>
 			<Item Name="RollerStates.ctl" Type="VI" URL="../../Autonomous/RollerStates.ctl"/>
 			<Item Name="Roller Motor Control.vi" Type="VI" URL="../../Autonomous/Roller Motor Control.vi"/>
 		</Item>
