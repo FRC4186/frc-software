@@ -170,6 +170,7 @@ DirectoryIndex index.htm
 				<Item Name="HandleDrive.vi" Type="VI" URL="../HandleDrive.vi"/>
 				<Item Name="EnqueueDrive.vi" Type="VI" URL="../EnqueueDrive.vi"/>
 				<Item Name="HandleKicker.vi" Type="VI" URL="../HandleKicker.vi"/>
+				<Item Name="HandleFiringPneumatic.vi" Type="VI" URL="../HandleFiringPneumatic.vi"/>
 			</Item>
 			<Item Name="GetMainQueue.vi" Type="VI" URL="../GetMainQueue.vi"/>
 			<Item Name="GetTeleopQueue.vi" Type="VI" URL="../GetTeleopQueue.vi"/>
@@ -177,7 +178,6 @@ DirectoryIndex index.htm
 			<Item Name="Enqueue.vi" Type="VI" URL="../Enqueue.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="HandleFiringPneumatic.vi" Type="VI" URL="../HandleFiringPneumatic.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -644,6 +644,10 @@ DirectoryIndex index.htm
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../../Robot_Framework_2014/DoubleSolenoidAction.ctl"/>
+			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
+			<Item Name="RollerPneumatic.vi" Type="VI" URL="../../Robot_Framework_2014/RollerPneumatic.vi"/>
+			<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
