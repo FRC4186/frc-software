@@ -139,6 +139,7 @@ DirectoryIndex index.htm
 				<Item Name="ToggleClapper.vi" Type="VI" URL="../ToggleClapper.vi"/>
 				<Item Name="ToggleCollectorWrap.vi" Type="VI" URL="../ToggleCollectorWrap.vi"/>
 				<Item Name="ToggleRollerPneumatic.vi" Type="VI" URL="../ToggleRollerPneumatic.vi"/>
+				<Item Name="ToggleCatch.vi" Type="VI" URL="../ToggleCatch.vi"/>
 			</Item>
 			<Item Name="ValueChange" Type="Folder">
 				<Item Name="Error" Type="Folder">
@@ -181,6 +182,7 @@ DirectoryIndex index.htm
 			<Item Name="RollerAction.ctl" Type="VI" URL="../RollerAction.ctl"/>
 			<Item Name="RollerProcessInput.vi" Type="VI" URL="../RollerProcessInput.vi"/>
 			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
+			<Item Name="Roller States.ctl" Type="VI" URL="../Roller States.ctl"/>
 		</Item>
 		<Item Name="Encoder" Type="Folder">
 			<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../Counts Per Second to RPM.vi"/>
@@ -237,6 +239,7 @@ DirectoryIndex index.htm
 			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
 			<Item Name="SonicShifter.vi" Type="VI" URL="../SonicShifter.vi"/>
 			<Item Name="FiringCylinder2.vi" Type="VI" URL="../FiringCylinder2.vi"/>
+			<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
 		</Item>
 		<Item Name="DoubleSolenoid" Type="Folder">
 			<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../DoubleSolenoidAction.ctl"/>
@@ -251,8 +254,14 @@ DirectoryIndex index.htm
 			<Item Name="AutoDistance.vi" Type="VI" URL="../AutoDistance.vi"/>
 			<Item Name="AutoDistancePID.vi" Type="VI" URL="../AutoDistancePID.vi"/>
 			<Item Name="AutoDistancePoly.vi" Type="VI" URL="../AutoDistancePoly.vi"/>
+			<Item Name="AutoDistanceCheckBool.vi" Type="VI" URL="../AutoDistanceCheckBool.vi"/>
 			<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
 			<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
+		</Item>
+		<Item Name="Catcher" Type="Folder">
+			<Item Name="Catch.vi" Type="VI" URL="../Catch.vi"/>
+			<Item Name="CatchEnum.ctl" Type="VI" URL="../CatchEnum.ctl"/>
+			<Item Name="CatcherCheckInt.vi" Type="VI" URL="../CatcherCheckInt.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -722,6 +731,10 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
