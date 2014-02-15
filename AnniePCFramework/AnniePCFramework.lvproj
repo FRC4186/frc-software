@@ -640,14 +640,16 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../DoubleSolenoidAction.ctl"/>
+			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
+			<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
+			<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../../Robot_Framework_2014/DoubleSolenoidAction.ctl"/>
-			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
 			<Item Name="RollerPneumatic.vi" Type="VI" URL="../../Robot_Framework_2014/RollerPneumatic.vi"/>
-			<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
