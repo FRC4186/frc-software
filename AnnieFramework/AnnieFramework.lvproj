@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -141,6 +140,7 @@ DirectoryIndex index.htm
 				<Item Name="ToggleCollectorWrap.vi" Type="VI" URL="../ToggleCollectorWrap.vi"/>
 				<Item Name="ToggleRollerPneumatic.vi" Type="VI" URL="../ToggleRollerPneumatic.vi"/>
 				<Item Name="ToggleCatch.vi" Type="VI" URL="../ToggleCatch.vi"/>
+				<Item Name="ToggleReverseDrive.vi" Type="VI" URL="../ToggleReverseDrive.vi"/>
 			</Item>
 			<Item Name="ValueChange" Type="Folder">
 				<Item Name="Error" Type="Folder">
@@ -172,6 +172,12 @@ DirectoryIndex index.htm
 				<Item Name="ShooterWrapperAction.ctl" Type="VI" URL="../ShooterWrapperAction.ctl"/>
 				<Item Name="ShooterWrapper.vi" Type="VI" URL="../ShooterWrapper.vi"/>
 				<Item Name="ShooterPneumatic.vi" Type="VI" URL="../ShooterPneumatic.vi"/>
+			</Item>
+			<Item Name="Catcher" Type="Folder">
+				<Item Name="Catch.vi" Type="VI" URL="../Catch.vi"/>
+				<Item Name="CatchAction.ctl" Type="VI" URL="../CatchAction.ctl"/>
+				<Item Name="CatcherCheckInt.vi" Type="VI" URL="../CatcherCheckInt.vi"/>
+				<Item Name="HandleCatch.vi" Type="VI" URL="../HandleCatch.vi"/>
 			</Item>
 			<Item Name="Collector" Type="Folder">
 				<Item Name="CollectorWrapAction.ctl" Type="VI" URL="../CollectorWrapAction.ctl"/>
@@ -258,11 +264,6 @@ DirectoryIndex index.htm
 			<Item Name="AutoDistanceCheckBool.vi" Type="VI" URL="../AutoDistanceCheckBool.vi"/>
 			<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
 			<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
-		</Item>
-		<Item Name="Catcher" Type="Folder">
-			<Item Name="Catch.vi" Type="VI" URL="../Catch.vi"/>
-			<Item Name="CatchEnum.ctl" Type="VI" URL="../CatchEnum.ctl"/>
-			<Item Name="CatcherCheckInt.vi" Type="VI" URL="../CatcherCheckInt.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -736,9 +737,6 @@ DirectoryIndex index.htm
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="HandleCatch.vi" Type="VI" URL="../HandleCatch.vi"/>
-			<Item Name="ToggleReverseDrive.vi" Type="VI" URL="../ToggleReverseDrive.vi"/>
-			<Item Name="Shooter.vi" Type="VI" URL="../Shooter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
