@@ -156,6 +156,16 @@ DirectoryIndex index.htm
 		<Item Name="Collector" Type="Folder">
 			<Item Name="HandleCollector.vi" Type="VI" URL="../HandleCollector.vi"/>
 			<Item Name="HandleCollectorWrap.vi" Type="VI" URL="../HandleCollectorWrap.vi"/>
+			<Item Name="Collector.vi" Type="VI" URL="../Collector.vi"/>
+			<Item Name="CollectorAction.ctl" Type="VI" URL="../CollectorAction.ctl"/>
+			<Item Name="CollectorCheckInt.vi" Type="VI" URL="../CollectorCheckInt.vi"/>
+			<Item Name="CollectorWrap.vi" Type="VI" URL="../CollectorWrap.vi"/>
+			<Item Name="CollectorWrapAction.ctl" Type="VI" URL="../CollectorWrapAction.ctl"/>
+			<Item Name="CollectorWrapCheckInt.vi" Type="VI" URL="../CollectorWrapCheckInt.vi"/>
+			<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
+			<Item Name="ToggleClapper.vi" Type="VI" URL="../ToggleClapper.vi"/>
+			<Item Name="RollerAction.ctl" Type="VI" URL="../RollerAction.ctl"/>
+			<Item Name="ToggleAction.ctl" Type="VI" URL="../ToggleAction.ctl"/>
 		</Item>
 		<Item Name="Error" Type="Folder">
 			<Item Name="OutputErrorPoly.vi" Type="VI" URL="../OutputErrorPoly.vi"/>
@@ -189,6 +199,7 @@ DirectoryIndex index.htm
 		<Item Name="Clapper" Type="Folder">
 			<Item Name="HandleClapper.vi" Type="VI" URL="../HandleClapper.vi"/>
 			<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
+			<Item Name="ToggleCollectorWrap.vi" Type="VI" URL="../ToggleCollectorWrap.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -653,14 +664,11 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RollerAction.ctl" Type="VI" URL="../../AnnieFramework/RollerAction.ctl"/>
 			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="CollectorAction.ctl" Type="VI" URL="../CollectorAction.ctl"/>
-			<Item Name="CollectorWrapAction.ctl" Type="VI" URL="../CollectorWrapAction.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
