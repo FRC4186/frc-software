@@ -133,7 +133,11 @@ DirectoryIndex index.htm
 			<Item Name="FiringCylinder2.vi" Type="VI" URL="../FiringCylinder2.vi"/>
 			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
 		</Item>
-		<Item Name="Roller" Type="Folder"/>
+		<Item Name="Roller" Type="Folder">
+			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
+			<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
+			<Item Name="HandleRollerMotor.vi" Type="VI" URL="../HandleRollerMotor.vi"/>
+		</Item>
 		<Item Name="Encoder" Type="Folder"/>
 		<Item Name="Drive" Type="Folder">
 			<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
@@ -149,7 +153,10 @@ DirectoryIndex index.htm
 			<Item Name="SonicShifter.vi" Type="VI" URL="../SonicShifter.vi"/>
 		</Item>
 		<Item Name="Vision" Type="Folder"/>
-		<Item Name="Collector" Type="Folder"/>
+		<Item Name="Collector" Type="Folder">
+			<Item Name="HandleCollector.vi" Type="VI" URL="../HandleCollector.vi"/>
+			<Item Name="HandleCollectorWrap.vi" Type="VI" URL="../HandleCollectorWrap.vi"/>
+		</Item>
 		<Item Name="Error" Type="Folder">
 			<Item Name="OutputErrorPoly.vi" Type="VI" URL="../OutputErrorPoly.vi"/>
 			<Item Name="OutputErrors.vi" Type="VI" URL="../OutputErrors.vi"/>
@@ -157,7 +164,9 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Auto" Type="Folder"/>
 		<Item Name="SingleSolenoid" Type="Folder"/>
-		<Item Name="DoubleSolenoid" Type="Folder"/>
+		<Item Name="DoubleSolenoid" Type="Folder">
+			<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../DoubleSolenoidAction.ctl"/>
+		</Item>
 		<Item Name="Queue" Type="Folder">
 			<Item Name="Typedefs" Type="Folder">
 				<Item Name="TeleopInstruction.ctl" Type="VI" URL="../TeleopInstruction.ctl"/>
@@ -177,12 +186,11 @@ DirectoryIndex index.htm
 			<Item Name="GetDriveQueue.vi" Type="VI" URL="../GetDriveQueue.vi"/>
 			<Item Name="Enqueue.vi" Type="VI" URL="../Enqueue.vi"/>
 		</Item>
+		<Item Name="Clapper" Type="Folder">
+			<Item Name="HandleClapper.vi" Type="VI" URL="../HandleClapper.vi"/>
+			<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
-		<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
-		<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../DoubleSolenoidAction.ctl"/>
-		<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
-		<Item Name="HandleRollerMotor.vi" Type="VI" URL="../HandleRollerMotor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -651,6 +659,8 @@ DirectoryIndex index.htm
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="CollectorAction.ctl" Type="VI" URL="../CollectorAction.ctl"/>
+			<Item Name="CollectorWrapAction.ctl" Type="VI" URL="../CollectorWrapAction.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
