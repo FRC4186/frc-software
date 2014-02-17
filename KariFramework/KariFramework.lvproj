@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -167,11 +166,11 @@ DirectoryIndex index.htm
 				<Item Name="Sorted Particle Report.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Sorted Particle Report.vi"/>
 				<Item Name="TargetType.ctl" Type="VI" URL="../../Example_Code/2014 Target Detection/TargetType.ctl"/>
 			</Item>
+			<Item Name="Compute Target Distances Poly.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute Target Distances Poly.vi"/>
+			<Item Name="Compute Target Distances and Angles.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute Target Distances and Angles.vi"/>
 			<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
 			<Item Name="CheckImageDistance.vi" Type="VI" URL="../CheckImageDistance.vi"/>
 			<Item Name="CheckImagePoly.vi" Type="VI" URL="../CheckImagePoly.vi"/>
-			<Item Name="CameraSendData.vi" Type="VI" URL="../CameraSendData.vi"/>
-			<Item Name="CameraGetData.vi" Type="VI" URL="../CameraGetData.vi"/>
 			<Item Name="IsHotGoalCRIO.vi" Type="VI" URL="../IsHotGoalCRIO.vi"/>
 			<Item Name="IsHotGoalDB.vi" Type="VI" URL="../IsHotGoalDB.vi"/>
 			<Item Name="IsHotGoalPoly.vi" Type="VI" URL="../IsHotGoalPoly.vi"/>
@@ -220,6 +219,8 @@ DirectoryIndex index.htm
 			<Item Name="AutoRotatePID.vi" Type="VI" URL="../AutoRotatePID.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="LandmarkNavigator.vi" Type="VI" URL="../LandmarkNavigator.vi"/>
+		<Item Name="Compute DistanceToTarget With Angles.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Compute DistanceToTarget With Angles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
