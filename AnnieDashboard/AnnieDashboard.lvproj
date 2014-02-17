@@ -229,7 +229,10 @@
 			<Item Name="CollectorAction.ctl" Type="VI" URL="../../AnnieFramework/CollectorAction.ctl"/>
 			<Item Name="CollectorWrapAction.ctl" Type="VI" URL="../../AnnieFramework/CollectorWrapAction.ctl"/>
 			<Item Name="CatchAction.ctl" Type="VI" URL="../../AnnieFramework/CatchAction.ctl"/>
+<<<<<<< HEAD
 			<Item Name="AutoStates.ctl" Type="VI" URL="../../AnnieFramework/AutoStates.ctl"/>
+=======
+>>>>>>> Updates from auto testing
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
@@ -246,7 +249,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FRC Dashboard Project/FRC PC Dashboard/Dashboard.exe</Property>
