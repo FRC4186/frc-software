@@ -262,11 +262,15 @@ DirectoryIndex index.htm
 			<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
 			<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
 		</Item>
-		<Item Name="PressureSensorAction.ctl" Type="VI" URL="../../Example_Code/PressureSensor/PressureSensorAction.ctl"/>
-		<Item Name="PressureSensor.vi" Type="VI" URL="../PressureSensor.vi"/>
+		<Item Name="PressureSensor" Type="Folder">
+			<Item Name="PressureSensorAction.ctl" Type="VI" URL="../../Example_Code/PressureSensor/PressureSensorAction.ctl"/>
+			<Item Name="PressureSensor.vi" Type="VI" URL="../PressureSensor.vi"/>
+		</Item>
+		<Item Name="Servo" Type="Folder">
+			<Item Name="Servo.vi" Type="VI" URL="../Servo.vi"/>
+			<Item Name="ServoAction.ctl" Type="VI" URL="../ServoAction.ctl"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Servo.vi" Type="VI" URL="../Servo.vi"/>
-		<Item Name="ServoAction.ctl" Type="VI" URL="../ServoAction.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
