@@ -728,10 +728,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OneBall.ctl" Type="VI" URL="../OneBall.ctl"/>
-			<Item Name="12or3ft.ctl" Type="VI" URL="../12or3ft.ctl"/>
-			<Item Name="OneTwoBallSelect.ctl" Type="VI" URL="../OneTwoBallSelect.ctl"/>
-			<Item Name="TwoBall.ctl" Type="VI" URL="../TwoBall.ctl"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
