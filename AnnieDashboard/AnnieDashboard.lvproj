@@ -229,10 +229,7 @@
 			<Item Name="CollectorAction.ctl" Type="VI" URL="../../AnnieFramework/CollectorAction.ctl"/>
 			<Item Name="CollectorWrapAction.ctl" Type="VI" URL="../../AnnieFramework/CollectorWrapAction.ctl"/>
 			<Item Name="CatchAction.ctl" Type="VI" URL="../../AnnieFramework/CatchAction.ctl"/>
-<<<<<<< HEAD
 			<Item Name="AutoStates.ctl" Type="VI" URL="../../AnnieFramework/AutoStates.ctl"/>
-=======
->>>>>>> Updates from auto testing
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
