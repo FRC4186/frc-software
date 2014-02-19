@@ -134,9 +134,8 @@ DirectoryIndex index.htm
 			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
 		</Item>
 		<Item Name="Roller" Type="Folder">
-			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
 			<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
-			<Item Name="HandleRollerMotor.vi" Type="VI" URL="../HandleRollerMotor.vi"/>
+			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
 		</Item>
 		<Item Name="Encoder" Type="Folder"/>
 		<Item Name="Drive" Type="Folder">
@@ -187,14 +186,16 @@ DirectoryIndex index.htm
 			<Item Name="Handlers" Type="Folder">
 				<Item Name="HandleInput.vi" Type="VI" URL="../HandleInput.vi"/>
 				<Item Name="HandleDrive.vi" Type="VI" URL="../HandleDrive.vi"/>
-				<Item Name="EnqueueDrive.vi" Type="VI" URL="../EnqueueDrive.vi"/>
 				<Item Name="HandleKicker.vi" Type="VI" URL="../HandleKicker.vi"/>
 				<Item Name="HandleFiringPneumatic.vi" Type="VI" URL="../HandleFiringPneumatic.vi"/>
+				<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
+				<Item Name="HandleRollerMotor.vi" Type="VI" URL="../HandleRollerMotor.vi"/>
 			</Item>
 			<Item Name="GetMainQueue.vi" Type="VI" URL="../GetMainQueue.vi"/>
 			<Item Name="GetTeleopQueue.vi" Type="VI" URL="../GetTeleopQueue.vi"/>
 			<Item Name="GetDriveQueue.vi" Type="VI" URL="../GetDriveQueue.vi"/>
 			<Item Name="Enqueue.vi" Type="VI" URL="../Enqueue.vi"/>
+			<Item Name="EnqueueDrive.vi" Type="VI" URL="../EnqueueDrive.vi"/>
 		</Item>
 		<Item Name="Clapper" Type="Folder">
 			<Item Name="HandleClapper.vi" Type="VI" URL="../HandleClapper.vi"/>
@@ -672,7 +673,6 @@ DirectoryIndex index.htm
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
