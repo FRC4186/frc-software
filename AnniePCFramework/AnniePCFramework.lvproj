@@ -201,6 +201,14 @@ DirectoryIndex index.htm
 			<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
 			<Item Name="ToggleCollectorWrap.vi" Type="VI" URL="../ToggleCollectorWrap.vi"/>
 		</Item>
+		<Item Name="Sonar" Type="Folder">
+			<Item Name="SonarAction.ctl" Type="VI" URL="../../AnnieFramework/SonarAction.ctl"/>
+			<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
+		</Item>
+		<Item Name="PressureSensor" Type="Folder">
+			<Item Name="PressureSensorAction.ctl" Type="VI" URL="../../Example_Code/PressureSensor/PressureSensorAction.ctl"/>
+			<Item Name="PressureSensor.vi" Type="VI" URL="../PressureSensor.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
