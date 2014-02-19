@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -131,41 +130,22 @@ DirectoryIndex index.htm
 				<Item Name="RefnameEnum.ctl" Type="VI" URL="../RefnameEnum.ctl"/>
 				<Item Name="RefnameToString.vi" Type="VI" URL="../RefnameToString.vi"/>
 			</Item>
-			<Item Name="Toggle" Type="Folder">
+			<Item Name="Error" Type="Folder">
+				<Item Name="OutputError.vi" Type="VI" URL="../OutputError.vi"/>
+				<Item Name="OutputErrorPoly.vi" Type="VI" URL="../OutputErrorPoly.vi"/>
+				<Item Name="OutputErrors.vi" Type="VI" URL="../OutputErrors.vi"/>
+			</Item>
+			<Item Name="Timing" Type="Folder">
+				<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
+				<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
+				<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			</Item>
+			<Item Name="InputHandlers" Type="Folder">
+				<Item Name="CheckInt.vi" Type="VI" URL="../CheckInt.vi"/>
+				<Item Name="CheckBool.vi" Type="VI" URL="../CheckBool.vi"/>
 				<Item Name="ToggleAction.ctl" Type="VI" URL="../ToggleAction.ctl"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
-				<Item Name="ToggleSonicShifter.vi" Type="VI" URL="../ToggleSonicShifter.vi"/>
-				<Item Name="FiringToggle.vi" Type="VI" URL="../FiringToggle.vi"/>
-				<Item Name="KickerToggle.vi" Type="VI" URL="../KickerToggle.vi"/>
-				<Item Name="ToggleClapper.vi" Type="VI" URL="../ToggleClapper.vi"/>
-				<Item Name="ToggleCollectorWrap.vi" Type="VI" URL="../ToggleCollectorWrap.vi"/>
-				<Item Name="ToggleRollerPneumatic.vi" Type="VI" URL="../ToggleRollerPneumatic.vi"/>
-				<Item Name="ToggleCatch.vi" Type="VI" URL="../ToggleCatch.vi"/>
-				<Item Name="ToggleReverseDrive.vi" Type="VI" URL="../ToggleReverseDrive.vi"/>
 			</Item>
-			<Item Name="ValueChange" Type="Folder">
-				<Item Name="Error" Type="Folder">
-					<Item Name="OutputError.vi" Type="VI" URL="../OutputError.vi"/>
-					<Item Name="OutputErrorPoly.vi" Type="VI" URL="../OutputErrorPoly.vi"/>
-					<Item Name="OutputErrors.vi" Type="VI" URL="../OutputErrors.vi"/>
-				</Item>
-				<Item Name="Boolean" Type="Folder">
-					<Item Name="KickerCheckBool.vi" Type="VI" URL="../KickerCheckBool.vi"/>
-					<Item Name="FiringCylinderCheckBool.vi" Type="VI" URL="../FiringCylinderCheckBool.vi"/>
-					<Item Name="SonicShifterCheckBool.vi" Type="VI" URL="../SonicShifterCheckBool.vi"/>
-					<Item Name="ShooterWrapperCheckBool.vi" Type="VI" URL="../ShooterWrapperCheckBool.vi"/>
-				</Item>
-				<Item Name="Int" Type="Folder">
-					<Item Name="ClapperCheckInt.vi" Type="VI" URL="../ClapperCheckInt.vi"/>
-					<Item Name="CollectorCheckInt.vi" Type="VI" URL="../CollectorCheckInt.vi"/>
-					<Item Name="RollerMotorCheckInt.vi" Type="VI" URL="../RollerMotorCheckInt.vi"/>
-					<Item Name="RollerPneumaticCheckInt.vi" Type="VI" URL="../RollerPneumaticCheckInt.vi"/>
-					<Item Name="CollectorWrapCheckInt.vi" Type="VI" URL="../CollectorWrapCheckInt.vi"/>
-				</Item>
-			</Item>
-			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
-			<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
 		</Item>
 		<Item Name="Wrappers" Type="Folder">
 			<Item Name="Shooter" Type="Folder">
@@ -746,8 +726,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="CheckBool.vi" Type="VI" URL="../CheckBool.vi"/>
-			<Item Name="CheckInt.vi" Type="VI" URL="../CheckInt.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
