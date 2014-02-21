@@ -156,6 +156,7 @@ DirectoryIndex index.htm
 		<Item Name="GroundPass" Type="Folder">
 			<Item Name="GroundPassWrapper.vi" Type="VI" URL="../GroundPassWrapper.vi"/>
 			<Item Name="GroundPassWrapperStates.ctl" Type="VI" URL="../GroundPassWrapperStates.ctl"/>
+			<Item Name="HandleGroundPass.vi" Type="VI" URL="../HandleGroundPass.vi"/>
 		</Item>
 		<Item Name="Toggle" Type="Folder">
 			<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
@@ -615,7 +616,6 @@ DirectoryIndex index.htm
 			<Item Name="SingleSolenoidAction.ctl" Type="VI" URL="../SingleSolenoidAction.ctl"/>
 			<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
 			<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
-			<Item Name="PressureSensorAction.ctl" Type="VI" URL="../../Example_Code/PressureSensor/PressureSensorAction.ctl"/>
 			<Item Name="ServoAction.ctl" Type="VI" URL="../ServoAction.ctl"/>
 			<Item Name="SonicShifter.vi" Type="VI" URL="../SonicShifter.vi"/>
 			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
@@ -623,7 +623,6 @@ DirectoryIndex index.htm
 			<Item Name="FiringCylinder2.vi" Type="VI" URL="../FiringCylinder2.vi"/>
 			<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
 			<Item Name="TankDrive.vi" Type="VI" URL="../TankDrive.vi"/>
-			<Item Name="PressureSensor.vi" Type="VI" URL="../PressureSensor.vi"/>
 			<Item Name="Servo.vi" Type="VI" URL="../Servo.vi"/>
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
 			<Item Name="AutoAlignMode.ctl" Type="VI" URL="../AutoAlignMode.ctl"/>
