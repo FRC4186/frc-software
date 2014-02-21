@@ -145,7 +145,6 @@
 			<Item Name="RollerAction.ctl" Type="VI" URL="../RollerAction.ctl"/>
 			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
 			<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
-			<Item Name="CheckBool.vi" Type="VI" URL="../CheckBool.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -358,6 +357,7 @@ DirectoryIndex index.htm
 			<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="HandleElevatedPass.vi" Type="VI" URL="../HandleElevatedPass.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -833,6 +833,12 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="ElevatedPassMode.ctl" Type="VI" URL="../ElevatedPassMode.ctl"/>
+			<Item Name="ElevatedPass.vi" Type="VI" URL="../ElevatedPass.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
