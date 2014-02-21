@@ -252,6 +252,11 @@ DirectoryIndex index.htm
 			<Item Name="Servo.vi" Type="VI" URL="../Servo.vi"/>
 			<Item Name="ServoAction.ctl" Type="VI" URL="../ServoAction.ctl"/>
 		</Item>
+		<Item Name="GroundPass" Type="Folder">
+			<Item Name="GroundPassWrapper.vi" Type="VI" URL="../GroundPassWrapper.vi"/>
+			<Item Name="GroundPassWrapperStates.ctl" Type="VI" URL="../GroundPassWrapperStates.ctl"/>
+			<Item Name="HandleGroundPass.vi" Type="VI" URL="../HandleGroundPass.vi"/>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
