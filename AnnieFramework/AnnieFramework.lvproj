@@ -139,7 +139,7 @@ DirectoryIndex index.htm
 				<Item Name="GetTime.vi" Type="VI" URL="../GetTime.vi"/>
 				<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
 				<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-				<Item Name="LoopTime.vi" Type="VI" URL="../../AnnieDashboard/LoopTime.vi"/>
+				<Item Name="LoopTime.vi" Type="VI" URL="../LoopTime.vi"/>
 			</Item>
 			<Item Name="InputHandlers" Type="Folder">
 				<Item Name="CheckInt.vi" Type="VI" URL="../CheckInt.vi"/>
