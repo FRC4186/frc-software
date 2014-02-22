@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -167,101 +166,105 @@ DirectoryIndex index.htm
 				<Item Name="HandleCollectorWrap.vi" Type="VI" URL="../HandleCollectorWrap.vi"/>
 				<Item Name="CollectorWrap.vi" Type="VI" URL="../CollectorWrap.vi"/>
 			</Item>
+			<Item Name="GroundPass" Type="Folder">
+				<Item Name="GroundPassWrapper.vi" Type="VI" URL="../GroundPassWrapper.vi"/>
+				<Item Name="GroundPassWrapperStates.ctl" Type="VI" URL="../GroundPassWrapperStates.ctl"/>
+				<Item Name="HandleGroundPass.vi" Type="VI" URL="../HandleGroundPass.vi"/>
+			</Item>
 			<Item Name="ElevatedPass" Type="Folder">
 				<Item Name="ElevatedPass.vi" Type="VI" URL="../ElevatedPass.vi"/>
 				<Item Name="ElevatedPassMode.ctl" Type="VI" URL="../ElevatedPassMode.ctl"/>
 				<Item Name="HandleElevatedPass.vi" Type="VI" URL="../HandleElevatedPass.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Roller" Type="Folder">
-			<Item Name="RollerAction.ctl" Type="VI" URL="../RollerAction.ctl"/>
-			<Item Name="RollerProcessInput.vi" Type="VI" URL="../RollerProcessInput.vi"/>
-			<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
-			<Item Name="Roller States.ctl" Type="VI" URL="../Roller States.ctl"/>
-		</Item>
-		<Item Name="Encoder" Type="Folder">
-			<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../Counts Per Second to RPM.vi"/>
-			<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../Distance Per Counts Conversion.vi"/>
-		</Item>
-		<Item Name="Drive" Type="Folder">
-			<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
-			<Item Name="BypassControl.vi" Type="VI" URL="../BypassControl.vi"/>
-			<Item Name="HandleDrive.vi" Type="VI" URL="../HandleDrive.vi"/>
-			<Item Name="Trapezoidal Acceleration.vi" Type="VI" URL="../Trapezoidal Acceleration.vi"/>
-			<Item Name="TankDrive.vi" Type="VI" URL="../TankDrive.vi"/>
-			<Item Name="HalfDrive.vi" Type="VI" URL="../HalfDrive.vi"/>
-			<Item Name="StraightDrive.vi" Type="VI" URL="../StraightDrive.vi"/>
-			<Item Name="ReverseDrive.vi" Type="VI" URL="../ReverseDrive.vi"/>
-		</Item>
-		<Item Name="Vision" Type="Folder">
-			<Item Name="FRC Vision Library" Type="Folder">
-				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Aspect Ratio Score.vi"/>
-				<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../Compute DistanceToTarget.vi"/>
-				<Item Name="Compute Target Distances.vi" Type="VI" URL="../Compute Target Distances.vi"/>
-				<Item Name="Label Targets.vi" Type="VI" URL="../Label Targets.vi"/>
-				<Item Name="Process Image for Target.vi" Type="VI" URL="../Process Image for Target.vi"/>
-				<Item Name="Rank HV combos.vi" Type="VI" URL="../Rank HV combos.vi"/>
-				<Item Name="Rectangularity Score.vi" Type="VI" URL="../Rectangularity Score.vi"/>
-				<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../Score and Rank Target Objects.vi"/>
-				<Item Name="Separate Particles.vi" Type="VI" URL="../Separate Particles.vi"/>
-				<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Sorted Particle Report.vi"/>
-				<Item Name="TargetType.ctl" Type="VI" URL="../TargetType.ctl"/>
-			</Item>
-			<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
-			<Item Name="CheckImageDistance.vi" Type="VI" URL="../CheckImageDistance.vi"/>
-			<Item Name="CheckImagePoly.vi" Type="VI" URL="../CheckImagePoly.vi"/>
-			<Item Name="IsHotGoalCRIO.vi" Type="VI" URL="../IsHotGoalCRIO.vi"/>
-			<Item Name="IsHotGoalDB.vi" Type="VI" URL="../IsHotGoalDB.vi"/>
-			<Item Name="IsHotGoalPoly.vi" Type="VI" URL="../IsHotGoalPoly.vi"/>
-		</Item>
-		<Item Name="Collector" Type="Folder">
-			<Item Name="CollectorAction.ctl" Type="VI" URL="../CollectorAction.ctl"/>
-			<Item Name="Collector.vi" Type="VI" URL="../Collector.vi"/>
-			<Item Name="HandleCollector.vi" Type="VI" URL="../HandleCollector.vi"/>
-			<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
-		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
 		</Item>
-		<Item Name="SingleSolenoid" Type="Folder">
-			<Item Name="SingleSolenoidAction.ctl" Type="VI" URL="../SingleSolenoidAction.ctl"/>
-			<Item Name="FiringCylinder1.vi" Type="VI" URL="../FiringCylinder1.vi"/>
-			<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
-			<Item Name="SonicShifter.vi" Type="VI" URL="../SonicShifter.vi"/>
-			<Item Name="FiringCylinder2.vi" Type="VI" URL="../FiringCylinder2.vi"/>
-			<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
+		<Item Name="Actuators" Type="Folder">
+			<Item Name="Roller" Type="Folder">
+				<Item Name="RollerAction.ctl" Type="VI" URL="../RollerAction.ctl"/>
+				<Item Name="RollerProcessInput.vi" Type="VI" URL="../RollerProcessInput.vi"/>
+				<Item Name="Roller Motor Control.vi" Type="VI" URL="../Roller Motor Control.vi"/>
+				<Item Name="Roller States.ctl" Type="VI" URL="../Roller States.ctl"/>
+			</Item>
+			<Item Name="Drive" Type="Folder">
+				<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
+				<Item Name="BypassControl.vi" Type="VI" URL="../BypassControl.vi"/>
+				<Item Name="HandleDrive.vi" Type="VI" URL="../HandleDrive.vi"/>
+				<Item Name="Trapezoidal Acceleration.vi" Type="VI" URL="../Trapezoidal Acceleration.vi"/>
+				<Item Name="TankDrive.vi" Type="VI" URL="../TankDrive.vi"/>
+				<Item Name="HalfDrive.vi" Type="VI" URL="../HalfDrive.vi"/>
+				<Item Name="StraightDrive.vi" Type="VI" URL="../StraightDrive.vi"/>
+				<Item Name="ReverseDrive.vi" Type="VI" URL="../ReverseDrive.vi"/>
+			</Item>
+			<Item Name="Collector" Type="Folder">
+				<Item Name="CollectorAction.ctl" Type="VI" URL="../CollectorAction.ctl"/>
+				<Item Name="Collector.vi" Type="VI" URL="../Collector.vi"/>
+				<Item Name="HandleCollector.vi" Type="VI" URL="../HandleCollector.vi"/>
+				<Item Name="LimitSwitchWrap.vi" Type="VI" URL="../LimitSwitchWrap.vi"/>
+			</Item>
+			<Item Name="SingleSolenoid" Type="Folder">
+				<Item Name="SingleSolenoidAction.ctl" Type="VI" URL="../SingleSolenoidAction.ctl"/>
+				<Item Name="FiringCylinder1.vi" Type="VI" URL="../FiringCylinder1.vi"/>
+				<Item Name="Kicker.vi" Type="VI" URL="../Kicker.vi"/>
+				<Item Name="SonicShifter.vi" Type="VI" URL="../SonicShifter.vi"/>
+				<Item Name="FiringCylinder2.vi" Type="VI" URL="../FiringCylinder2.vi"/>
+				<Item Name="PnuematicMode.ctl" Type="VI" URL="../PnuematicMode.ctl"/>
+			</Item>
+			<Item Name="DoubleSolenoid" Type="Folder">
+				<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../DoubleSolenoidAction.ctl"/>
+				<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
+				<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
+				<Item Name="HandleDoubleSolenoid.vi" Type="VI" URL="../HandleDoubleSolenoid.vi"/>
+				<Item Name="HandleClapper.vi" Type="VI" URL="../HandleClapper.vi"/>
+				<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
+			</Item>
+			<Item Name="Servo" Type="Folder">
+				<Item Name="Servo.vi" Type="VI" URL="../Servo.vi"/>
+				<Item Name="ServoAction.ctl" Type="VI" URL="../ServoAction.ctl"/>
+			</Item>
 		</Item>
-		<Item Name="DoubleSolenoid" Type="Folder">
-			<Item Name="DoubleSolenoidAction.ctl" Type="VI" URL="../DoubleSolenoidAction.ctl"/>
-			<Item Name="RollerPneumatic.vi" Type="VI" URL="../RollerPneumatic.vi"/>
-			<Item Name="Clapper.vi" Type="VI" URL="../Clapper.vi"/>
-			<Item Name="HandleDoubleSolenoid.vi" Type="VI" URL="../HandleDoubleSolenoid.vi"/>
-			<Item Name="HandleClapper.vi" Type="VI" URL="../HandleClapper.vi"/>
-			<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
-		</Item>
-		<Item Name="Sonar" Type="Folder">
-			<Item Name="AutoAlignMode.ctl" Type="VI" URL="../AutoAlignMode.ctl"/>
-			<Item Name="GetMotorInput.vi" Type="VI" URL="../GetMotorInput.vi"/>
-			<Item Name="AutoDistance.vi" Type="VI" URL="../AutoDistance.vi"/>
-			<Item Name="AutoDistancePID.vi" Type="VI" URL="../AutoDistancePID.vi"/>
-			<Item Name="AutoDistancePoly.vi" Type="VI" URL="../AutoDistancePoly.vi"/>
-			<Item Name="AutoDistanceCheckBool.vi" Type="VI" URL="../AutoDistanceCheckBool.vi"/>
-			<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
-			<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
-		</Item>
-		<Item Name="PressureSensor" Type="Folder">
-			<Item Name="PressureSensorAction.ctl" Type="VI" URL="../../Example_Code/PressureSensor/PressureSensorAction.ctl"/>
-			<Item Name="PressureSensor.vi" Type="VI" URL="../PressureSensor.vi"/>
-		</Item>
-		<Item Name="Servo" Type="Folder">
-			<Item Name="Servo.vi" Type="VI" URL="../Servo.vi"/>
-			<Item Name="ServoAction.ctl" Type="VI" URL="../ServoAction.ctl"/>
-		</Item>
-		<Item Name="GroundPass" Type="Folder">
-			<Item Name="GroundPassWrapper.vi" Type="VI" URL="../GroundPassWrapper.vi"/>
-			<Item Name="GroundPassWrapperStates.ctl" Type="VI" URL="../GroundPassWrapperStates.ctl"/>
-			<Item Name="HandleGroundPass.vi" Type="VI" URL="../HandleGroundPass.vi"/>
+		<Item Name="Sensors" Type="Folder">
+			<Item Name="Encoder" Type="Folder">
+				<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../Counts Per Second to RPM.vi"/>
+				<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../Distance Per Counts Conversion.vi"/>
+			</Item>
+			<Item Name="Vision" Type="Folder">
+				<Item Name="FRC Vision Library" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">0</Property>
+					<Item Name="Aspect Ratio Score.vi" Type="VI" URL="../Aspect Ratio Score.vi"/>
+					<Item Name="Compute DistanceToTarget.vi" Type="VI" URL="../Compute DistanceToTarget.vi"/>
+					<Item Name="Compute Target Distances.vi" Type="VI" URL="../Compute Target Distances.vi"/>
+					<Item Name="Label Targets.vi" Type="VI" URL="../Label Targets.vi"/>
+					<Item Name="Process Image for Target.vi" Type="VI" URL="../Process Image for Target.vi"/>
+					<Item Name="Rank HV combos.vi" Type="VI" URL="../Rank HV combos.vi"/>
+					<Item Name="Rectangularity Score.vi" Type="VI" URL="../Rectangularity Score.vi"/>
+					<Item Name="Score and Rank Target Objects.vi" Type="VI" URL="../Score and Rank Target Objects.vi"/>
+					<Item Name="Separate Particles.vi" Type="VI" URL="../Separate Particles.vi"/>
+					<Item Name="Sorted Particle Report.vi" Type="VI" URL="../Sorted Particle Report.vi"/>
+					<Item Name="TargetType.ctl" Type="VI" URL="../TargetType.ctl"/>
+				</Item>
+				<Item Name="CheckImage.vi" Type="VI" URL="../CheckImage.vi"/>
+				<Item Name="CheckImageDistance.vi" Type="VI" URL="../CheckImageDistance.vi"/>
+				<Item Name="CheckImagePoly.vi" Type="VI" URL="../CheckImagePoly.vi"/>
+				<Item Name="IsHotGoalCRIO.vi" Type="VI" URL="../IsHotGoalCRIO.vi"/>
+				<Item Name="IsHotGoalDB.vi" Type="VI" URL="../IsHotGoalDB.vi"/>
+				<Item Name="IsHotGoalPoly.vi" Type="VI" URL="../IsHotGoalPoly.vi"/>
+			</Item>
+			<Item Name="Sonar" Type="Folder">
+				<Item Name="AutoAlignMode.ctl" Type="VI" URL="../AutoAlignMode.ctl"/>
+				<Item Name="GetMotorInput.vi" Type="VI" URL="../GetMotorInput.vi"/>
+				<Item Name="AutoDistance.vi" Type="VI" URL="../AutoDistance.vi"/>
+				<Item Name="AutoDistancePID.vi" Type="VI" URL="../AutoDistancePID.vi"/>
+				<Item Name="AutoDistancePoly.vi" Type="VI" URL="../AutoDistancePoly.vi"/>
+				<Item Name="AutoDistanceCheckBool.vi" Type="VI" URL="../AutoDistanceCheckBool.vi"/>
+				<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
+				<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
+			</Item>
+			<Item Name="PressureSensor" Type="Folder">
+				<Item Name="PressureSensorAction.ctl" Type="VI" URL="../../Example_Code/PressureSensor/PressureSensorAction.ctl"/>
+				<Item Name="PressureSensor.vi" Type="VI" URL="../PressureSensor.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -738,10 +741,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
