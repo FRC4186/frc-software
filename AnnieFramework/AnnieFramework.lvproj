@@ -176,6 +176,10 @@ DirectoryIndex index.htm
 				<Item Name="ElevatedPassMode.ctl" Type="VI" URL="../ElevatedPassMode.ctl"/>
 				<Item Name="HandleElevatedPass.vi" Type="VI" URL="../HandleElevatedPass.vi"/>
 			</Item>
+			<Item Name="Pass" Type="Folder">
+				<Item Name="PassWrapper.vi" Type="VI" URL="../PassWrapper.vi"/>
+				<Item Name="PassState.ctl" Type="VI" URL="../PassState.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
