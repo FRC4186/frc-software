@@ -231,6 +231,21 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
+			<Item Name="InsightLCD" Type="Folder">
+				<Item Name="InsightMode.ctl" Type="VI" URL="../InsightMode.ctl"/>
+				<Item Name="Display.vi" Type="VI" URL="../Display.vi"/>
+				<Item Name="Insight Write Message.vi" Type="VI" URL="../Insight Write Message.vi"/>
+				<Item Name="Insight String Package.vi" Type="VI" URL="../Insight String Package.vi"/>
+				<Item Name="Insight LT.vi" Type="VI" URL="../Insight LT.vi"/>
+				<Item Name="LineTwoInfo.ctl" Type="VI" URL="../LineTwoInfo.ctl"/>
+				<Item Name="LineOneInfo.ctl" Type="VI" URL="../LineOneInfo.ctl"/>
+				<Item Name="Insight Int Package.vi" Type="VI" URL="../Insight Int Package.vi"/>
+				<Item Name="InsightPack.vi" Type="VI" URL="../InsightPack.vi"/>
+				<Item Name="Insight Initialize.vi" Type="VI" URL="../Insight Initialize.vi"/>
+				<Item Name="Insight Float Package.vi" Type="VI" URL="../Insight Float Package.vi"/>
+				<Item Name="InsightDisplay.vi" Type="VI" URL="../InsightDisplay.vi"/>
+				<Item Name="PreMatch LCD.vi" Type="VI" URL="../PreMatch LCD.vi"/>
+			</Item>
 			<Item Name="Encoder" Type="Folder">
 				<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../Counts Per Second to RPM.vi"/>
 				<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../Distance Per Counts Conversion.vi"/>
@@ -737,6 +752,16 @@ DirectoryIndex index.htm
 				<Item Name="WPI_DriverStationStop VI Asynchronous.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStop VI Asynchronous.vi"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="WPI_I2COpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2COpen.vi"/>
+				<Item Name="WPI_I2CDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CDevRef.ctl"/>
+				<Item Name="WPI_I2CRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CRead.vi"/>
+				<Item Name="FPGA_DIOWriteI2CConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteI2CConfig.vi"/>
+				<Item Name="FPGA_DIOWriteI2CDataToSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteI2CDataToSend.vi"/>
+				<Item Name="FPGA_DIOReadI2CStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadI2CStatus.vi"/>
+				<Item Name="FPGA_DIOWriteI2CStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOWriteI2CStart.vi"/>
+				<Item Name="FPGA_DIOReadI2CDataReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadI2CDataReceived.vi"/>
+				<Item Name="WPI_I2CERRSensorMismatch.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CERRSensorMismatch.vi"/>
+				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
