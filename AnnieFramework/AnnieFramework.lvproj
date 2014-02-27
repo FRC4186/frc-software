@@ -179,7 +179,12 @@ DirectoryIndex index.htm
 				<Item Name="ElevatedPassMode.ctl" Type="VI" URL="../ElevatedPassMode.ctl"/>
 				<Item Name="HandleElevatedPass.vi" Type="VI" URL="../HandleElevatedPass.vi"/>
 			</Item>
-			<Item Name="Pass" Type="Folder"/>
+			<Item Name="Pass" Type="Folder">
+				<Item Name="HandlePass.vi" Type="VI" URL="../HandlePass.vi"/>
+				<Item Name="HandlePassAction.ctl" Type="VI" URL="../HandlePassAction.ctl"/>
+				<Item Name="PassState.ctl" Type="VI" URL="../PassState.ctl"/>
+				<Item Name="PassType.ctl" Type="VI" URL="../PassType.ctl"/>
+			</Item>
 		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
@@ -288,10 +293,6 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="HandlePass.vi" Type="VI" URL="../HandlePass.vi"/>
-		<Item Name="HandlePassAction.ctl" Type="VI" URL="../HandlePassAction.ctl"/>
-		<Item Name="PassState.ctl" Type="VI" URL="../PassState.ctl"/>
-		<Item Name="PassType.ctl" Type="VI" URL="../PassType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -776,6 +777,7 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PassWrapper.vi" Type="VI" URL="../PassWrapper.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
