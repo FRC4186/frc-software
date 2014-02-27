@@ -147,6 +147,8 @@ DirectoryIndex index.htm
 				<Item Name="ToggleAction.ctl" Type="VI" URL="../ToggleAction.ctl"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 				<Item Name="CheckButtonPressed.vi" Type="VI" URL="../CheckButtonPressed.vi"/>
+				<Item Name="CheckDoubleClick.vi" Type="VI" URL="../CheckDoubleClick.vi"/>
+				<Item Name="DoubleClickStates.ctl" Type="VI" URL="../DoubleClickStates.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Wrappers" Type="Folder">
@@ -177,10 +179,7 @@ DirectoryIndex index.htm
 				<Item Name="ElevatedPassMode.ctl" Type="VI" URL="../ElevatedPassMode.ctl"/>
 				<Item Name="HandleElevatedPass.vi" Type="VI" URL="../HandleElevatedPass.vi"/>
 			</Item>
-			<Item Name="Pass" Type="Folder">
-				<Item Name="PassWrapper.vi" Type="VI" URL="../PassWrapper.vi"/>
-				<Item Name="PassState.ctl" Type="VI" URL="../PassState.ctl"/>
-			</Item>
+			<Item Name="Pass" Type="Folder"/>
 		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
@@ -289,6 +288,10 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="HandlePass.vi" Type="VI" URL="../HandlePass.vi"/>
+		<Item Name="HandlePassAction.ctl" Type="VI" URL="../HandlePassAction.ctl"/>
+		<Item Name="PassState.ctl" Type="VI" URL="../PassState.ctl"/>
+		<Item Name="PassType.ctl" Type="VI" URL="../PassType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
