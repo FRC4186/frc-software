@@ -171,12 +171,10 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="GroundPass" Type="Folder">
 				<Item Name="GroundPassWrapper.vi" Type="VI" URL="../GroundPassWrapper.vi"/>
-				<Item Name="GroundPassWrapperStates.ctl" Type="VI" URL="../GroundPassWrapperStates.ctl"/>
 				<Item Name="HandleGroundPass.vi" Type="VI" URL="../HandleGroundPass.vi"/>
 			</Item>
 			<Item Name="ElevatedPass" Type="Folder">
 				<Item Name="ElevatedPass.vi" Type="VI" URL="../ElevatedPass.vi"/>
-				<Item Name="ElevatedPassMode.ctl" Type="VI" URL="../ElevatedPassMode.ctl"/>
 				<Item Name="HandleElevatedPass.vi" Type="VI" URL="../HandleElevatedPass.vi"/>
 			</Item>
 			<Item Name="Pass" Type="Folder">
@@ -778,7 +776,7 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PassWrapper.vi" Type="VI" URL="../PassWrapper.vi"/>
+			<Item Name="GroundPassWrapperStates.ctl" Type="VI" URL="../GroundPassWrapperStates.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
