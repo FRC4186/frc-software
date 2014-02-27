@@ -147,6 +147,8 @@ DirectoryIndex index.htm
 				<Item Name="ToggleAction.ctl" Type="VI" URL="../ToggleAction.ctl"/>
 				<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 				<Item Name="CheckButtonPressed.vi" Type="VI" URL="../CheckButtonPressed.vi"/>
+				<Item Name="CheckDoubleClick.vi" Type="VI" URL="../CheckDoubleClick.vi"/>
+				<Item Name="DoubleClickStates.ctl" Type="VI" URL="../DoubleClickStates.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Wrappers" Type="Folder">
@@ -178,8 +180,10 @@ DirectoryIndex index.htm
 				<Item Name="HandleElevatedPass.vi" Type="VI" URL="../HandleElevatedPass.vi"/>
 			</Item>
 			<Item Name="Pass" Type="Folder">
-				<Item Name="PassWrapper.vi" Type="VI" URL="../PassWrapper.vi"/>
+				<Item Name="HandlePass.vi" Type="VI" URL="../HandlePass.vi"/>
+				<Item Name="HandlePassAction.ctl" Type="VI" URL="../HandlePassAction.ctl"/>
 				<Item Name="PassState.ctl" Type="VI" URL="../PassState.ctl"/>
+				<Item Name="PassType.ctl" Type="VI" URL="../PassType.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Auto" Type="Folder">
@@ -774,6 +778,7 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PassWrapper.vi" Type="VI" URL="../PassWrapper.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
