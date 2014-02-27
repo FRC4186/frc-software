@@ -281,6 +281,7 @@ DirectoryIndex index.htm
 				<Item Name="AutoDistanceCheckBool.vi" Type="VI" URL="../AutoDistanceCheckBool.vi"/>
 				<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
 				<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
+				<Item Name="SecondSonar.vi" Type="VI" URL="../SecondSonar.vi"/>
 			</Item>
 			<Item Name="PressureSensor" Type="Folder">
 				<Item Name="PressureSensorAction.ctl" Type="VI" URL="../../Example_Code/PressureSensor/PressureSensorAction.ctl"/>
