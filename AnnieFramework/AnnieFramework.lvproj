@@ -229,6 +229,7 @@ DirectoryIndex index.htm
 			<Item Name="Servo" Type="Folder">
 				<Item Name="Servo.vi" Type="VI" URL="../Servo.vi"/>
 				<Item Name="ServoAction.ctl" Type="VI" URL="../ServoAction.ctl"/>
+				<Item Name="HandleServo.vi" Type="VI" URL="../HandleServo.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Sensors" Type="Folder">
