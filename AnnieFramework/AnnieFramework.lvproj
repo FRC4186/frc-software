@@ -186,7 +186,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
-			<Item Name="FourAutoStates.ctl" Type="VI" URL="../FourAutoStates.ctl"/>
+			<Item Name="AutoMode.ctl" Type="VI" URL="../AutoMode.ctl"/>
 			<Item Name="Int_to_Enum.vi" Type="VI" URL="../Int_to_Enum.vi"/>
 		</Item>
 		<Item Name="Actuators" Type="Folder">
@@ -777,10 +777,6 @@ DirectoryIndex index.htm
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
