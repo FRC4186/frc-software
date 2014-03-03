@@ -232,9 +232,9 @@
 			<Item Name="CatchAction.ctl" Type="VI" URL="../../AnnieFramework/CatchAction.ctl"/>
 			<Item Name="AutoStates.ctl" Type="VI" URL="../../AnnieFramework/AutoStates.ctl"/>
 			<Item Name="RollerAction.ctl" Type="VI" URL="../../AnnieFramework/RollerAction.ctl"/>
-			<Item Name="FourAutoStates.ctl" Type="VI" URL="../../AnnieFramework/FourAutoStates.ctl"/>
 			<Item Name="CheckButtonPressed.vi" Type="VI" URL="../../AnnieFramework/CheckButtonPressed.vi"/>
 			<Item Name="PassState.ctl" Type="VI" URL="../../AnnieFramework/PassState.ctl"/>
+			<Item Name="AutoMode.ctl" Type="VI" URL="../../AnnieFramework/AutoMode.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
