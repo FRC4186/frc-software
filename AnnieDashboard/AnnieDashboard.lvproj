@@ -203,6 +203,7 @@
 				<Item Name="SD Write Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean.vi"/>
 				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
 				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -235,6 +236,7 @@
 			<Item Name="CheckButtonPressed.vi" Type="VI" URL="../../AnnieFramework/CheckButtonPressed.vi"/>
 			<Item Name="PassState.ctl" Type="VI" URL="../../AnnieFramework/PassState.ctl"/>
 			<Item Name="AutoMode.ctl" Type="VI" URL="../../AnnieFramework/AutoMode.ctl"/>
+			<Item Name="Calibration Helper.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Calibration Helper.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
