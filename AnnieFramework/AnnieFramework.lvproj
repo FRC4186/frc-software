@@ -44,7 +44,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -198,6 +197,16 @@ DirectoryIndex index.htm
 				<Item Name="Roller States.ctl" Type="VI" URL="../Roller States.ctl"/>
 			</Item>
 			<Item Name="Drive" Type="Folder">
+				<Item Name="Arcade" Type="Folder">
+					<Item Name="ArcadeDriveCurve.vi" Type="VI" URL="../ArcadeDriveCurve.vi"/>
+					<Item Name="ArcadeDriveLinear.vi" Type="VI" URL="../ArcadeDriveLinear.vi"/>
+					<Item Name="ArcadeDrivePieceWise.vi" Type="VI" URL="../ArcadeDrivePieceWise.vi"/>
+					<Item Name="ArcadeDrivePoly.vi" Type="VI" URL="../ArcadeDrivePoly.vi"/>
+					<Item Name="ArcadeDriveTest.vi" Type="VI" URL="../ArcadeDriveTest.vi"/>
+					<Item Name="ArcadeScaleCurve.vi" Type="VI" URL="../ArcadeScaleCurve.vi"/>
+					<Item Name="ArcadeScaleLinear.vi" Type="VI" URL="../ArcadeScaleLinear.vi"/>
+					<Item Name="ArcadeScalePieceWise.vi" Type="VI" URL="../ArcadeScalePieceWise.vi"/>
+				</Item>
 				<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
 				<Item Name="BypassControl.vi" Type="VI" URL="../BypassControl.vi"/>
 				<Item Name="HandleDrive.vi" Type="VI" URL="../HandleDrive.vi"/>
@@ -768,6 +777,10 @@ DirectoryIndex index.htm
 				<Item Name="WPI_I2CERRSensorMismatch.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CERRSensorMismatch.vi"/>
 				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
 				<Item Name="WPI_DriverStationGet Robot Battery Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Robot Battery Voltage.vi"/>
+				<Item Name="WPI_RobotDriveArcadeDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive.vi"/>
+				<Item Name="WPI_RobotDriveArcadeDrive_ButtonSpin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_ButtonSpin.vi"/>
+				<Item Name="WPI_RobotDriveArcadeDrive_RatioCurve.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_RatioCurve.vi"/>
+				<Item Name="WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
