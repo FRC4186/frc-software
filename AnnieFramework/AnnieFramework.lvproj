@@ -237,6 +237,7 @@ DirectoryIndex index.htm
 				<Item Name="HandleDoubleSolenoid.vi" Type="VI" URL="../HandleDoubleSolenoid.vi"/>
 				<Item Name="HandleClapper.vi" Type="VI" URL="../HandleClapper.vi"/>
 				<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
+				<Item Name="PneumaticWrapperAction.ctl" Type="VI" URL="../PneumaticWrapperAction.ctl"/>
 			</Item>
 			<Item Name="Servo" Type="Folder">
 				<Item Name="Servo.vi" Type="VI" URL="../Servo.vi"/>
