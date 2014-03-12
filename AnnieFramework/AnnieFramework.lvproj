@@ -31,8 +31,8 @@
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
 		<Property Name="alias.value" Type="Str">10.30.61.2</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,729D;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">729D</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,75C7;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">75C7</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -186,7 +186,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
-			<Item Name="FourAutoStates.ctl" Type="VI" URL="../FourAutoStates.ctl"/>
+			<Item Name="AutoMode.ctl" Type="VI" URL="../AutoMode.ctl"/>
 			<Item Name="Int_to_Enum.vi" Type="VI" URL="../Int_to_Enum.vi"/>
 		</Item>
 		<Item Name="Actuators" Type="Folder">
@@ -197,6 +197,15 @@ DirectoryIndex index.htm
 				<Item Name="Roller States.ctl" Type="VI" URL="../Roller States.ctl"/>
 			</Item>
 			<Item Name="Drive" Type="Folder">
+				<Item Name="Arcade" Type="Folder">
+					<Item Name="ArcadeDriveCurve.vi" Type="VI" URL="../ArcadeDriveCurve.vi"/>
+					<Item Name="ArcadeDriveLinear.vi" Type="VI" URL="../ArcadeDriveLinear.vi"/>
+					<Item Name="ArcadeDrivePieceWise.vi" Type="VI" URL="../ArcadeDrivePieceWise.vi"/>
+					<Item Name="ArcadeDrivePoly.vi" Type="VI" URL="../ArcadeDrivePoly.vi"/>
+					<Item Name="ArcadeScaleCurve.vi" Type="VI" URL="../ArcadeScaleCurve.vi"/>
+					<Item Name="ArcadeScaleLinear.vi" Type="VI" URL="../ArcadeScaleLinear.vi"/>
+					<Item Name="ArcadeScalePieceWise.vi" Type="VI" URL="../ArcadeScalePieceWise.vi"/>
+				</Item>
 				<Item Name="TankDriveAction.ctl" Type="VI" URL="../TankDriveAction.ctl"/>
 				<Item Name="BypassControl.vi" Type="VI" URL="../BypassControl.vi"/>
 				<Item Name="HandleDrive.vi" Type="VI" URL="../HandleDrive.vi"/>
@@ -227,6 +236,7 @@ DirectoryIndex index.htm
 				<Item Name="HandleDoubleSolenoid.vi" Type="VI" URL="../HandleDoubleSolenoid.vi"/>
 				<Item Name="HandleClapper.vi" Type="VI" URL="../HandleClapper.vi"/>
 				<Item Name="HandleRollerPneumatic.vi" Type="VI" URL="../HandleRollerPneumatic.vi"/>
+				<Item Name="PneumaticWrapperAction.ctl" Type="VI" URL="../PneumaticWrapperAction.ctl"/>
 			</Item>
 			<Item Name="Servo" Type="Folder">
 				<Item Name="Servo.vi" Type="VI" URL="../Servo.vi"/>
@@ -641,7 +651,6 @@ DirectoryIndex index.htm
 				<Item Name="WPI_DigitalInputToDigitalModule.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputToDigitalModule.vi"/>
 				<Item Name="WPI_DigitalModuleGetDIO.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleGetDIO.vi"/>
 				<Item Name="FPGA_DIOReadDI.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadDI.vi"/>
-				<Item Name="WPI_CompressorStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStart.vi"/>
 				<Item Name="WPI_CompressorRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorRefNum Registry Get.vi"/>
 				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
 				<Item Name="WPI_RobotDriveTankDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveTankDrive.vi"/>
@@ -766,6 +775,8 @@ DirectoryIndex index.htm
 				<Item Name="FPGA_DIOReadI2CDataReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_DIOReadI2CDataReceived.vi"/>
 				<Item Name="WPI_I2CERRSensorMismatch.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CERRSensorMismatch.vi"/>
 				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
+				<Item Name="WPI_DriverStationGet Robot Battery Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Robot Battery Voltage.vi"/>
+				<Item Name="WPI_CompressorStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStart.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
