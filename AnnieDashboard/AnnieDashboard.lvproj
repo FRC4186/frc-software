@@ -220,10 +220,6 @@
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="Play Sound File.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Play Sound File.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Draw Flattened Pixmap(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap(6_1).vi"/>
-				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
 				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
 				<Item Name="IVA Get Alternate Path.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Get Alternate Path.vi"/>
@@ -237,14 +233,8 @@
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Webcam depth.ctl" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Typedefs.llb/Webcam depth.ctl"/>
-				<Item Name="Webcam rect.ctl" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Typedefs.llb/Webcam rect.ctl"/>
 				<Item Name="Webcam Flat to Picture.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Conversion.llb/Webcam Flat to Picture.vi"/>
-				<Item Name="Webcam Close.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Close.vi"/>
-				<Item Name="Webcam Picture.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Picture.vi"/>
-				<Item Name="Webcam Grab.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Grab.vi"/>
-				<Item Name="Webcam Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Initialize.vi"/>
 				<Item Name="Webcam Snapshot.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Snapshot.vi"/>
-				<Item Name="WebcamGrab.dll" Type="Document" URL="/&lt;userlib&gt;/Webcam/WebcamGrab.dll"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -281,6 +271,7 @@
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="AcquireIMAQImage.vi" Type="VI" URL="../../Development/Webcam/AcquireIMAQImage.vi"/>
 			<Item Name="WebcamCheckTarget.vi" Type="VI" URL="../../Development/Webcam/WebcamCheckTarget.vi"/>
+			<Item Name="HandleLowGoalState.ctl" Type="VI" URL="../../AnnieFramework/HandleLowGoalState.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
