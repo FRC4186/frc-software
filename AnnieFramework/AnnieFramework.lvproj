@@ -183,8 +183,8 @@ DirectoryIndex index.htm
 				<Item Name="PassState.ctl" Type="VI" URL="../PassState.ctl"/>
 				<Item Name="PassType.ctl" Type="VI" URL="../PassType.ctl"/>
 				<Item Name="LowGoalWrapper.vi" Type="VI" URL="../LowGoalWrapper.vi"/>
-				<Item Name="LowGoalState.ctl" Type="VI" URL="../LowGoalState.ctl"/>
 				<Item Name="HandleLowGoal.vi" Type="VI" URL="../HandleLowGoal.vi"/>
+				<Item Name="LowGoalState.ctl" Type="VI" URL="../LowGoalState.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Auto" Type="Folder">
@@ -192,6 +192,7 @@ DirectoryIndex index.htm
 			<Item Name="AutoMode.ctl" Type="VI" URL="../AutoMode.ctl"/>
 			<Item Name="Int_to_Enum.vi" Type="VI" URL="../Int_to_Enum.vi"/>
 			<Item Name="CheckKinect.vi" Type="VI" URL="../CheckKinect.vi"/>
+			<Item Name="HotGoalDetectType.ctl" Type="VI" URL="../HotGoalDetectType.ctl"/>
 		</Item>
 		<Item Name="Actuators" Type="Folder">
 			<Item Name="Roller" Type="Folder">
@@ -307,8 +308,6 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="HandleLowGoalState.ctl" Type="VI" URL="../HandleLowGoalState.ctl"/>
-		<Item Name="HotGoalDetectType.ctl" Type="VI" URL="../HotGoalDetectType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
