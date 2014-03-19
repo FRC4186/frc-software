@@ -26,7 +26,7 @@
 			<Item Name="CountdownAction.ctl" Type="VI" URL="../CountdownAction.ctl"/>
 			<Item Name="StartCountdown.vi" Type="VI" URL="../StartCountdown.vi"/>
 			<Item Name="StartWebcam.vi" Type="VI" URL="../StartWebcam.vi"/>
-			<Item Name="WebcamRunning" Type="VI" URL="../WebcamRunning"/>
+			<Item Name="WebcamStatus.vi" Type="VI" URL="../WebcamStatus.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
