@@ -281,6 +281,8 @@
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="AcquireIMAQImage.vi" Type="VI" URL="../../Development/Webcam/AcquireIMAQImage.vi"/>
 			<Item Name="WebcamCheckTarget.vi" Type="VI" URL="../../Development/Webcam/WebcamCheckTarget.vi"/>
+			<Item Name="HotGoalDetectType.ctl" Type="VI" URL="../../AnnieFramework/HotGoalDetectType.ctl"/>
+			<Item Name="LowGoalState.ctl" Type="VI" URL="../../AnnieFramework/LowGoalState.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
