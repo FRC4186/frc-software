@@ -242,6 +242,8 @@
 				<Item Name="WebcamGrab.dll" Type="Document" URL="/&lt;userlib&gt;/Webcam/WebcamGrab.dll"/>
 				<Item Name="Webcam Picture.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Picture.vi"/>
 				<Item Name="Webcam rect.ctl" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Typedefs.llb/Webcam rect.ctl"/>
+				<Item Name="Webcam Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Initialize.vi"/>
+				<Item Name="Webcam Close.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Close.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -278,8 +280,9 @@
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="AcquireIMAQImage.vi" Type="VI" URL="../../Development/Webcam/AcquireIMAQImage.vi"/>
 			<Item Name="WebcamCheckTarget.vi" Type="VI" URL="../../Development/Webcam/WebcamCheckTarget.vi"/>
-			<Item Name="HandleLowGoalState.ctl" Type="VI" URL="../../AnnieFramework/HandleLowGoalState.ctl"/>
-			<Item Name="WebcamRunning" Type="VI" URL="../WebcamRunning"/>
+			<Item Name="HotGoalDetectType.ctl" Type="VI" URL="../../AnnieFramework/HotGoalDetectType.ctl"/>
+			<Item Name="LowGoalState.ctl" Type="VI" URL="../../AnnieFramework/LowGoalState.ctl"/>
+			<Item Name="CheckBlackImage.vi" Type="VI" URL="../../Development/Webcam/CheckBlackImage.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
