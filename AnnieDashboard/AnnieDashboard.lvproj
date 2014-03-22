@@ -27,6 +27,7 @@
 			<Item Name="StartCountdown.vi" Type="VI" URL="../StartCountdown.vi"/>
 			<Item Name="StartWebcam.vi" Type="VI" URL="../StartWebcam.vi"/>
 			<Item Name="WebcamStatus.vi" Type="VI" URL="../WebcamStatus.vi"/>
+			<Item Name="TabEnum.ctl" Type="VI" URL="../TabEnum.ctl"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
