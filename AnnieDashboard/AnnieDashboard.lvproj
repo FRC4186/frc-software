@@ -21,6 +21,13 @@
 			<Item Name="Open Playback Panel.vi" Type="VI" URL="../Open Playback Panel.vi"/>
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
 		</Item>
+		<Item Name="Timer" Type="Folder">
+			<Item Name="GetCountdownAction.vi" Type="VI" URL="../GetCountdownAction.vi"/>
+			<Item Name="CountdownAction.ctl" Type="VI" URL="../CountdownAction.ctl"/>
+			<Item Name="StartCountdown.vi" Type="VI" URL="../StartCountdown.vi"/>
+			<Item Name="StartWebcam.vi" Type="VI" URL="../StartWebcam.vi"/>
+			<Item Name="WebcamStatus.vi" Type="VI" URL="../WebcamStatus.vi"/>
+		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -204,6 +211,39 @@
 				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
 				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
+				<Item Name="_Get Sound Error From Return Value.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_Get Sound Error From Return Value.vi"/>
+				<Item Name="Sound Output Task ID.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Task ID.ctl"/>
+				<Item Name="_GetConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_GetConfiguration.vi"/>
+				<Item Name="Sound Output Info.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Info.vi"/>
+				<Item Name="Sound Output Clear.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Clear.vi"/>
+				<Item Name="Sound Output Wait.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Wait.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="Play Sound File.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Play Sound File.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
+				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
+				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
+				<Item Name="IVA Get Alternate Path.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Get Alternate Path.vi"/>
+				<Item Name="IVA Result Manager Function.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Result Manager Function.ctl"/>
+				<Item Name="IVA Result Manager.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Result Manager.vi"/>
+				<Item Name="IVA Append VI Name to GUID.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Append VI Name to GUID.vi"/>
+				<Item Name="Vision Info Type2.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Vision Info Type2.ctl"/>
+				<Item Name="Vision Info Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Vision Info Type"/>
+				<Item Name="IVA Store Match Pattern Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Match Pattern Results.vi"/>
+				<Item Name="IVA Add Offset to Matches.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Add Offset to Matches.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="Draw Flattened Pixmap(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap(6_1).vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Webcam depth.ctl" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Typedefs.llb/Webcam depth.ctl"/>
+				<Item Name="Webcam Flat to Picture.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Conversion.llb/Webcam Flat to Picture.vi"/>
+				<Item Name="Webcam Grab.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Grab.vi"/>
+				<Item Name="WebcamGrab.dll" Type="Document" URL="/&lt;userlib&gt;/Webcam/WebcamGrab.dll"/>
+				<Item Name="Webcam Picture.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Picture.vi"/>
+				<Item Name="Webcam rect.ctl" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Typedefs.llb/Webcam rect.ctl"/>
+				<Item Name="Webcam Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Initialize.vi"/>
+				<Item Name="Webcam Close.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Close.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -237,6 +277,12 @@
 			<Item Name="PassState.ctl" Type="VI" URL="../../AnnieFramework/PassState.ctl"/>
 			<Item Name="AutoMode.ctl" Type="VI" URL="../../AnnieFramework/AutoMode.ctl"/>
 			<Item Name="Calibration Helper.vi" Type="VI" URL="../../Example_Code/2014 Target Detection/Calibration Helper.vi"/>
+			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+			<Item Name="AcquireIMAQImage.vi" Type="VI" URL="../../Development/Webcam/AcquireIMAQImage.vi"/>
+			<Item Name="WebcamCheckTarget.vi" Type="VI" URL="../../Development/Webcam/WebcamCheckTarget.vi"/>
+			<Item Name="HotGoalDetectType.ctl" Type="VI" URL="../../AnnieFramework/HotGoalDetectType.ctl"/>
+			<Item Name="LowGoalState.ctl" Type="VI" URL="../../AnnieFramework/LowGoalState.ctl"/>
+			<Item Name="CheckBlackImage.vi" Type="VI" URL="../../Development/Webcam/CheckBlackImage.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
@@ -253,7 +299,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F12754D6-B5E0-496F-B50C-3EDB6F368199}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Dashboard.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/FRC Dashboard Project/FRC PC Dashboard/Dashboard.exe</Property>

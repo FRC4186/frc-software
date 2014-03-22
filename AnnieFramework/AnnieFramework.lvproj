@@ -31,8 +31,8 @@
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
 		<Property Name="alias.value" Type="Str">10.30.61.2</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,75C7;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">75C7</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,729D;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">729D</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -182,12 +182,19 @@ DirectoryIndex index.htm
 				<Item Name="HandlePassAction.ctl" Type="VI" URL="../HandlePassAction.ctl"/>
 				<Item Name="PassState.ctl" Type="VI" URL="../PassState.ctl"/>
 				<Item Name="PassType.ctl" Type="VI" URL="../PassType.ctl"/>
+				<Item Name="LowGoalWrapper.vi" Type="VI" URL="../LowGoalWrapper.vi"/>
+				<Item Name="HandleLowGoal.vi" Type="VI" URL="../HandleLowGoal.vi"/>
+				<Item Name="LowGoalState.ctl" Type="VI" URL="../LowGoalState.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Auto" Type="Folder">
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
 			<Item Name="AutoMode.ctl" Type="VI" URL="../AutoMode.ctl"/>
+			<Item Name="ToHotGoalType.vi" Type="VI" URL="../ToHotGoalType.vi"/>
 			<Item Name="Int_to_Enum.vi" Type="VI" URL="../Int_to_Enum.vi"/>
+			<Item Name="CheckKinect.vi" Type="VI" URL="../CheckKinect.vi"/>
+			<Item Name="HotGoalDetectType.ctl" Type="VI" URL="../HotGoalDetectType.ctl"/>
+			<Item Name="KinectCode.vi" Type="VI" URL="../KinectCode.vi"/>
 		</Item>
 		<Item Name="Actuators" Type="Folder">
 			<Item Name="Roller" Type="Folder">
@@ -295,6 +302,7 @@ DirectoryIndex index.htm
 				<Item Name="AutoDistanceCheckBool.vi" Type="VI" URL="../AutoDistanceCheckBool.vi"/>
 				<Item Name="Sonar.vi" Type="VI" URL="../Sonar.vi"/>
 				<Item Name="SonarAction.ctl" Type="VI" URL="../SonarAction.ctl"/>
+				<Item Name="SecondSonar.vi" Type="VI" URL="../SecondSonar.vi"/>
 			</Item>
 			<Item Name="PressureSensor" Type="Folder">
 				<Item Name="PressureSensorAction.ctl" Type="VI" URL="../../Example_Code/PressureSensor/PressureSensorAction.ctl"/>
@@ -777,6 +785,11 @@ DirectoryIndex index.htm
 				<Item Name="WPI_I2CWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/I2C/WPI_I2CWrite.vi"/>
 				<Item Name="WPI_DriverStationGet Robot Battery Voltage.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Robot Battery Voltage.vi"/>
 				<Item Name="WPI_CompressorStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorStart.vi"/>
+				<Item Name="Skeleton Vertex Index.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Kinect/Skeleton Vertex Index.ctl"/>
+				<Item Name="SkeletonTrackState.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Kinect/SkeletonTrackState.ctl"/>
+				<Item Name="SkeletonVertexTrackState.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Kinect/SkeletonVertexTrackState.ctl"/>
+				<Item Name="WPI_DriverStationGet Kinect Extra.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Kinect Extra.vi"/>
+				<Item Name="WPI_DriverStationGet Kinect Vertices.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Kinect Vertices.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
