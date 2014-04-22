@@ -228,8 +228,6 @@ DirectoryIndex index.htm
 			<Item Name="Encoder" Type="Folder">
 				<Item Name="Counts Per Second to RPM.vi" Type="VI" URL="../Counts Per Second to RPM.vi"/>
 				<Item Name="Distance Per Counts Conversion.vi" Type="VI" URL="../Distance Per Counts Conversion.vi"/>
-				<Item Name="PushMode.ctl" Type="VI" URL="../PushMode.ctl"/>
-				<Item Name="AutoPush.vi" Type="VI" URL="../AutoPush.vi"/>
 			</Item>
 			<Item Name="Vision" Type="Folder">
 				<Item Name="FRC Vision Library" Type="Folder">
