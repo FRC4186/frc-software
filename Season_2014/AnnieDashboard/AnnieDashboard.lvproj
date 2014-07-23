@@ -231,10 +231,6 @@
 				<Item Name="Vision Info Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Vision Info Type"/>
 				<Item Name="IVA Store Match Pattern Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Match Pattern Results.vi"/>
 				<Item Name="IVA Add Offset to Matches.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Add Offset to Matches.vi"/>
-				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
-				<Item Name="Draw Flattened Pixmap(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap(6_1).vi"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="_2DArrToArrWfms.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_2DArrToArrWfms.vi"/>
 				<Item Name="Sound Input Task ID.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Input Task ID.ctl"/>
@@ -251,16 +247,10 @@
 				<Item Name="Sampling Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sampling Mode.ctl"/>
 				<Item Name="Sound Input Configure.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Input Configure.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-			</Item>
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="Webcam depth.ctl" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Typedefs.llb/Webcam depth.ctl"/>
-				<Item Name="Webcam Flat to Picture.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Conversion.llb/Webcam Flat to Picture.vi"/>
-				<Item Name="Webcam Grab.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Grab.vi"/>
-				<Item Name="WebcamGrab.dll" Type="Document" URL="/&lt;userlib&gt;/Webcam/WebcamGrab.dll"/>
-				<Item Name="Webcam Picture.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Picture.vi"/>
-				<Item Name="Webcam rect.ctl" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Typedefs.llb/Webcam rect.ctl"/>
-				<Item Name="Webcam Initialize.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Initialize.vi"/>
-				<Item Name="Webcam Close.vi" Type="VI" URL="/&lt;userlib&gt;/Webcam/Webcam Capture.llb/Webcam Close.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="Draw Flattened Pixmap(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap(6_1).vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -301,6 +291,14 @@
 			<Item Name="LowGoalState.ctl" Type="VI" URL="../../AnnieFramework/LowGoalState.ctl"/>
 			<Item Name="CheckBlackImage.vi" Type="VI" URL="../../Development/Webcam/CheckBlackImage.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Webcam depth.ctl" Type="VI" URL="../../Development/Webcam/Lib/Webcam/Webcam Typedefs.llb/Webcam depth.ctl"/>
+			<Item Name="Webcam Flat to Picture.vi" Type="VI" URL="../../Development/Webcam/Lib/Webcam/Webcam Conversion.llb/Webcam Flat to Picture.vi"/>
+			<Item Name="Webcam Grab.vi" Type="VI" URL="../../Development/Webcam/Lib/Webcam/Webcam Capture.llb/Webcam Grab.vi"/>
+			<Item Name="Webcam Picture.vi" Type="VI" URL="../../Development/Webcam/Lib/Webcam/Webcam Capture.llb/Webcam Picture.vi"/>
+			<Item Name="Webcam Initialize.vi" Type="VI" URL="../../Development/Webcam/Lib/Webcam/Webcam Capture.llb/Webcam Initialize.vi"/>
+			<Item Name="Webcam Close.vi" Type="VI" URL="../../Development/Webcam/Lib/Webcam/Webcam Capture.llb/Webcam Close.vi"/>
+			<Item Name="Webcam rect.ctl" Type="VI" URL="../../Development/Webcam/Lib/Webcam/Webcam Typedefs.llb/Webcam rect.ctl"/>
+			<Item Name="WebcamGrab.dll" Type="Document" URL="../../Development/Webcam/Lib/Webcam/WebcamGrab.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
