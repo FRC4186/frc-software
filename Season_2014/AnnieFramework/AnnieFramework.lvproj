@@ -197,6 +197,7 @@ DirectoryIndex index.htm
 				<Item Name="AutoData.ctl" Type="VI" URL="../Autonomous/AutoData.ctl"/>
 				<Item Name="AutoData.vi" Type="VI" URL="../Autonomous/AutoData.vi"/>
 				<Item Name="AutoIsTwoBall.vi" Type="VI" URL="../Autonomous/AutoIsTwoBall.vi"/>
+				<Item Name="AutoCheckHotGoal.vi" Type="VI" URL="../Autonomous/AutoCheckHotGoal.vi"/>
 			</Item>
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
 			<Item Name="AutoMode.ctl" Type="VI" URL="../AutoMode.ctl"/>
@@ -320,6 +321,7 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="AutoCollectBall.vi" Type="VI" URL="../Autonomous/AutoCollectBall.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
