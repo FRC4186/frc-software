@@ -192,6 +192,12 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="Auto" Type="Folder">
+			<Item Name="AutoRefactor" Type="Folder">
+				<Item Name="AutoInit.vi" Type="VI" URL="../Autonomous/AutoInit.vi"/>
+				<Item Name="AutoData.ctl" Type="VI" URL="../Autonomous/AutoData.ctl"/>
+				<Item Name="AutoData.vi" Type="VI" URL="../Autonomous/AutoData.vi"/>
+				<Item Name="AutoIsTwoBall.vi" Type="VI" URL="../Autonomous/AutoIsTwoBall.vi"/>
+			</Item>
 			<Item Name="AutoStates.ctl" Type="VI" URL="../AutoStates.ctl"/>
 			<Item Name="AutoMode.ctl" Type="VI" URL="../AutoMode.ctl"/>
 			<Item Name="ToHotGoalType.vi" Type="VI" URL="../ToHotGoalType.vi"/>
