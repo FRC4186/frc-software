@@ -322,6 +322,8 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="AutoCollectBall.vi" Type="VI" URL="../Autonomous/AutoCollectBall.vi"/>
+		<Item Name="AutoDriveChooseState.vi" Type="VI" URL="../Autonomous/AutoDriveChooseState.vi"/>
+		<Item Name="AutoDriveCheckDone.vi" Type="VI" URL="../Autonomous/AutoDriveCheckDone.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
